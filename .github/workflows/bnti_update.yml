@@ -56,8 +56,11 @@ jobs:
         TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
         git diff --cached --quiet || git commit -m "🛡️ INTEL UPDATE: ${TIMESTAMP}"
         
-        # Push changes
-        git push
+        # Push changes with retry logic for concurrent runs
+        for i in 1 2 3; do
+          git pull --rebase origin main
+          git push && break || sleep 5
+        done
 
   deploy-pages:
     needs: update-intelligence
