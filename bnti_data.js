@@ -1,7 +1,7 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-01-16T11:23:47.536783",
-    "main_index": 7.29,
+    "generated_at": "2026-01-16T11:37:32.112564",
+    "main_index": 7.44,
     "status": "CRITICAL",
     "active_scan": true,
     "next_update": "2026-01-16T12:00:00",
@@ -9,24 +9,9 @@ window.BNTI_DATA = {
   },
   "countries": {
     "Armenia": {
-      "index": 4.22,
-      "raw_score": 15.01,
+      "index": 3.47,
+      "raw_score": 8.83,
       "events": [
-        {
-          "title": "Videos from Tehran morgue show brutal crackdown on protests in Iran – BBC",
-          "translated_title": "Videos from Tehran morgue show brutal crackdown on protests in Iran – BBC",
-          "link": "https://en.1in.am/1073743.html",
-          "date": "Fri, 16 Jan 2026 07:57:18 +0000",
-          "category": "violent protest",
-          "confidence": 0.8839371204376221,
-          "weight": 6.1875598430633545,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.4%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Armenia",
-          "translation_engine": "Google Neural MT"
-        },
         {
           "title": "Turmoil in Iran and the stakes for Armenia",
           "translated_title": "Turmoil in Iran and the stakes for Armenia",
@@ -121,62 +106,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "79.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "No precipitation is expected, air temperature will drop",
-          "translated_title": null,
-          "link": "https://en.1in.am/1073740.html",
-          "date": "Fri, 16 Jan 2026 07:38:29 +0000",
-          "category": "neutral news",
-          "confidence": 0.3151903450489044,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Food Challenges: For Mars and the Moon",
-          "translated_title": null,
-          "link": "https://en.1in.am/1073733.html",
-          "date": "Fri, 16 Jan 2026 07:19:45 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.34519508481025696,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "The US option is incomparable with the Russian proposal: what advantages will Armenia receive",
-          "translated_title": null,
-          "link": "https://en.1in.am/1073737.html",
-          "date": "Fri, 16 Jan 2026 07:00:17 +0000",
-          "category": "violent protest",
-          "confidence": 0.2033780962228775,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Grok restricts editing of photos of real people",
-          "translated_title": null,
-          "link": "https://en.1in.am/1073729.html",
-          "date": "Fri, 16 Jan 2026 06:41:04 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.3046138882637024,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -325,6 +254,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "20.6%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Kobakhidze, GD Ministers Take Year’s First Foreign Trip to UAE",
+          "translated_title": null,
+          "link": "https://civil.ge/archives/717172",
+          "date": "Wed, 14 Jan 2026 12:00:00 +0000",
+          "category": "violent protest",
+          "confidence": 0.2624377906322479,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.2%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         }
@@ -549,9 +492,24 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 4.89,
-      "raw_score": 23.98,
+      "index": 5.26,
+      "raw_score": 30.92,
       "events": [
+        {
+          "title": "روایت «شاهد عینی» از جنایت‌های سپاه و نیابتی‌ها در ایران؛ امید معترضان به «ضربه کوبنده» آمریکا به رژیم",
+          "translated_title": "\"Eyewitness\" account of the crimes of IRGC and proxies in Iran;The protestors' hope for a \"crushing blow\" by the US to the regime",
+          "link": "https://ir.voanews.com/a/iran-in-silence-a-witness-s-account-of-the-quds-force-and-proxies-on-the-street-the-closed-bazaar-and-the-bodies-being-buried-silently/8103046.html",
+          "date": "Wed, 14 Jan 2026 20:54:20 +0330",
+          "category": "military conflict",
+          "confidence": 0.6942718625068665,
+          "weight": 6.9427186250686646,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "69.4%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Iran",
+          "translation_engine": "Google Neural MT"
+        },
         {
           "title": "ترامپ: ممکن است جمهوری اسلامی ایران در نتیجه اعتراضات سقوط کند",
           "translated_title": "Trump: The Islamic Republic of Iran may fall as a result of the protests",
@@ -584,7 +542,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "وزیر خارجه جمهوری اسلامی: «فقط چند صدنفر» در اعتراضات ضدحکومتی کشته شده‌اند؛ مجری فاکس‌نیوز عراقچی را به چالش کشید",
-          "translated_title": "Foreign Minister of the Islamic Republic: \"Only a few hundred people\" have been killed in anti-government protests;The Fox News host challenged Araghchi",
+          "translated_title": null,
           "link": "https://ir.voanews.com/a/8103351.html",
           "date": "Thu, 15 Jan 2026 04:07:26 +0330",
           "category": "political crisis",
@@ -593,9 +551,8 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "74.5%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Iran"
         },
         {
           "title": "وزیر خزانه‌داری آمریکا در مورد جمهوری اسلامی: به‌سرعت به مرحله پایانی طرحی که ترامپ پس از ورود به کاخ سفید آغاز کرد نزدیک می‌شویم",
@@ -652,12 +609,68 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
+        },
+        {
+          "title": "ترامپ: به ما گفته شده کشتار در ایران در حال توقف است؛ این موضوع را بررسی خواهیم کرد",
+          "translated_title": null,
+          "link": "https://ir.voanews.com/a/8103124.html",
+          "date": "Wed, 14 Jan 2026 23:56:11 +0330",
+          "category": "terrorist act",
+          "confidence": 0.24607624113559723,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "پیکرهای زنان کشته‌شده کجا است؟ بازخوانی ویدئوهای تکان‌دهنده پزشکی قانونی کهریزک",
+          "translated_title": null,
+          "link": "https://ir.voanews.com/a/iran-protests-slain-women-bodies-revisiting-kahrizak-forensic-morgue-videos/8103027.html",
+          "date": "Wed, 14 Jan 2026 19:28:58 +0330",
+          "category": "humanitarian crisis",
+          "confidence": 0.3411031663417816,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "درخشش «استارلینک» در خاموشی ۱۴۰ ساعته اینترنت ایران؛ پیام امیدبخش «کمک در راه است» پرزیدنت ترامپ",
+          "translated_title": null,
+          "link": "https://ir.voanews.com/a/iran-in-the-dark-starlink-and-trump-on-the-scene-140-hours-of-blackout-loopholes-for-resistance-and-the-promise-of-help-is-on-the-way-/8103006.html",
+          "date": "Wed, 14 Jan 2026 18:08:14 +0330",
+          "category": "political crisis",
+          "confidence": 0.38331279158592224,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "آمریکا، بریتانیا و دیگر کشورها از شهروندان خود خواستند ایران را ترک کنند",
+          "translated_title": null,
+          "link": "https://ir.voanews.com/a/us-uk-ask-citizen-to-leave-iran/8102990.html",
+          "date": "Wed, 14 Jan 2026 14:48:43 +0330",
+          "category": "neutral news",
+          "confidence": 0.3609456717967987,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 4.79,
-      "raw_score": 22.31,
+      "index": 3.93,
+      "raw_score": 12.31,
       "events": [
         {
           "title": "تصحيحا لمغالطات تاريخية وسياسية                       - &#1634; - - صلاح بدرالدين",
@@ -675,21 +688,6 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "One year on, it’s all about Trump. But for how long?",
-          "translated_title": "One year on, it’s all about Trump. But for how long?",
-          "link": "https://www.iraqinews.com/world/one-year-on-its-all-about-trump-but-for-how-long/",
-          "date": "Fri, 16 Jan 2026 01:33:14 +0000",
-          "category": "political crisis",
-          "confidence": 0.9021611213684082,
-          "weight": 5.412966728210449,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "90.2%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iraq",
-          "translation_engine": "Google Neural MT"
-        },
-        {
           "title": "Libyan filmmaker fights for cinema revival",
           "translated_title": "Libyan filmmaker fights for cinema revival",
           "link": "https://www.iraqinews.com/lifestyle/libyan-filmmaker-fights-for-cinema-revival/",
@@ -699,20 +697,6 @@ window.BNTI_DATA = {
           "weight": 4.801802575588226,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "68.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Magic rally to top Grizzlies in NBA Berlin game",
-          "translated_title": "Magic rally to top Grizzlies in NBA Berlin game",
-          "link": "https://www.iraqinews.com/sports/magic-rally-to-top-grizzlies-in-nba-berlin-game/",
-          "date": "Thu, 15 Jan 2026 23:55:26 +0000",
-          "category": "violent protest",
-          "confidence": 0.6544511914253235,
-          "weight": 4.581158339977264,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "65.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -788,48 +772,6 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "Venezuela’s Machado says she ‘presented’ Trump with Nobel medal",
-          "translated_title": null,
-          "link": "https://www.iraqinews.com/world/venezuelas-machado-says-she-presented-trump-with-nobel-medal/",
-          "date": "Thu, 15 Jan 2026 23:17:54 +0000",
-          "category": "political crisis",
-          "confidence": 0.20194248855113983,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Social media sites block 4.7 million underage accounts in Australia",
-          "translated_title": null,
-          "link": "https://www.iraqinews.com/tech/social-media-sites-block-47-million-underage-accounts-in-australia/",
-          "date": "Thu, 15 Jan 2026 22:29:22 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.271291583776474,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "27.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Threats to Iran spike ‘volatility’: UN official",
-          "translated_title": null,
-          "link": "https://www.iraqinews.com/arab-world-news/threats-to-iran-spike-volatility-un-official/",
-          "date": "Thu, 15 Jan 2026 22:23:26 +0000",
-          "category": "neutral news",
-          "confidence": 0.22923380136489868,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
           "title": "في ذكرى عيد ميلاده - عبد الناصر: الدولة، الكرامة، والهزيمة المؤجَّلة - كيف يتذكر الشارع الروسي هذا الزعيم الخالد - زياد الزبيدي",
           "translated_title": null,
           "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901918",
@@ -858,6 +800,76 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
+          "title": "قراءة في كتاب سفربرلك للدكتور خالد تركي - رشيد عبد الرحمن النجاب",
+          "translated_title": null,
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901897",
+          "date": "Fri, 16 Jan 2026 12:03:18 EST",
+          "category": "violent protest",
+          "confidence": 0.16419127583503723,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "دفاع عن العقيدة أم دفاع عن العمامة؟ لماذا تخشى المؤسسات الدينية التغيير؟ - علا مجد الدين عبد النور",
+          "translated_title": null,
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901891",
+          "date": "Fri, 16 Jan 2026 08:48:09 EST",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2397356927394867,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "الصلاة في مقر مجلس البصرة - كاظم فنجان الحمامي",
+          "translated_title": null,
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901890",
+          "date": "Fri, 16 Jan 2026 07:20:21 EST",
+          "category": "neutral news",
+          "confidence": 0.3417206406593323,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "أفق اليسار: من الأزمة إلى الفعل - رياض الشرايطي",
+          "translated_title": null,
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901879",
+          "date": "Fri, 16 Jan 2026 02:55:53 EST",
+          "category": "neutral news",
+          "confidence": 0.5920698642730713,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "59.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "إضافة سمير امين لنظرية التراكم العالمي وأثرها على اقتصاد التنمية (6 -6) - محمود محمد ياسين",
+          "translated_title": null,
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901877",
+          "date": "Fri, 16 Jan 2026 03:00:09 EST",
+          "category": "economic crisis",
+          "confidence": 0.3137468695640564,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
           "title": "خلافاتنا لنا وتوافقنا لاعدائنا - عدنان الصباح",
           "translated_title": null,
           "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901913",
@@ -874,8 +886,8 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 4.25,
-      "raw_score": 15.39,
+      "index": 5.39,
+      "raw_score": 33.63,
       "events": [
         {
           "title": "The March Agreement Is Stalling Between Government and SDF, Military Escalation Grows",
@@ -906,6 +918,49 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
+          "title": "Shams Channel Withholds Interview with Syrian President Sharaa, Triggering Political and Media Controversy; Damascus Responds",
+          "translated_title": "Shams Channel Withholds Interview with Syrian President Sharaa, Triggering Political and Media Controversy; Damascus Responds",
+          "link": "https://syrianobserver.com/syrian-actors/shams-channel-withholds-interview-with-syrian-president-sharaa-triggering-political-and-media-controversy-damascus-responds.html",
+          "date": "Wed, 14 Jan 2026 21:02:42 +0000",
+          "category": "political crisis",
+          "confidence": 0.9937861561775208,
+          "weight": 5.9627169370651245,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "99.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Freedom Is Not Inherited: The Race Between State and Society in Syria",
+          "translated_title": "Freedom Is Not Inherited: The Race Between State and Society in Syria",
+          "link": "https://syrianobserver.com/syrian-actors/freedom-is-not-inherited-the-race-between-state-and-society-in-syria.html",
+          "date": "Wed, 14 Jan 2026 21:01:56 +0000",
+          "category": "political crisis",
+          "confidence": 0.9860225915908813,
+          "weight": 5.916135549545288,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "98.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syrian army designates “closed military zones” east of Aleppo",
+          "translated_title": "Syrian army designates “closed military zones” east of Aleppo",
+          "link": "https://english.enabbaladi.net/archives/2026/01/syrian-army-designates-closed-military-zones-east-of-aleppo/",
+          "date": "Wed, 14 Jan 2026 13:27:40 +0000",
+          "category": "military conflict",
+          "confidence": 0.5881420969963074,
+          "weight": 5.881420969963074,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "58.8%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
+        },
+        {
           "title": "The World Bank discusses support for Syria’s tourism sector in Damascus",
           "translated_title": null,
           "link": "https://english.enabbaladi.net/archives/2026/01/world-bank/",
@@ -929,6 +984,48 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "28.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Damascus closes Aleppo file, eyes shift east",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/01/damascus-closes-aleppo-file-eyes-shift-east/",
+          "date": "Wed, 14 Jan 2026 21:18:57 +0000",
+          "category": "military conflict",
+          "confidence": 0.27667999267578125,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Damascus criticizes Shams TV for withholding al-Sharaa interview",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/01/damascus-criticizes-shams-tv-for-withholding-al-sharaa-interview/",
+          "date": "Wed, 14 Jan 2026 17:43:47 +0000",
+          "category": "political crisis",
+          "confidence": 0.21961933374404907,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "22.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria asks Lebanon to hand over 200 Assad-era officers",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/01/syria-asks-lebanon-to-hand-over-200-assad-era-officers/",
+          "date": "Wed, 14 Jan 2026 17:05:55 +0000",
+          "category": "political crisis",
+          "confidence": 0.36337634921073914,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -976,86 +1073,16 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "SDG, Halep’in Doğu Kırsalında Sivillerin Güvenli Tahliyesini Engelliyor",
+          "title": "Israel-Syria Security Agreement Stalls Over Mount Hermon and Russian Presence",
           "translated_title": null,
-          "link": "https://sana.sy/tr/syria/2278929/",
-          "date": "Fri, 16 Jan 2026 10:29:40 +0000",
-          "category": "political crisis",
-          "confidence": 0.258974552154541,
-          "weight": 0.0,
+          "link": "https://syrianobserver.com/foreign-actors/israel-syria-security-agreement-stalls-over-mount-hermon-and-russian-presence.html",
+          "date": "Wed, 14 Jan 2026 21:00:42 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.4010796844959259,
+          "weight": -0.8021593689918518,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "SDG Engeli, Halep Kırsalında Sivilleri Tehlikeli Güzergâhlara Yöneltti",
-          "translated_title": null,
-          "link": "https://sana.sy/tr/syria/2278919/",
-          "date": "Fri, 16 Jan 2026 10:00:47 +0000",
-          "category": "violent protest",
-          "confidence": 0.34427526593208313,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Barrack: Suriye’deki Durumu Yatıştırmak İçin 24 Saat Çalışıyoruz",
-          "translated_title": null,
-          "link": "https://sana.sy/tr/syria-and-the-world/2278916/",
-          "date": "Fri, 16 Jan 2026 09:31:00 +0000",
-          "category": "political crisis",
-          "confidence": 0.3655196726322174,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Büyükelçi Yılmaz: Türkiye, Suriye’nin İstikrarı ve Güvenliği İçin Desteğini Sürdürüyor",
-          "translated_title": null,
-          "link": "https://sana.sy/tr/politics/2278910/",
-          "date": "Fri, 16 Jan 2026 08:55:28 +0000",
-          "category": "violent protest",
-          "confidence": 0.16391803324222565,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "16.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "BM Temsilcisi Olabi, Halep’te Eşrefiye ve Şeyh Maksud’daki Durumu İnceledi",
-          "translated_title": null,
-          "link": "https://sana.sy/tr/syria/2278877/",
-          "date": "Fri, 16 Jan 2026 08:33:02 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.2973898947238922,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Kuzelle Ateşi: Suriye Sahilinde Asur’dan Günümüze Uzanan Bir Yeni Yıl Ritüeli",
-          "translated_title": null,
-          "link": "https://sana.sy/tr/miscellaneous/2278886/",
-          "date": "Fri, 16 Jan 2026 08:17:02 +0000",
-          "category": "neutral news",
-          "confidence": 0.15640942752361298,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "15.6%",
-          "detected_lang": "local",
+          "ai_confidence_score": "40.1%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1072,26 +1099,12 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
-        },
-        {
-          "title": "Türkiye, Bölgesel Güvenlik İttifakı İçin Görüşmeler Yürütüyor",
-          "translated_title": null,
-          "link": "https://sana.sy/tr/syria-and-turkey/2278913/",
-          "date": "Fri, 16 Jan 2026 09:13:32 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.6376199126243591,
-          "weight": -1.2752398252487183,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "63.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 3.71,
-      "raw_score": 10.52,
+      "index": 4.18,
+      "raw_score": 14.6,
       "events": [
         {
           "title": "Линейка блъсна 10-годишно момиче на пешеходна пътека в Хасково",
@@ -1103,6 +1116,20 @@ window.BNTI_DATA = {
           "weight": 4.088153541088104,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "40.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "15-годишно момче е в болница след 5 енергийни напитки и пушене на вейп",
+          "translated_title": null,
+          "link": "https://dnes.dir.bg/intsidenti/15-godishno-momche-e-v-bolnitsa-sled-5-energiyni-napitki-i-pushene-na-veyp",
+          "date": "Fri, 16 Jan 2026 13:32:11 +0200",
+          "category": "violent protest",
+          "confidence": 0.5836092233657837,
+          "weight": 4.085264563560486,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "58.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1285,20 +1312,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "28.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Градски автобус се заби в сграда в центъра на Сеул (снимки/видео)",
-          "translated_title": null,
-          "link": "https://dnes.dir.bg/svyat/gradski-avtobus-se-zabi-v-sgrada-v-tsentara-na-seul-snimki-video",
-          "date": "Fri, 16 Jan 2026 10:07:39 +0200",
-          "category": "military conflict",
-          "confidence": 0.289687842130661,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.0%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1544,44 +1557,65 @@ window.BNTI_DATA = {
       "bulgaria_signals": 15
     },
     {
-      "timestamp": "2026-01-16T11:23:47.536768",
-      "index": 7.29,
+      "timestamp": "2026-01-16T11:23:53.434438",
+      "index": NaN,
+      "main_index": 7.29,
+      "georgia_idx": 4.23,
+      "georgia_signals": 7,
+      "syria_signals": 15,
+      "greece_signals": 15,
+      "syria_idx": 4.25,
+      "total_signals": 89,
+      "greece_idx": 4.43,
+      "armenia_idx": 4.22,
+      "iran_idx": 4.89,
+      "iraq_signals": 15,
+      "iraq_idx": 4.79,
+      "armenia_signals": 15,
+      "bulgaria_idx": 3.71,
+      "iran_signals": 7,
+      "status": "CRITICAL",
+      "bulgaria_signals": 15
+    },
+    {
+      "timestamp": "2026-01-16T11:37:32.112551",
+      "index": 7.44,
       "type": "live"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T12:23:53.434438",
+      "timestamp": "2026-01-16T12:37:37.503632",
       "index": 10.0,
       "confidence": 0.46,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T13:23:53.434438",
+      "timestamp": "2026-01-16T13:37:37.503632",
       "index": 10.0,
       "confidence": 0.42,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T14:23:53.434438",
+      "timestamp": "2026-01-16T14:37:37.503632",
       "index": 10.0,
       "confidence": 0.38,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T15:23:53.434438",
+      "timestamp": "2026-01-16T15:37:37.503632",
       "index": 10.0,
       "confidence": 0.34,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T16:23:53.434438",
+      "timestamp": "2026-01-16T16:37:37.503632",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T17:23:53.434438",
+      "timestamp": "2026-01-16T17:37:37.503632",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
