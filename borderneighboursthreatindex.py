@@ -45,55 +45,68 @@ class BNTIAnalyzer:
         
         self.candidate_labels = list(self.category_weights.keys())
 
-        # RSS Feeds Configuration (Expanded for robust coverage)
+        # RSS Feeds Configuration (Expanded with 15+ backup feeds for resilience)
         self.rss_urls = {
             "Armenia": [
-                "https://en.1in.am/feed", 
-                "https://a1plus.am/en/feed",
-                "https://panarmenian.net/eng/news/feed", 
-                "https://www.civilnet.am/en/feed"
+                "https://a1plus.am/en/rss",
+                "https://hetq.am/en/rss",
+                "https://armenianweekly.com/feed",
+                "https://massispost.com/feed",
+                "https://asbarez.com/feed",
+                "https://www.azatutyun.am/api/z-pqp_eqypt"  # RFE/RL Armenia
             ],
             "Georgia": [
                 "https://civil.ge/feed", 
                 "https://georgiatoday.ge/feed",
-                "https://agenda.ge/en/rss",
-                "https://www.interpressnews.ge/en/rss"
+                "https://jam-news.net/feed",
+                "https://oc-media.org/feed",  # Open Caucasus Media
+                "https://www.rferl.org/api/zktpyei_tgt"  # RFE/RL Georgia
             ],
             "Greece": [
                 "https://www.in.gr/feed/?rid=2&pid=250&la=1&si=1", 
                 "https://feeds.feedburner.com/newsbombgr",
-                "https://www.ekathimerini.com/feed",
                 "https://www.naftemporiki.gr/feed",
-                "https://greekreporter.com/feed"
+                "https://www.protothema.gr/rss",
+                "https://gtp.gr/rss.asp",  # GTP Headlines
+                "https://www.keeptalkinggreece.com/feed"
             ],
             "Iran": [
-                "https://ir.voanews.com/api/zkup_empmy",
-                "https://en.mehrnews.com/rss",
                 "https://www.tehrantimes.com/rss",
-                "https://www.presstv.ir/rss"
+                "https://www.tehrantimes.com/rss/pl/617",  # Breaking news
+                "https://en.irna.ir/rss.aspx",  # IRNA English
+                "https://www.tasnimnews.com/en/rss",
+                "https://financialtribune.com/rss",
+                "https://www.radiofarda.com/api/z-riqtvqmt"  # RFE/RL Iran
             ],
             "Iraq": [
-                "https://www.ahewar.org/rss/default.asp?lt=7",
                 "https://www.iraqinews.com/feed",
-                "https://ninanews.com/Website/XML/RSS_en.xml",
-                "https://shafaq.com/en/rss"
+                "https://shafaq.com/en/rss",
+                "https://iraq-businessnews.com/feed",
+                "https://www.basnews.com/en/rss",
+                "https://www.newarab.com/rss",  # The New Arab
+                "https://www.rudaw.net/english/rss"
             ],
             "Syria": [
-                "https://www.sana.sy/tr/?feed=rss2",
+                "https://www.sana.sy/en/?feed=rss2",
                 "https://english.enabbaladi.net/feed",
                 "https://syrianobserver.com/feed",
-                "https://northpressagency.com/feed"
+                "https://npasyria.com/en/feed",  # North Press Agency
+                "https://www.newarab.com/rss",
+                "https://www.middleeasteye.net/rss"
             ],
             "Bulgaria": [
-                "https://dnes.dir.bg/support/cat_rss.php",
                 "https://www.novinite.com/rss",
                 "https://sofiaglobe.com/feed",
-                "https://www.bta.bg/en/rss"
+                "https://www.bta.bg/en/rss",
+                "https://bnr.bg/en/rss",  # Radio Bulgaria
+                "https://www.dnevnik.bg/rss"
             ],
             "Turkey": [
                 "https://www.hurriyetdailynews.com/rss",
                 "https://www.dailysabah.com/rss",
-                "https://www.duvarenglish.com/rss"
+                "https://www.duvarenglish.com/rss",
+                "https://www.aa.com.tr/en/rss/default?cat=turkey",  # Anadolu Agency
+                "https://ahvalnews.com/rss.xml"
             ]
         }
         
