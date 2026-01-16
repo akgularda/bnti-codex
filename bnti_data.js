@@ -1,7 +1,7 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-01-16T11:05:08.777010",
-    "main_index": 7.42,
+    "generated_at": "2026-01-16T11:23:47.536783",
+    "main_index": 7.29,
     "status": "CRITICAL",
     "active_scan": true,
     "next_update": "2026-01-16T12:00:00",
@@ -182,6 +182,20 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
+          "title": "Bankrupt investor linked to $70 million Cascade redevelopment in Yerevan",
+          "translated_title": null,
+          "link": "https://www.civilnet.am/en/news/997026/bankrupt-investor-linked-to-70-million-cascade-redevelopment-in-yerevan/",
+          "date": "Fri, 16 Jan 2026 11:04:04 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.22520780563354492,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "22.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
           "title": "Sev Ohanian’s Golden Globe moment",
           "translated_title": null,
           "link": "https://www.civilnet.am/en/news/996692/sev-ohanians-golden-globe-moment/",
@@ -206,20 +220,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "26.0%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Armenia urges Russia to fast-track rail restoration after U.S.-backed corridor move",
-          "translated_title": null,
-          "link": "https://www.civilnet.am/en/news/996849/armenia-urges-russia-to-fast-track-rail-restoration-after-u-s-backed-corridor-move/",
-          "date": "Thu, 15 Jan 2026 12:32:00 +0000",
-          "category": "neutral news",
-          "confidence": 0.2805688679218292,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.1%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         }
@@ -584,7 +584,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "وزیر خارجه جمهوری اسلامی: «فقط چند صدنفر» در اعتراضات ضدحکومتی کشته شده‌اند؛ مجری فاکس‌نیوز عراقچی را به چالش کشید",
-          "translated_title": null,
+          "translated_title": "Foreign Minister of the Islamic Republic: \"Only a few hundred people\" have been killed in anti-government protests;The Fox News host challenged Araghchi",
           "link": "https://ir.voanews.com/a/8103351.html",
           "date": "Thu, 15 Jan 2026 04:07:26 +0330",
           "category": "political crisis",
@@ -593,8 +593,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "74.5%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
+          "is_translated": true,
+          "country": "Iran",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "وزیر خزانه‌داری آمریکا در مورد جمهوری اسلامی: به‌سرعت به مرحله پایانی طرحی که ترامپ پس از ورود به کاخ سفید آغاز کرد نزدیک می‌شویم",
@@ -655,19 +656,19 @@ window.BNTI_DATA = {
       ]
     },
     "Iraq": {
-      "index": 4.87,
-      "raw_score": 23.61,
+      "index": 4.79,
+      "raw_score": 22.31,
       "events": [
         {
-          "title": "طوفان الأقصى 832 - إيران في مرآة الشارع الروسي: إحتجاج الداخل وحرب السرديات من الخارج - زياد الزبيدي",
-          "translated_title": "Al-Aqsa Flood 832 - Iran in the mirror of the Russian street: Protest from within and the war of narratives from without - Ziad Al-Zubaidi",
-          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901908",
-          "date": "Fri, 16 Jan 2026 13:23:47 EST",
+          "title": "تصحيحا لمغالطات تاريخية وسياسية                       - &#1634; - - صلاح بدرالدين",
+          "translated_title": "Correction of historical and political fallacies - &#1634;- - Salah Badraldin",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901916",
+          "date": "Fri, 16 Jan 2026 15:07:40 EST",
           "category": "political crisis",
-          "confidence": 0.9701840281486511,
-          "weight": 5.821104168891907,
+          "confidence": 0.9831056594848633,
+          "weight": 5.89863395690918,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "97.0%",
+          "ai_confidence_score": "98.3%",
           "detected_lang": "local",
           "is_translated": true,
           "country": "Iraq",
@@ -829,6 +830,20 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
+          "title": "في ذكرى عيد ميلاده - عبد الناصر: الدولة، الكرامة، والهزيمة المؤجَّلة - كيف يتذكر الشارع الروسي هذا الزعيم الخالد - زياد الزبيدي",
+          "translated_title": null,
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901918",
+          "date": "Fri, 16 Jan 2026 15:07:53 EST",
+          "category": "violent protest",
+          "confidence": 0.2822768986225128,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
           "title": "عودة جدلية الطبيعة: النضال من أجل الحرية كضرورة (1) - حسين علوان حسين",
           "translated_title": null,
           "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901912",
@@ -843,29 +858,15 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "قراءة في كتاب سفربرلك للدكتور خالد تركي - رشيد عبد الرحمن النجاب",
+          "title": "خلافاتنا لنا وتوافقنا لاعدائنا - عدنان الصباح",
           "translated_title": null,
-          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901897",
-          "date": "Fri, 16 Jan 2026 12:03:18 EST",
-          "category": "violent protest",
-          "confidence": 0.16419127583503723,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "16.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "دفاع عن العقيدة أم دفاع عن العمامة؟ لماذا تخشى المؤسسات الدينية التغيير؟ - علا مجد الدين عبد النور",
-          "translated_title": null,
-          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901891",
-          "date": "Fri, 16 Jan 2026 08:48:09 EST",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=901913",
+          "date": "Fri, 16 Jan 2026 15:06:50 EST",
           "category": "peaceful diplomacy",
-          "confidence": 0.2397356927394867,
-          "weight": 0.0,
+          "confidence": 0.6906067728996277,
+          "weight": -1.3812135457992554,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "24.0%",
+          "ai_confidence_score": "69.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iraq"
@@ -873,8 +874,8 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 4.97,
-      "raw_score": 25.33,
+      "index": 4.25,
+      "raw_score": 15.39,
       "events": [
         {
           "title": "The March Agreement Is Stalling Between Government and SDF, Military Escalation Grows",
@@ -905,30 +906,71 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Baniyas ve Devrik Rejim Dönemi Cinayetlerine Karışan Suçlular Yakalandı",
-          "translated_title": "Criminals Involved in the Murders of Baniyas and the Overthrown Regime Period were Caught",
-          "link": "https://sana.sy/tr/syria/2278863/",
-          "date": "Thu, 15 Jan 2026 18:50:46 +0000",
-          "category": "violent protest",
-          "confidence": 0.8077061772346497,
-          "weight": 5.653943240642548,
+          "title": "The World Bank discusses support for Syria’s tourism sector in Damascus",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/01/world-bank/",
+          "date": "Thu, 15 Jan 2026 18:07:09 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2457352727651596,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "80.8%",
+          "ai_confidence_score": "24.6%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Syria",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Syria"
         },
         {
-          "title": "Suriye’de Geleneksel Halı Dokumacılığı: İnceliğiyle Öne Çıkan Bir Zanaat",
+          "title": "Aleppo, Gradual Return to Ashrafieh and Sheikh Maqsoud Neighborhoods",
           "translated_title": null,
-          "link": "https://sana.sy/tr/miscellaneous/2278867/",
-          "date": "Thu, 15 Jan 2026 19:47:43 +0000",
-          "category": "violent protest",
-          "confidence": 0.4472173750400543,
-          "weight": 3.1305216252803802,
+          "link": "https://english.enabbaladi.net/archives/2026/01/aleppo-gradual-return-to-ashrafieh-and-sheikh-maqsoud-neighborhoods/",
+          "date": "Thu, 15 Jan 2026 16:38:37 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.28655126690864563,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "44.7%",
+          "ai_confidence_score": "28.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Accountability Lacking for Suweida Abuses, Human Rights Watch Says",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/foreign-actors/accountability-lacking-for-suweida-abuses-human-rights-watch-says.html",
+          "date": "Thu, 15 Jan 2026 21:00:50 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.34204500913619995,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Central Bank Denies Existence of Counterfeit Notes of New Currency",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/society/central-bank-denies-existence-of-counterfeit-notes-of-new-currency.html",
+          "date": "Thu, 15 Jan 2026 21:00:27 +0000",
+          "category": "neutral news",
+          "confidence": 0.4838675260543823,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "48.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "A Generation in Limbo: Syria’s Educated Youth After the War",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/a-generation-in-limbo-syrias-educated-youth-after-the-war.html",
+          "date": "Thu, 15 Jan 2026 21:00:11 +0000",
+          "category": "political crisis",
+          "confidence": 0.2833941876888275,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
@@ -1018,58 +1060,16 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "İbn Vardan Sarayı: Yağmur Düştüğünde Tarihin Kokusu Yükselir",
+          "title": "Autonomous Administration closes crossings with Syrian government-controlled areas",
           "translated_title": null,
-          "link": "https://sana.sy/tr/tourism/2278878/",
-          "date": "Fri, 16 Jan 2026 07:24:45 +0000",
-          "category": "violent protest",
-          "confidence": 0.3147190809249878,
-          "weight": 0.0,
+          "link": "https://english.enabbaladi.net/archives/2026/01/autonomous-administration-closes-crossings-with-syrian-government-controlled-areas/",
+          "date": "Thu, 15 Jan 2026 17:37:11 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.5737735629081726,
+          "weight": -1.1475471258163452,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Accountability Lacking for Suweida Abuses, Human Rights Watch Says",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/foreign-actors/accountability-lacking-for-suweida-abuses-human-rights-watch-says.html",
-          "date": "Thu, 15 Jan 2026 21:00:50 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.34204500913619995,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.2%",
+          "ai_confidence_score": "57.4%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Central Bank Denies Existence of Counterfeit Notes of New Currency",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/society/central-bank-denies-existence-of-counterfeit-notes-of-new-currency.html",
-          "date": "Thu, 15 Jan 2026 21:00:27 +0000",
-          "category": "neutral news",
-          "confidence": 0.4838675260543823,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "48.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "A Generation in Limbo: Syria’s Educated Youth After the War",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/syrian-actors/a-generation-in-limbo-syrias-educated-youth-after-the-war.html",
-          "date": "Thu, 15 Jan 2026 21:00:11 +0000",
-          "category": "political crisis",
-          "confidence": 0.2833941876888275,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.3%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1091,7 +1091,7 @@ window.BNTI_DATA = {
     },
     "Bulgaria": {
       "index": 3.71,
-      "raw_score": 10.48,
+      "raw_score": 10.52,
       "events": [
         {
           "title": "Линейка блъсна 10-годишно момиче на пешеходна пътека в Хасково",
@@ -1122,15 +1122,15 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "АПС върна третия мандат, отиваме на избори",
+          "title": "РЗИ-София е съставила акт на кмета Терзиев заради боклука",
           "translated_title": null,
-          "link": "https://dnes.dir.bg/politika/prezidentat-rumen-radev-vrachva-tretiya-mandat-za-sastavyane-na-pravitelstvo-na-aps",
-          "date": "Fri, 16 Jan 2026 10:00:00 +0200",
+          "link": "https://dnes.dir.bg/obshtestvo/rzi-sofiya-e-sastavila-akt-na-kmeta-terziev-zaradi-bokluka",
+          "date": "Fri, 16 Jan 2026 13:05:41 +0200",
           "category": "political crisis",
-          "confidence": 0.4455421566963196,
-          "weight": 2.6732529401779175,
+          "confidence": 0.4517956078052521,
+          "weight": 2.7107736468315125,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "44.6%",
+          "ai_confidence_score": "45.2%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1523,44 +1523,65 @@ window.BNTI_DATA = {
       "bulgaria_signals": 15
     },
     {
-      "timestamp": "2026-01-16T11:05:08.776996",
-      "index": 7.42,
+      "timestamp": "2026-01-16T11:05:15.784506",
+      "index": NaN,
+      "main_index": 7.42,
+      "georgia_idx": 4.23,
+      "georgia_signals": 7,
+      "syria_signals": 15,
+      "greece_signals": 15,
+      "syria_idx": 4.97,
+      "total_signals": 89,
+      "greece_idx": 4.43,
+      "armenia_idx": 4.22,
+      "iran_idx": 4.89,
+      "iraq_signals": 15,
+      "iraq_idx": 4.87,
+      "armenia_signals": 15,
+      "bulgaria_idx": 3.71,
+      "iran_signals": 7,
+      "status": "CRITICAL",
+      "bulgaria_signals": 15
+    },
+    {
+      "timestamp": "2026-01-16T11:23:47.536768",
+      "index": 7.29,
       "type": "live"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T12:05:15.784506",
+      "timestamp": "2026-01-16T12:23:53.434438",
       "index": 10.0,
       "confidence": 0.46,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T13:05:15.784506",
+      "timestamp": "2026-01-16T13:23:53.434438",
       "index": 10.0,
       "confidence": 0.42,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T14:05:15.784506",
+      "timestamp": "2026-01-16T14:23:53.434438",
       "index": 10.0,
       "confidence": 0.38,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T15:05:15.784506",
+      "timestamp": "2026-01-16T15:23:53.434438",
       "index": 10.0,
       "confidence": 0.34,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T16:05:15.784506",
+      "timestamp": "2026-01-16T16:23:53.434438",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T17:05:15.784506",
+      "timestamp": "2026-01-16T17:23:53.434438",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
