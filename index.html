@@ -147,6 +147,10 @@
             grid-template-rows: 1fr;
             flex: 1;
             overflow: hidden;
+            min-height: 0;
+            /* Critical for flex children to not expand */
+            height: calc(100vh - 60px);
+            /* Explicit height minus header */
         }
 
         /* Panels */
@@ -155,6 +159,10 @@
             display: flex;
             flex-direction: column;
             background: var(--bg-app);
+            overflow: hidden;
+            min-height: 0;
+            /* Allow flex children to shrink */
+            height: 100%;
         }
 
         .panel:last-child {
@@ -294,7 +302,8 @@
         .stream-list {
             overflow-y: auto;
             flex: 1;
-            max-height: calc(100vh - 100px);
+            min-height: 0;
+            /* Critical: allows scrolling */
         }
 
         .stream-item {
@@ -630,7 +639,7 @@
             updateFeed();
             initChart();
             await initMap();
-        })();
+      ();
 
     </script>
 </body>
