@@ -1,7 +1,7 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-01-16T11:37:32.112564",
-    "main_index": 7.44,
+    "generated_at": "2026-01-16T11:49:32.279504",
+    "main_index": 7.04,
     "status": "CRITICAL",
     "active_scan": true,
     "next_update": "2026-01-16T12:00:00",
@@ -542,7 +542,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "وزیر خارجه جمهوری اسلامی: «فقط چند صدنفر» در اعتراضات ضدحکومتی کشته شده‌اند؛ مجری فاکس‌نیوز عراقچی را به چالش کشید",
-          "translated_title": null,
+          "translated_title": "Foreign Minister of the Islamic Republic: \"Only a few hundred people\" have been killed in anti-government protests;The Fox News host challenged Araghchi",
           "link": "https://ir.voanews.com/a/8103351.html",
           "date": "Thu, 15 Jan 2026 04:07:26 +0330",
           "category": "political crisis",
@@ -551,8 +551,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "74.5%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
+          "is_translated": true,
+          "country": "Iran",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "وزیر خزانه‌داری آمریکا در مورد جمهوری اسلامی: به‌سرعت به مرحله پایانی طرحی که ترامپ پس از ورود به کاخ سفید آغاز کرد نزدیک می‌شویم",
@@ -886,65 +887,9 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 5.39,
-      "raw_score": 33.63,
+      "index": 1.73,
+      "raw_score": 2.11,
       "events": [
-        {
-          "title": "The March Agreement Is Stalling Between Government and SDF, Military Escalation Grows",
-          "translated_title": "The March Agreement Is Stalling Between Government and SDF, Military Escalation Grows",
-          "link": "https://syrianobserver.com/syrian-actors/the-march-agreement-is-stalling-between-government-and-sdf-military-escalation-grows.html",
-          "date": "Thu, 15 Jan 2026 21:00:55 +0000",
-          "category": "military conflict",
-          "confidence": 0.932413637638092,
-          "weight": 9.32413637638092,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "93.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Tensions in northern Syria: Military to open corridor for civilians to leave",
-          "translated_title": "Tensions in northern Syria: Military to open corridor for civilians to leave",
-          "link": "https://syrianobserver.com/youtube/tensions-in-northern-syria-military-to-open-corridor-for-civilians-to-leave.html",
-          "date": "Fri, 16 Jan 2026 10:07:08 +0000",
-          "category": "military conflict",
-          "confidence": 0.8493211269378662,
-          "weight": 8.493211269378662,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "84.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Shams Channel Withholds Interview with Syrian President Sharaa, Triggering Political and Media Controversy; Damascus Responds",
-          "translated_title": "Shams Channel Withholds Interview with Syrian President Sharaa, Triggering Political and Media Controversy; Damascus Responds",
-          "link": "https://syrianobserver.com/syrian-actors/shams-channel-withholds-interview-with-syrian-president-sharaa-triggering-political-and-media-controversy-damascus-responds.html",
-          "date": "Wed, 14 Jan 2026 21:02:42 +0000",
-          "category": "political crisis",
-          "confidence": 0.9937861561775208,
-          "weight": 5.9627169370651245,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "99.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Freedom Is Not Inherited: The Race Between State and Society in Syria",
-          "translated_title": "Freedom Is Not Inherited: The Race Between State and Society in Syria",
-          "link": "https://syrianobserver.com/syrian-actors/freedom-is-not-inherited-the-race-between-state-and-society-in-syria.html",
-          "date": "Wed, 14 Jan 2026 21:01:56 +0000",
-          "category": "political crisis",
-          "confidence": 0.9860225915908813,
-          "weight": 5.916135549545288,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "98.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
         {
           "title": "Syrian army designates “closed military zones” east of Aleppo",
           "translated_title": "Syrian army designates “closed military zones” east of Aleppo",
@@ -1031,58 +976,86 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Accountability Lacking for Suweida Abuses, Human Rights Watch Says",
+          "title": "SDG, Halep’in Doğu Kırsalında Sivillerin Güvenli Tahliyesini Engelliyor",
           "translated_title": null,
-          "link": "https://syrianobserver.com/foreign-actors/accountability-lacking-for-suweida-abuses-human-rights-watch-says.html",
-          "date": "Thu, 15 Jan 2026 21:00:50 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.34204500913619995,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Central Bank Denies Existence of Counterfeit Notes of New Currency",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/society/central-bank-denies-existence-of-counterfeit-notes-of-new-currency.html",
-          "date": "Thu, 15 Jan 2026 21:00:27 +0000",
-          "category": "neutral news",
-          "confidence": 0.4838675260543823,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "48.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "A Generation in Limbo: Syria’s Educated Youth After the War",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/syrian-actors/a-generation-in-limbo-syrias-educated-youth-after-the-war.html",
-          "date": "Thu, 15 Jan 2026 21:00:11 +0000",
+          "link": "https://sana.sy/tr/syria/2278929/",
+          "date": "Fri, 16 Jan 2026 10:29:40 +0000",
           "category": "political crisis",
-          "confidence": 0.2833941876888275,
+          "confidence": 0.258974552154541,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.3%",
+          "ai_confidence_score": "25.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "Israel-Syria Security Agreement Stalls Over Mount Hermon and Russian Presence",
+          "title": "SDG Engeli, Halep Kırsalında Sivilleri Tehlikeli Güzergâhlara Yöneltti",
           "translated_title": null,
-          "link": "https://syrianobserver.com/foreign-actors/israel-syria-security-agreement-stalls-over-mount-hermon-and-russian-presence.html",
-          "date": "Wed, 14 Jan 2026 21:00:42 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.4010796844959259,
-          "weight": -0.8021593689918518,
+          "link": "https://sana.sy/tr/syria/2278919/",
+          "date": "Fri, 16 Jan 2026 10:00:47 +0000",
+          "category": "violent protest",
+          "confidence": 0.34427526593208313,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.1%",
-          "detected_lang": "en",
+          "ai_confidence_score": "34.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Barrack: Suriye’deki Durumu Yatıştırmak İçin 24 Saat Çalışıyoruz",
+          "translated_title": null,
+          "link": "https://sana.sy/tr/syria-and-the-world/2278916/",
+          "date": "Fri, 16 Jan 2026 09:31:00 +0000",
+          "category": "political crisis",
+          "confidence": 0.3655196726322174,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Büyükelçi Yılmaz: Türkiye, Suriye’nin İstikrarı ve Güvenliği İçin Desteğini Sürdürüyor",
+          "translated_title": null,
+          "link": "https://sana.sy/tr/politics/2278910/",
+          "date": "Fri, 16 Jan 2026 08:55:28 +0000",
+          "category": "violent protest",
+          "confidence": 0.16391803324222565,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "BM Temsilcisi Olabi, Halep’te Eşrefiye ve Şeyh Maksud’daki Durumu İnceledi",
+          "translated_title": null,
+          "link": "https://sana.sy/tr/syria/2278877/",
+          "date": "Fri, 16 Jan 2026 08:33:02 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.2973898947238922,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Kuzelle Ateşi: Suriye Sahilinde Asur’dan Günümüze Uzanan Bir Yeni Yıl Ritüeli",
+          "translated_title": null,
+          "link": "https://sana.sy/tr/miscellaneous/2278886/",
+          "date": "Fri, 16 Jan 2026 08:17:02 +0000",
+          "category": "neutral news",
+          "confidence": 0.15640942752361298,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "15.6%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1099,6 +1072,34 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "Türkiye, Bölgesel Güvenlik İttifakı İçin Görüşmeler Yürütüyor",
+          "translated_title": null,
+          "link": "https://sana.sy/tr/syria-and-turkey/2278913/",
+          "date": "Fri, 16 Jan 2026 09:13:32 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.6376199126243591,
+          "weight": -1.2752398252487183,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "63.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Deyr Hafir’den sivilleri, tehlikeli tali ve tarım yollarından güvenli bölgelere kaçtı.",
+          "translated_title": null,
+          "link": "https://sana.sy/tr/photos/2278931/",
+          "date": "Fri, 16 Jan 2026 11:36:52 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.673351526260376,
+          "weight": -1.346703052520752,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "67.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
         }
       ]
     },
@@ -1108,7 +1109,7 @@ window.BNTI_DATA = {
       "events": [
         {
           "title": "Линейка блъсна 10-годишно момиче на пешеходна пътека в Хасково",
-          "translated_title": null,
+          "translated_title": "An ambulance hit a 10-year-old girl on a pedestrian path in Haskovo",
           "link": "https://dnes.dir.bg/intsidenti/lineyka-blasna-10-godishno-momiche-na-peshehodna-pateka-v-haskovo",
           "date": "Fri, 16 Jan 2026 10:18:26 +0200",
           "category": "military conflict",
@@ -1117,12 +1118,13 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "40.9%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "15-годишно момче е в болница след 5 енергийни напитки и пушене на вейп",
-          "translated_title": null,
+          "translated_title": "15-year-old boy in hospital after 5 energy drinks and smoking a vape",
           "link": "https://dnes.dir.bg/intsidenti/15-godishno-momche-e-v-bolnitsa-sled-5-energiyni-napitki-i-pushene-na-veyp",
           "date": "Fri, 16 Jan 2026 13:32:11 +0200",
           "category": "violent protest",
@@ -1131,12 +1133,13 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "58.4%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Битов скандал завърши с убийство в Русе",
-          "translated_title": null,
+          "translated_title": "A domestic scandal ended with a murder in Ruse",
           "link": "https://dnes.dir.bg/ruse/bitov-skandal-zavarshi-s-ubiystvo-v-ruse",
           "date": "Fri, 16 Jan 2026 11:17:42 +0200",
           "category": "violent protest",
@@ -1145,8 +1148,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "53.1%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "РЗИ-София е съставила акт на кмета Терзиев заради боклука",
@@ -1578,44 +1582,65 @@ window.BNTI_DATA = {
       "bulgaria_signals": 15
     },
     {
-      "timestamp": "2026-01-16T11:37:32.112551",
-      "index": 7.44,
+      "timestamp": "2026-01-16T11:37:37.503632",
+      "index": NaN,
+      "main_index": 7.44,
+      "georgia_idx": 4.23,
+      "georgia_signals": 8,
+      "syria_signals": 15,
+      "greece_signals": 15,
+      "syria_idx": 5.39,
+      "total_signals": 90,
+      "greece_idx": 4.43,
+      "armenia_idx": 3.47,
+      "iran_idx": 5.26,
+      "iraq_signals": 15,
+      "iraq_idx": 3.93,
+      "armenia_signals": 10,
+      "bulgaria_idx": 4.18,
+      "iran_signals": 12,
+      "status": "CRITICAL",
+      "bulgaria_signals": 15
+    },
+    {
+      "timestamp": "2026-01-16T11:49:32.279491",
+      "index": 7.04,
       "type": "live"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T12:37:37.503632",
+      "timestamp": "2026-01-16T12:49:40.787683",
       "index": 10.0,
       "confidence": 0.46,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T13:37:37.503632",
+      "timestamp": "2026-01-16T13:49:40.787683",
       "index": 10.0,
       "confidence": 0.42,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T14:37:37.503632",
+      "timestamp": "2026-01-16T14:49:40.787683",
       "index": 10.0,
       "confidence": 0.38,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T15:37:37.503632",
+      "timestamp": "2026-01-16T15:49:40.787683",
       "index": 10.0,
       "confidence": 0.34,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T16:37:37.503632",
+      "timestamp": "2026-01-16T16:49:40.787683",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T17:37:37.503632",
+      "timestamp": "2026-01-16T17:49:40.787683",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
