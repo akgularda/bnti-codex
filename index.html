@@ -312,6 +312,26 @@
             border-radius: 4px;
             font-size: 11px;
             color: var(--text-muted);
+            min-width: 200px;
+        }
+
+        .country-stat-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+            font-family: var(--font-mono);
+        }
+
+        .country-stat-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .country-stat-name {
+            color: var(--text-secondary);
+        }
+
+        .country-stat-val {
+            font-weight: 600;
         }
 
         /* Right Panel: Intel Stream */
@@ -516,6 +536,9 @@
             <div class="panel-header">Geospatial Threat Visualization</div>
             <div class="map-container">
                 <svg id="map-svg" viewBox="0 0 800 500"></svg>
+                <div id="map-overlay-stats" class="map-overlay">
+                    <!-- Populated by JS -->
+                </div>
             </div>
         </div>
 
@@ -560,6 +583,28 @@
                     const res = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
                     geoDataCache = await res.json();
                 }
+
+                let overlayHtml = '<div style="margin-bottom:8px; border-bottom:1px solid #334155; padding-bottom:4px; font-weight:600; color:#f8fafc">REGIONAL THREAT LEVELS</div>';
+
+                // Sort countries by score descending
+                const sortedCountries = Object.entries(data.countries)
+                    .map(([name, d]) => ({ name, score: d.index }))
+                    .sort((a, b) => b.score - a.score);
+
+                sortedCountries.forEach(c => {
+                    let color = 'var(--status-stable)';
+                    if (c.score >= 7) color = 'var(--status-critical)';
+                    else if (c.score >= 4) color = 'var(--status-elevated)';
+
+                    overlayHtml += `
+                        <div class="country-stat-row">
+                            <span class="country-stat-name">${c.name.toUpperCase()}</span>
+                            <span class="country-stat-val" style="color: ${color}">${c.score.toFixed(2)}</span>
+                        </div>
+                    `;
+                });
+
+                document.getElementById('map-overlay-stats').innerHTML = overlayHtml;
 
                 geoDataCache.features.forEach(f => {
                     const name = f.properties.ADMIN || f.properties.name;
