@@ -174,6 +174,25 @@ class BNTIAnalyzer:
                 
         return entries
 
+    # Keywords that indicate non-threatening news (false positive filter)
+    FALSE_POSITIVE_KEYWORDS = [
+        'taxi', 'car accident', 'traffic', 'collision', 'crash', 'vehicle',
+        'football', 'soccer', 'basketball', 'tennis', 'sports', 'match', 'game', 'score',
+        'weather', 'forecast', 'temperature', 'rain', 'sunny',
+        'recipe', 'cooking', 'restaurant', 'food',
+        'celebrity', 'entertainment', 'movie', 'music', 'concert',
+        'tourism', 'travel', 'hotel', 'vacation',
+        'stock market', 'shares', 'trading', 'dividend'
+    ]
+
+    def is_false_positive(self, title):
+        """Check if a headline is likely a false positive (non-threatening news)."""
+        title_lower = title.lower()
+        for keyword in self.FALSE_POSITIVE_KEYWORDS:
+            if keyword in title_lower:
+                return True
+        return False
+
     def analyze_news(self, titles):
         if not titles: return 0.0, []
         try:
@@ -189,8 +208,23 @@ class BNTIAnalyzer:
         for res in results:
             top_label = res['labels'][0]
             top_score = res['scores'][0]
+            title_text = res['sequence']
             
-            weight = 0 if top_score < 0.4 else self.category_weights.get(top_label, 0)
+            # FALSE POSITIVE FILTER: Skip obvious non-threatening news
+            if self.is_false_positive(title_text):
+                weight = 0
+            # HIGH-THREAT CATEGORIES need higher confidence (0.55+ instead of 0.4)
+            elif top_label in ['military conflict', 'terrorist act'] and top_score < 0.55:
+                weight = 0
+            # MEDIUM-THREAT CATEGORIES use standard threshold (0.45)
+            elif top_label in ['violent protest', 'political crisis'] and top_score < 0.45:
+                weight = 0
+            # LOW-THREAT and NEUTRAL use original threshold
+            elif top_score < 0.4:
+                weight = 0
+            else:
+                weight = self.category_weights.get(top_label, 0)
+            
             contribution = weight * top_score
             threat_score += contribution
             
