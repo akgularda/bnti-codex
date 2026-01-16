@@ -467,10 +467,16 @@ class BNTIAnalyzer:
                     dashboard_data["forecast"] = forecast
 
         js_path = os.path.join(self.output_path, "bnti_data.js")
+        json_path = os.path.join(self.output_path, "bnti_data.json")
         try:
             with open(js_path, "w", encoding="utf-8") as f:
                 json_str = json.dumps(dashboard_data, indent=2, ensure_ascii=False)
                 f.write(f"window.BNTI_DATA = {json_str};")
+            
+            # Save pure JSON for AJAX fetching
+            with open(json_path, "w", encoding="utf-8") as f:
+                json.dump(dashboard_data, f, indent=2, ensure_ascii=False)
+                
         except Exception as e:
             logger.error(f"Error saving snapshot: {e}")
 

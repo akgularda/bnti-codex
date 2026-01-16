@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="3600"> <!-- Hard refresh every hour -->
     <title>Border Neighbors Threat Index v1.0 | Monarch Castle Technologies</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
@@ -536,7 +535,9 @@
     <script>
         // Init Check
         if (typeof window.BNTI_DATA === 'undefined') console.error("Data Load Failed");
-        const data = window.BNTI_DATA;
+        let data = window.BNTI_DATA;
+        let trendChart = null;
+        let geoDataCache = null;
 
         // --- 1. Map Logic ---
         const TARGET_COUNTRIES = ["Turkey", "Greece", "Bulgaria", "Georgia", "Armenia", "Iran", "Iraq", "Syria"];
@@ -552,11 +553,15 @@
 
         async function initMap() {
             const svg = document.getElementById('map-svg');
-            try {
-                const res = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
-                const geo = await res.json();
+            svg.innerHTML = ''; // Clear for re-render
 
-                geo.features.forEach(f => {
+            try {
+                if (!geoDataCache) {
+                    const res = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
+                    geoDataCache = await res.json();
+                }
+
+                geoDataCache.features.forEach(f => {
                     const name = f.properties.ADMIN || f.properties.name;
                     if (!TARGET_COUNTRIES.includes(name)) return;
 
@@ -589,20 +594,24 @@
                         f.geometry.coordinates.forEach(poly => renderPolygon(poly[0]));
                     }
                 });
-                console.log('Map loaded successfully');
+                console.log('Map rendered successfully');
             } catch (e) {
                 console.error('Map load failed:', e);
-                document.getElementById('map-svg').innerHTML = '<text x="400" y="250" fill="#64748b" text-anchor="middle">Map data unavailable</text>';
+                svg.innerHTML = '<text x="400" y="250" fill="#64748b" text-anchor="middle">Map data unavailable</text>';
             }
         }
 
         // --- 2. Chart Logic ---
         function initChart() {
             const ctx = document.getElementById('trendChart');
+            if (trendChart) {
+                trendChart.destroy();
+            }
+
             const hist = data.history || [];
             const forecast = data.forecast || [];
 
-            new Chart(ctx, {
+            trendChart = new Chart(ctx, {
                 type: 'line',
                 data: {
                     labels: [...hist.map(h => ''), ...forecast.map(f => '')],
@@ -623,6 +632,7 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    animation: false, // Disable animation for updates to prevent distraction
                     plugins: { legend: { display: false } },
                     scales: {
                         x: { display: false },
@@ -641,10 +651,10 @@
             el.className = `metric-value ${data.meta.status.toLowerCase()}`;
 
             document.getElementById('status-text').innerText = data.meta.status;
-            document.getElementById('last-update').innerText = new Date(data.meta.generated_at).toLocaleTimeString();
 
             // Weights
             const tbody = document.getElementById('weights-table');
+            tbody.innerHTML = ''; // Clear for re-render
             const weights = data.methodology?.weights || {};
             // Sort by impact
             Object.entries(weights)
@@ -662,13 +672,19 @@
 
         function updateFeed() {
             const container = document.getElementById('stream-feed');
+            container.innerHTML = ''; // Clear for re-render
             let events = [];
+
             // Flatten events
-            Object.entries(data.countries).forEach(([cName, cData]) => {
-                cData.events.forEach(e => {
-                    events.push({ ...e, country: cName });
+            if (data.countries) {
+                Object.entries(data.countries).forEach(([cName, cData]) => {
+                    if (cData.events) {
+                        cData.events.forEach(e => {
+                            events.push({ ...e, country: cName });
+                        });
+                    }
                 });
-            });
+            }
 
             // Sort by confidence * weight
             events.sort((a, b) => (b.weight * (b.confidence || 0.5)) - (a.weight * (a.confidence || 0.5)));
@@ -731,21 +747,37 @@
             });
         }
 
-        // --- 4. Auto-Refresh Logic ---
-        function startAutoRefresh() {
-            // Check for new data every minute
+        // --- 4. Silent Update Logic ---
+        function startDataPoller() {
+            // Check for new data every 60 seconds
+            setInterval(async () => {
+                try {
+                    // Fetch JSON with cache busting
+                    const res = await fetch('bnti_data.json?t=' + Date.now());
+                    if (!res.ok) return;
+
+                    const newData = await res.json();
+
+                    // If generated_at has changed, it means we have a fresh report
+                    if (newData.meta.generated_at !== data.meta.generated_at) {
+                        console.log("Fresh intelligence received. Updating dashboard...");
+                        data = newData; // Update global state
+
+                        // Re-render components
+                        updateMetrics();
+                        updateFeed();
+                        initChart();
+                        await initMap();
+                    }
+                } catch (e) {
+                    console.log("Polling check failed (benign):", e);
+                }
+            }, 60000);
+
+            // Update Countdown Timer (1s)
             setInterval(() => {
                 const now = new Date();
                 const genTime = new Date(data.meta.generated_at);
-                const diffMinutes = (now - genTime) / 1000 / 60;
-
-                // If data is older than 65 minutes, force reload to get new data
-                if (diffMinutes > 65) {
-                    console.log("Data stale, reloading...");
-                    window.location.reload();
-                }
-
-                // Update "Next Update" timer in status
                 // Next update is 1 hour after generation
                 const nextUpdate = new Date(genTime.getTime() + 60 * 60 * 1000);
                 const timeToNext = nextUpdate - now;
@@ -765,8 +797,8 @@
             updateMetrics();
             updateFeed();
             initChart();
-            startAutoRefresh();
             await initMap();
+            startDataPoller();
         })();
 
     </script>
