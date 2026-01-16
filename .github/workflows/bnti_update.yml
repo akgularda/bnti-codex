@@ -12,6 +12,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: bnti-intelligence-update
+  cancel-in-progress: false
+
 jobs:
   update-intelligence:
     runs-on: ubuntu-latest
@@ -34,6 +38,15 @@ jobs:
         path: ~/.cache/huggingface
         key: huggingface-xlm-roberta-large-xnli-v2
 
+    - name: Cache Feed Data
+      uses: actions/cache@v4
+      id: cache-feed
+      with:
+        path: ~/.cache/bnti
+        key: bnti-feed-cache-${{ runner.os }}-${{ github.ref }}
+        restore-keys: |
+          bnti-feed-cache-${{ runner.os }}-
+
     - name: Install Dependencies
       run: |
         pip install --upgrade pip
@@ -43,7 +56,7 @@ jobs:
     - name: Run BNTI Analyzer
       run: |
         # Run analyzer but NEVER fail the workflow
-        python borderneighboursthreatindex.py || echo "⚠️ Analyzer encountered issues but continuing..."
+        python borderneighboursthreatindex.py || echo "Analyzer encountered issues but continuing..."
         exit 0
       env:
         TOKENIZERS_PARALLELISM: false
@@ -59,7 +72,7 @@ jobs:
         
         # Commit with timestamp (ignore if nothing to commit)
         TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
-        git diff --cached --quiet || git commit -m "🛡️ INTEL UPDATE: ${TIMESTAMP}" || true
+        git diff --cached --quiet || git commit -m "INTEL UPDATE: ${TIMESTAMP}" || true
         
         # Push changes with retry logic for concurrent runs
         for i in 1 2 3 4 5; do

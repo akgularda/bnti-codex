@@ -10,12 +10,19 @@ import logging
 import math
 import json
 import socket
+import re
 import numpy as np
+import threading
+from urllib.parse import quote_plus, urlparse
 from googletrans import Translator
+from urllib3.exceptions import InsecureRequestWarning
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+logging.getLogger("urllib3").setLevel(logging.ERROR)
+import warnings
+warnings.simplefilter("ignore", InsecureRequestWarning)
 
 # Set socket timeout to prevent hanging on bad feeds
 socket.setdefaulttimeout(10)
@@ -24,6 +31,7 @@ class BNTIAnalyzer:
     def __init__(self):
         self.output_path = os.getcwd()
         self.history_file = os.path.join(self.output_path, "bnti_history.csv")
+        self._init_cache()
         
         # TRANSLATOR (For Report Summaries Only)
         self.translator = Translator()
@@ -45,134 +53,416 @@ class BNTIAnalyzer:
         
         self.candidate_labels = list(self.category_weights.keys())
 
-        # RSS Feeds Configuration (Expanded with 15+ backup feeds for resilience)
+        # RSS Feeds Configuration (Hardened with mirrors - Jan 2026)
         self.rss_urls = {
             "Armenia": [
-                "https://a1plus.am/en/rss",
                 "https://hetq.am/en/rss",
                 "https://armenianweekly.com/feed",
-                "https://massispost.com/feed",
-                "https://asbarez.com/feed",
-                "https://www.azatutyun.am/api/z-pqp_eqypt"  # RFE/RL Armenia
+                "https://en.armradio.am/feed/",
+                "https://www.panarmenian.net/eng/rss/news/",
+                "https://www.civilnet.am/en/rss/"
             ],
             "Georgia": [
-                "https://civil.ge/feed", 
+                "https://civil.ge/feed",
                 "https://georgiatoday.ge/feed",
                 "https://jam-news.net/feed",
-                "https://oc-media.org/feed",  # Open Caucasus Media
-                "https://www.rferl.org/api/zktpyei_tgt"  # RFE/RL Georgia
+                "https://oc-media.org/feed",
+                "https://www.interpressnews.ge/en/rss",
+                "https://agenda.ge/en/news.rss"
             ],
             "Greece": [
-                "https://www.in.gr/feed/?rid=2&pid=250&la=1&si=1", 
-                "https://feeds.feedburner.com/newsbombgr",
+                "https://www.in.gr/feed/?rid=2&pid=250&la=1&si=1",
                 "https://www.naftemporiki.gr/feed",
                 "https://www.protothema.gr/rss",
-                "https://gtp.gr/rss.asp",  # GTP Headlines
-                "https://www.keeptalkinggreece.com/feed"
+                "https://gtp.gr/rss.asp",
+                "https://greece.greekreporter.com/feed/",
+                "https://www.thenationalherald.com/feed/"
             ],
             "Iran": [
-                "https://www.tehrantimes.com/rss",
-                "https://www.tehrantimes.com/rss/pl/617",  # Breaking news
-                "https://en.irna.ir/rss.aspx",  # IRNA English
-                "https://www.tasnimnews.com/en/rss",
-                "https://financialtribune.com/rss",
-                "https://www.radiofarda.com/api/z-riqtvqmt"  # RFE/RL Iran
+                "https://en.irna.ir/rss.aspx",
+                "https://www.presstv.ir/RSS",
+                "https://www.middleeasteye.net/rss",
+                "https://www.aljazeera.com/xml/rss/all.xml",
+                "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
             ],
             "Iraq": [
-                "https://www.iraqinews.com/feed",
-                "https://shafaq.com/en/rss",
                 "https://iraq-businessnews.com/feed",
-                "https://www.basnews.com/en/rss",
-                "https://www.newarab.com/rss",  # The New Arab
-                "https://www.rudaw.net/english/rss"
+                "https://www.newarab.com/rss",
+                "https://www.rudaw.net/english/rss",
+                "https://www.kurdistan24.net/en/rss",
+                "https://www.middleeasteye.net/rss",
+                "https://www.aljazeera.com/xml/rss/all.xml",
+                "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
             ],
             "Syria": [
                 "https://www.sana.sy/en/?feed=rss2",
                 "https://english.enabbaladi.net/feed",
                 "https://syrianobserver.com/feed",
-                "https://npasyria.com/en/feed",  # North Press Agency
+                "https://npasyria.com/en/feed",
                 "https://www.newarab.com/rss",
-                "https://www.middleeasteye.net/rss"
+                "https://www.middleeasteye.net/rss",
+                "https://www.aljazeera.com/xml/rss/all.xml"
             ],
             "Bulgaria": [
-                "https://www.novinite.com/rss",
                 "https://sofiaglobe.com/feed",
-                "https://www.bta.bg/en/rss",
-                "https://bnr.bg/en/rss",  # Radio Bulgaria
-                "https://www.dnevnik.bg/rss"
+                "https://balkaninsight.com/feed/?post_type=news&country=bulgaria"
             ],
             "Turkey": [
                 "https://www.hurriyetdailynews.com/rss",
                 "https://www.dailysabah.com/rss",
-                "https://www.duvarenglish.com/rss",
-                "https://www.aa.com.tr/en/rss/default?cat=turkey",  # Anadolu Agency
-                "https://ahvalnews.com/rss.xml"
+                "https://www.aa.com.tr/en/rss/default?cat=turkey",
+                "https://balkaninsight.com/feed/?post_type=news&country=turkey"
             ]
         }
+
+        self.mirror_queries = {
+            "Armenia": [
+                "Armenia",
+                "Armenia border conflict",
+                "Armenia security",
+                "Armenia military"
+            ],
+            "Georgia": [
+                "Georgia country",
+                "Georgia border",
+                "Georgia security",
+                "Georgia military"
+            ],
+            "Greece": [
+                "Greece",
+                "Greece border",
+                "Greece security",
+                "Greece military"
+            ],
+            "Iran": [
+                "Iran",
+                "Iran protest",
+                "Iran security",
+                "Iran military"
+            ],
+            "Iraq": [
+                "Iraq",
+                "Iraq security",
+                "Iraq conflict",
+                "Iraq military"
+            ],
+            "Syria": [
+                "Syria",
+                "Syria conflict",
+                "Syria security",
+                "Syria military"
+            ],
+            "Bulgaria": [
+                "Bulgaria",
+                "Bulgaria security",
+                "Bulgaria military"
+            ],
+            "Turkey": [
+                "Turkey OR Turkiye",
+                "Turkey border",
+                "Turkey security",
+                "Turkey military"
+            ]
+        }
+        self._add_mirror_sources()
+
+        self.user_agents = [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        ]
         
         self.now = datetime.now()
         self.start_of_yesterday = datetime(self.now.year, self.now.month, self.now.day) - timedelta(days=1)
 
-    def fetch_feed_entries(self, country, url):
+    # Persistent feed cache for war-time resilience
+    def _init_cache(self):
+        cache_root = os.path.join(os.path.expanduser("~"), ".cache", "bnti")
+        self.cache_dir = cache_root
+        self.feed_cache_file = os.path.join(self.cache_dir, "feed_cache.json")
+        self.cache_fresh_ttl_seconds = 60 * 30
+        self.cache_stale_ttl_seconds = 60 * 60 * 48
+        self.cache_lock = threading.Lock()
+        self.feed_cache = {}
+        try:
+            os.makedirs(self.cache_dir, exist_ok=True)
+            self.feed_cache = self._load_feed_cache()
+        except Exception as e:
+            logger.warning(f"Feed cache disabled: {e}")
+            self.feed_cache_file = None
+
+    def _load_feed_cache(self):
+        if not self.feed_cache_file or not os.path.exists(self.feed_cache_file):
+            return {}
+        try:
+            with open(self.feed_cache_file, "r", encoding="utf-8") as handle:
+                data = json.load(handle)
+            if isinstance(data, dict):
+                return data
+        except Exception as e:
+            logger.warning(f"Failed to load feed cache: {e}")
+        return {}
+
+    def _save_feed_cache_locked(self):
+        if not self.feed_cache_file:
+            return
+        tmp_path = f"{self.feed_cache_file}.tmp"
+        with open(tmp_path, "w", encoding="utf-8") as handle:
+            json.dump(self.feed_cache, handle, ensure_ascii=True, separators=(",", ":"))
+        os.replace(tmp_path, self.feed_cache_file)
+
+    def _cache_entry_age_seconds(self, entry):
+        fetched_at = entry.get("fetched_at")
+        if not fetched_at:
+            return None
+        try:
+            cached_time = date_parser.parse(fetched_at).replace(tzinfo=None)
+        except Exception:
+            return None
+        return (datetime.utcnow() - cached_time).total_seconds()
+
+    def _get_cached_entries(self, url, max_age_seconds):
+        if not self.feed_cache_file:
+            return None, None
+        with self.cache_lock:
+            entry = self.feed_cache.get(url)
+        if not isinstance(entry, dict):
+            return None, None
+        age = self._cache_entry_age_seconds(entry)
+        if age is None or age > max_age_seconds:
+            return None, None
+        entries = entry.get("entries")
+        if not isinstance(entries, list):
+            return None, None
+        return entries, age
+
+    def _serialize_entries(self, entries):
+        if not entries:
+            return []
+        serialized = []
+        for entry in entries:
+            title = entry.get("title") if hasattr(entry, "get") else getattr(entry, "title", None)
+            link = entry.get("link") if hasattr(entry, "get") else getattr(entry, "link", None)
+            if not title or not link:
+                continue
+            item = {"title": str(title), "link": str(link)}
+            published = entry.get("published") if hasattr(entry, "get") else getattr(entry, "published", None)
+            if published:
+                item["published"] = str(published)
+            serialized.append(item)
+        return serialized
+
+    def _write_cache_entries(self, url, entries):
+        if not self.feed_cache_file:
+            return
+        serialized = self._serialize_entries(entries)
+        if not serialized:
+            return
+        payload = {
+            "fetched_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S"),
+            "entries": serialized
+        }
+        with self.cache_lock:
+            self.feed_cache[url] = payload
+            self._save_feed_cache_locked()
+
+    def _google_news_url(self, query):
+        encoded = quote_plus(query)
+        return f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
+
+    def _gdelt_url(self, query):
+        encoded = quote_plus(query)
+        return f"https://api.gdeltproject.org/api/v2/doc/doc?query={encoded}&mode=artlist&maxrecords=50&format=rss"
+
+    def _add_mirror_sources(self):
+        for country, queries in self.mirror_queries.items():
+            if isinstance(queries, str):
+                queries = [queries]
+            mirrors = []
+            for query in queries:
+                mirrors.append(self._google_news_url(query))
+                mirrors.append(self._gdelt_url(query))
+            base = self.rss_urls.get(country, [])
+            merged = list(dict.fromkeys(base + mirrors))
+            self.rss_urls[country] = merged
+
+    def _extract_entries(self, entries):
+        if not entries:
+            return []
+
+        now = datetime.now()
+        recent_entries = []
+        for entry in entries:
+            link = entry.get('link') if hasattr(entry, 'get') else getattr(entry, 'link', None)
+            title = entry.get('title') if hasattr(entry, 'get') else getattr(entry, 'title', None)
+            if not link or not title:
+                continue
+
+            published_date_str = entry.get('published') if hasattr(entry, 'get') else getattr(entry, 'published', None)
+            if published_date_str:
+                try:
+                    published_date = date_parser.parse(published_date_str).replace(tzinfo=None)
+                    if published_date >= (now - timedelta(days=2)):
+                        recent_entries.append(entry)
+                except Exception:
+                    continue
+            else:
+                recent_entries.append(entry)
+
+        if recent_entries:
+            return recent_entries
+
+        fallback = []
+        for entry in entries:
+            link = entry.get('link') if hasattr(entry, 'get') else getattr(entry, 'link', None)
+            title = entry.get('title') if hasattr(entry, 'get') else getattr(entry, 'title', None)
+            if link and title:
+                fallback.append(entry)
+        return fallback[:5]
+
+    def _build_proxy_url(self, url):
+        parsed = urlparse(url)
+        if not parsed.scheme or not parsed.netloc:
+            return None
+        path = parsed.path or "/"
+        if parsed.query:
+            path = f"{path}?{parsed.query}"
+        return f"https://r.jina.ai/{parsed.scheme}://{parsed.netloc}{path}"
+
+    def _parse_proxy_markdown(self, content):
         entries = []
+        for line in content.splitlines():
+            if "CDATA[" not in line:
+                continue
+            title_match = re.search(r"<!\\[CDATA\\[(.*?)\\]\\]>", line)
+            if not title_match:
+                continue
+            url_match = re.search(r"https?://[^\\s]+", line)
+            if not url_match:
+                continue
+            date_match = re.search(
+                r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\\s+\\d{1,2}\\s+\\w+\\s+\\d{4}\\s+\\d{2}:\\d{2}:\\d{2}\\s+\\w+",
+                line
+            )
+            entry = feedparser.FeedParserDict()
+            entry["title"] = title_match.group(1).strip()
+            entry["link"] = url_match.group(0)
+            if date_match:
+                entry["published"] = date_match.group(0)
+            entries.append(entry)
+
+        if not entries:
+            return []
+
+        deduped = []
+        seen = set()
+        for entry in entries:
+            link = entry.get("link")
+            if link in seen:
+                continue
+            seen.add(link)
+            deduped.append(entry)
+        return deduped[:12]
+
+    def _fetch_proxy_entries(self, url, session, headers):
+        proxy_url = self._build_proxy_url(url)
+        if not proxy_url:
+            return []
+        try:
+            response = session.get(proxy_url, headers=headers, timeout=20)
+            response.raise_for_status()
+            entries = self._parse_proxy_markdown(response.text)
+            return self._extract_entries(entries)
+        except Exception as e:
+            logger.warning(f"Proxy fetch failed for {url}: {e}")
+            return []
+
+    def fetch_feed_entries(self, country, url):
         import requests
         from requests.adapters import HTTPAdapter
         from urllib3.util.retry import Retry
-        
-        # Robust session with retries
+
         session = requests.Session()
-        retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+        retries = Retry(
+            total=6,
+            connect=5,
+            read=5,
+            backoff_factor=1.5,
+            status_forcelist=[408, 429, 500, 502, 503, 504, 522, 524],
+            allowed_methods=frozenset(["HEAD", "GET", "OPTIONS"]),
+            respect_retry_after_header=True
+        )
         session.mount('https://', HTTPAdapter(max_retries=retries))
         session.mount('http://', HTTPAdapter(max_retries=retries))
-        
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (compatible; BNTI-Bot/1.0; +http://monarchcastle.tech)',
-            'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+
+        base_headers = {
+            'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+            'Accept-Language': 'en-US,en;q=0.8',
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            'Referer': 'https://www.google.com/'
         }
 
-        try:
-            # Fetch raw content first with requests to control headers/timeout
-            response = session.get(url, headers=headers, timeout=15)
-            response.raise_for_status()
-            
-            # Parse the content
-            feed = feedparser.parse(response.content)
-            
-            if not hasattr(feed, 'entries'): return []
-                
-            for entry in feed.entries:
-                if not hasattr(entry, 'link') or not entry.link: continue
-                if not hasattr(entry, 'title') or not entry.title: continue
+        cached_entries, _ = self._get_cached_entries(url, self.cache_fresh_ttl_seconds)
+        if cached_entries:
+            cached = self._extract_entries(cached_entries)
+            if cached:
+                return cached
 
-                published_date_str = entry.get('published', None)
-                if published_date_str:
-                    try:
-                        published_date = date_parser.parse(published_date_str).replace(tzinfo=None)
-                        # Relaxed date check for robustness (last 48 hours)
-                        if published_date >= (self.now - timedelta(days=2)):
-                            entries.append(entry)
-                    except ValueError:
-                        continue
-                else:
-                    # If no date, assume it's recent enough given we just fetched it
-                    entries.append(entry)
-            
-            # Fallback
-            if not entries and feed.entries:
-                valid_entries = [e for e in feed.entries if hasattr(e, 'link') and hasattr(e, 'title')]
-                entries = valid_entries[:5]
-                
-        except Exception as e:
-            logger.error(f"Error fetching {url}: {e}")
-            # Last ditch attempt with simple feedparser if requests failed (rare but possible with some weird redirects)
+        last_error = None
+        for user_agent in self.user_agents:
+            headers = dict(base_headers)
+            headers['User-Agent'] = user_agent
             try:
-                feed = feedparser.parse(url)
-                if hasattr(feed, 'entries') and feed.entries:
-                    return feed.entries[:5]
-            except:
-                pass
-                
-        return entries
+                response = session.get(url, headers=headers, timeout=15)
+                response.raise_for_status()
+                feed = feedparser.parse(response.content)
+                entries = self._extract_entries(feed.entries if hasattr(feed, 'entries') else [])
+                if entries:
+                    self._write_cache_entries(url, entries)
+                    return entries
+            except requests.exceptions.SSLError as e:
+                last_error = e
+                try:
+                    response = session.get(url, headers=headers, timeout=15, verify=False)
+                    response.raise_for_status()
+                    feed = feedparser.parse(response.content)
+                    entries = self._extract_entries(feed.entries if hasattr(feed, 'entries') else [])
+                    if entries:
+                        logger.warning(f"SSL verification skipped for {url}")
+                        self._write_cache_entries(url, entries)
+                        return entries
+                except Exception as e2:
+                    last_error = e2
+            except Exception as e:
+                last_error = e
+
+        try:
+            feed = feedparser.parse(url)
+            entries = self._extract_entries(feed.entries if hasattr(feed, 'entries') else [])
+            if entries:
+                self._write_cache_entries(url, entries)
+                return entries
+        except Exception as e:
+            last_error = e
+
+        entries = self._fetch_proxy_entries(url, session, base_headers)
+        if entries:
+            self._write_cache_entries(url, entries)
+            return entries
+
+        cached_entries, cache_age = self._get_cached_entries(url, self.cache_stale_ttl_seconds)
+        if cached_entries:
+            cached = self._extract_entries(cached_entries)
+            if cached:
+                if cache_age is not None:
+                    age_minutes = int(cache_age // 60)
+                    logger.warning(f"Using cached feed for {url} ({age_minutes}m old)")
+                return cached
+
+        if last_error:
+            logger.error(f"Error fetching {url}: {last_error}")
+        return []
 
     # Keywords that indicate non-threatening news (false positive filter)
     FALSE_POSITIVE_KEYWORDS = [
@@ -281,6 +571,65 @@ class BNTIAnalyzer:
         if raw_score <= 0: return 1.0
         return min(math.log10(1 + raw_score) * 3.5, 10.0)
 
+    def _parse_timestamp(self, value):
+        if not value:
+            return None
+        try:
+            return date_parser.parse(str(value)).replace(tzinfo=None)
+        except Exception:
+            return None
+
+    def _extract_index(self, record):
+        for key in ("main_index", "index"):
+            value = record.get(key)
+            if value is None:
+                continue
+            try:
+                num = float(value)
+            except (TypeError, ValueError):
+                continue
+            if math.isnan(num):
+                continue
+            return num
+        return None
+
+    def _trim_history(self, history, hours=48, max_points=48):
+        if not history:
+            return []
+        now = datetime.now()
+        recent = []
+        for entry in history:
+            ts = self._parse_timestamp(entry.get("timestamp"))
+            if not ts:
+                continue
+            if now - ts <= timedelta(hours=hours):
+                recent.append(entry)
+        if not recent:
+            recent = history[-max_points:]
+        return recent[-max_points:]
+
+    def _build_history_payload(self, history, include_live=False, live_index=None):
+        payload = []
+        for entry in history:
+            idx = self._extract_index(entry)
+            ts = entry.get("timestamp")
+            if idx is None or not ts:
+                continue
+            payload.append({
+                "timestamp": ts,
+                "main_index": round(idx, 2),
+                "index": round(idx, 2),
+                "type": "historical"
+            })
+        if include_live and live_index is not None:
+            payload.append({
+                "timestamp": datetime.now().isoformat(),
+                "main_index": round(live_index, 2),
+                "index": round(live_index, 2),
+                "type": "live"
+            })
+        return payload
+
     def detect_and_enrich_metadata(self, events):
         """adds AI metadata to all events for transparency"""
         for e in events:
@@ -333,7 +682,12 @@ class BNTIAnalyzer:
         if os.path.exists(self.history_file):
             try:
                 df = pd.read_csv(self.history_file)
-                return df.to_dict('records')
+                history = df.to_dict('records')
+                for entry in history:
+                    idx = self._extract_index(entry)
+                    if idx is not None:
+                        entry["main_index"] = idx
+                return history
             except Exception:
                 return []
         return []
@@ -344,11 +698,12 @@ class BNTIAnalyzer:
         new_record = {
             "timestamp": datetime.now().isoformat(),
             "main_index": round(final_index, 2),
+            "index": round(final_index, 2),
             "status": status
         }
         
         # Add per-country indices if available
-        country_order = ["Armenia", "Georgia", "Greece", "Iran", "Iraq", "Syria", "Bulgaria"]
+        country_order = ["Turkey", "Armenia", "Georgia", "Greece", "Iran", "Iraq", "Syria", "Bulgaria"]
         total_signals = 0
         
         for country in country_order:
@@ -387,59 +742,62 @@ class BNTIAnalyzer:
             
     def generate_forecast(self, history):
         """Generates a simple linear forecast for the next 6 hours."""
-        if len(history) < 2:
-            return [] # Not enough data
-            
-        # Extract last 10 points max for trend
-        recent = history[-10:]
-        y = [float(h['index']) for h in recent]
-        x = np.arange(len(y))
-        
-        # Linear fit (y = mx + b)
-        if len(x) > 1:
-            z = np.polyfit(x, y, 1)
-            p = np.poly1d(z)
-            
-            # Forecast next 3 standard steps (e.g. if steps are runs, this is next 3 runs)
-            # Assuming ~2-6 hour intervals, 3 steps is approx "next hours"
-            future_x = np.arange(len(y), len(y) + 3)
-            future_y = p(future_x)
-            
-            forecast_points = []
-            last_time = parser.parse(recent[-1]['timestamp']) if 'timestamp' in recent[-1] else datetime.now()
-            
-            for i, val in enumerate(future_y):
-                # Fake time increment for viz purpose (e.g. +4 hours per run assumption)
-                next_time = last_time + timedelta(hours=4 * (i+1))
-                forecast_points.append({
-                    "timestamp": next_time.isoformat(),
-                    "index": round(max(1.0, min(10.0, float(val))), 2), # Clamp between 1-10
-                    "type": "forecast"
-                })
-            return forecast_points
-        return []
+        points = []
+        for entry in history:
+            idx = self._extract_index(entry)
+            ts = self._parse_timestamp(entry.get("timestamp"))
+            if idx is None or not ts:
+                continue
+            points.append((ts, idx))
+
+        if len(points) < 2:
+            return []
+
+        points.sort(key=lambda x: x[0])
+        points = points[-24:]
+        y = np.array([p[1] for p in points], dtype=float)
+        x = np.arange(len(y), dtype=float)
+
+        if len(x) < 2:
+            return []
+
+        z = np.polyfit(x, y, 1)
+        p = np.poly1d(z)
+
+        y_pred = p(x)
+        ss_res = np.sum((y - y_pred) ** 2)
+        ss_tot = np.sum((y - np.mean(y)) ** 2)
+        r_squared = 1 - (ss_res / ss_tot) if ss_tot > 0 else 0.5
+
+        last_time = points[-1][0]
+        forecast_points = []
+
+        for i in range(1, 7):
+            val = p(len(y) + i - 1)
+            ts = last_time + timedelta(hours=i)
+            confidence = max(0.3, min(0.95, r_squared * (1 - i * 0.08)))
+            forecast_points.append({
+                "timestamp": ts.isoformat(),
+                "index": round(max(1.0, min(10.0, float(val))), 2),
+                "main_index": round(max(1.0, min(10.0, float(val))), 2),
+                "confidence": round(confidence, 2),
+                "type": "forecast"
+            })
+        return forecast_points
 
     def save_snapshot(self, country_results, turkey_index_so_far, status="SCANNING_NETWORKS"):
         if turkey_index_so_far == 0 and country_results:
-             current_total = sum(d['raw_score'] for d in country_results.values())
-             turkey_index_so_far = self.calculate_final_index(current_total)
+            current_total = sum(d.get('raw_score', 0) for d in country_results.values())
+            turkey_index_so_far = self.calculate_final_index(current_total)
 
-        # Get history for graph
-        history = self.load_history()
-        
-        # Add current running point to history view (even if not saved to CSV yet)
-        display_history = history.copy()
-        if status != "INITIALIZING_MODELS": 
-             display_history.append({
-                 "timestamp": datetime.now().isoformat(),
-                 "index": round(turkey_index_so_far, 2),
-                 "type": "live"
-             })
+        history = self._trim_history(self.load_history())
+        display_history = self._build_history_payload(
+            history,
+            include_live=(status != "INITIALIZING_MODELS"),
+            live_index=turkey_index_so_far
+        )
+        forecast = self.generate_forecast(history)
 
-        # Generate Forecast if we have enough history
-        forecast = []
-
-        # Calculate next update time (next hour)
         next_hour = (datetime.now().replace(minute=0, second=0, microsecond=0) + timedelta(hours=1))
 
         dashboard_data = {
@@ -458,7 +816,7 @@ class BNTIAnalyzer:
                 "name": "Modified Goldstein Scale",
                 "description": "AI-powered threat classification using XLM-RoBERTa multilingual model with category-weighted scoring",
                 "weights": self.category_weights,
-                "formula": "ThreatIndex = log10(1 + Σ(category_weight × confidence)) × 3.5",
+                "formula": "ThreatIndex = log10(1 + sum(category_weight * confidence)) * 3.5",
                 "scale": {
                     "min": 1.0,
                     "max": 10.0,
@@ -470,48 +828,13 @@ class BNTIAnalyzer:
                 }
             }
         }
-        
-        # If complete, do translation pass & SAVE history
-        if status.startswith("COMPLETE") or status == "CRITICAL" or status == "ELEVATED" or status == "STABLE":
+
+        if status.startswith("COMPLETE") or status in ("CRITICAL", "ELEVATED", "STABLE"):
             self.translate_top_threats(dashboard_data)
-            # Only save to CSV if this is a 'real' final result logic (simple check: if we have > 3 countries)
-            if len(country_results) > 3:
-                self.save_history(turkey_index_so_far, country_results, status)
-                # Re-generate forecast now that we saved it
-                real_history = self.load_history()
-                
-                # Enhanced Forecast with Confidence Scores
-                if len(real_history) >= 2:
-                    # Use main_index column
-                    y = [float(h.get('main_index', h.get('index', 5.0))) for h in real_history[-24:]]
-                    x = np.arange(len(y))
-                    
-                    # Linear regression
-                    z = np.polyfit(x, y, 1)
-                    p = np.poly1d(z)
-                    
-                    # Calculate R² for confidence baseline
-                    y_pred = p(x)
-                    ss_res = np.sum((np.array(y) - y_pred) ** 2)
-                    ss_tot = np.sum((np.array(y) - np.mean(y)) ** 2)
-                    r_squared = 1 - (ss_res / ss_tot) if ss_tot > 0 else 0.5
-                    
-                    last_ts = datetime.fromisoformat(real_history[-1]['timestamp'])
-                    forecast = []
-                    
-                    # Forecast next 6 hours (hourly)
-                    for i in range(1, 7):
-                        val = p(len(y) + i - 1)
-                        ts = last_ts + timedelta(hours=i)
-                        # Confidence decreases with distance
-                        confidence = max(0.3, min(0.95, r_squared * (1 - i * 0.08)))
-                        forecast.append({
-                            "timestamp": ts.isoformat(),
-                            "index": round(max(1.0, min(10.0, val)), 2),
-                            "confidence": round(confidence, 2),
-                            "type": "forecast"
-                        })
-                    dashboard_data["forecast"] = forecast
+            self.save_history(turkey_index_so_far, country_results, status)
+            real_history = self._trim_history(self.load_history())
+            dashboard_data["history"] = self._build_history_payload(real_history)
+            dashboard_data["forecast"] = self.generate_forecast(real_history)
 
         js_path = os.path.join(self.output_path, "bnti_data.js")
         json_path = os.path.join(self.output_path, "bnti_data.json")
@@ -519,11 +842,10 @@ class BNTIAnalyzer:
             with open(js_path, "w", encoding="utf-8") as f:
                 json_str = json.dumps(dashboard_data, indent=2, ensure_ascii=False)
                 f.write(f"window.BNTI_DATA = {json_str};")
-            
-            # Save pure JSON for AJAX fetching
+
             with open(json_path, "w", encoding="utf-8") as f:
                 json.dump(dashboard_data, f, indent=2, ensure_ascii=False)
-                
+
         except Exception as e:
             logger.error(f"Error saving snapshot: {e}")
 
@@ -537,7 +859,7 @@ class BNTIAnalyzer:
         for country, urls in self.rss_urls.items():
             if not urls: continue
             
-            self.save_snapshot(country_results, total_raw_threat, f"SCANNING: {country.upper()}")
+            self.save_snapshot(country_results, self.calculate_final_index(total_raw_threat), f"SCANNING: {country.upper()}")
             
             _, raw_score, data = self.process_country(country, urls)
             if country == "Greece": raw_score *= 0.6
@@ -560,7 +882,7 @@ class BNTIAnalyzer:
         
         logging.info("Starting Final Translation Pass...")
         self.save_snapshot(country_results, final_turkey_index, final_status)
-        logger.info(f"Analysis Complete. Turkey Index: {final_turkey_index:.2f}")
+        logger.info(f"Analysis Complete. Composite Index: {final_turkey_index:.2f}")
 
 if __name__ == "__main__":
     try:
@@ -568,7 +890,7 @@ if __name__ == "__main__":
         analyzer.run()
     except Exception as e:
         # NEVER crash - log and exit gracefully
-        logging.error(f"⚠️ Analyzer encountered a critical error: {e}")
+        logging.error(f"Analyzer encountered a critical error: {e}")
         logging.info("Exiting gracefully to prevent workflow failure.")
         # Exit 0 so GitHub Actions reports SUCCESS
         import sys
