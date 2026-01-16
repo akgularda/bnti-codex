@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-01-16T16:33:16.059249",
-    "main_index": 7.16,
+    "generated_at": "2026-01-16T17:30:35.801630",
+    "main_index": 7.19,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-01-16T17:00:00",
+    "next_update": "2026-01-16T18:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -94,20 +94,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "20.4%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Two sets of rules: One for the Church, another for the State",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/01/14/two-sets-of-rules-one-for-the-church-another-for-the-state/",
-          "date": "Wed, 14 Jan 2026 17:15:27 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.1540704369544983,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "15.4%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -210,6 +196,20 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
+          "title": "Pashinyan, Staff Members Get Millions in Performance Bonuses",
+          "translated_title": null,
+          "link": "https://hetq.am/en/article/179239",
+          "date": "Wed, 14 Jan 2026 19:50:00 +0400",
+          "category": "peaceful diplomacy",
+          "confidence": 0.29292500019073486,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
           "title": "Joint Statement on the Publication of the Armenia-U.S. Implementation Framework for the Trump Route for International Peace and Prosperity (TRIPP)",
           "translated_title": null,
           "link": "https://a1plus.am/en/article/496436",
@@ -226,9 +226,38 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 4.01,
-      "raw_score": 13.01,
+      "index": 5.11,
+      "raw_score": 27.83,
       "events": [
+        {
+          "title": "Georgian Dream files complaint with BBC over allegations WWI-era chemical was used on protesters",
+          "translated_title": "Georgian Dream files complaint with BBC over allegations WWI-era chemical was used on protesters",
+          "link": "https://oc-media.org/georgian-dream-files-complaint-with-bbc-over-allegations-wwi-era-chemical-was-used-on-protesters/",
+          "date": "Fri, 16 Jan 2026 14:38:47 +0000",
+          "category": "military conflict",
+          "confidence": 0.974388599395752,
+          "weight": 9.74388599395752,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "97.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Georgian intelligence probes appearance of Gazprom documents on government website as ‘cyberattack’",
+          "translated_title": "Georgian intelligence probes appearance of Gazprom documents on government website as ‘cyberattack’",
+          "link": "https://oc-media.org/georgian-intelligence-probes-appearance-of-gazprom-documents-on-government-website-as-cyberattack/",
+          "date": "Fri, 16 Jan 2026 15:41:24 +0000",
+          "category": "terrorist act",
+          "confidence": 0.9081431031227112,
+          "weight": 8.1732879281044,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "90.8%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Georgia",
+          "translation_engine": "Google Neural MT"
+        },
         {
           "title": "Georgian State Security Service Probes ‘Cyberattack’ After Reported Gazprom Deal Leak",
           "translated_title": "Georgian State Security Service Probes ‘Cyberattack’ After Reported Gazprom Deal Leak",
@@ -243,20 +272,6 @@ window.BNTI_DATA = {
           "is_translated": true,
           "country": "Georgia",
           "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Opinion: ‘Ivanishvili should remember that global landscape for authoritarian regimes changed dramatically’",
-          "translated_title": null,
-          "link": "https://jam-news.net/opinion-ivanishvili-should-remember-that-global-landscape-for-authoritarian-regimes-changed-dramatically/",
-          "date": "Fri, 16 Jan 2026 14:19:53 +0000",
-          "category": "political crisis",
-          "confidence": 0.5153882503509521,
-          "weight": 3.092329502105713,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "51.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
         },
         {
           "title": "Georgian Dream Says It Filed Complaint with BBC Over Camite Investigation",
@@ -371,72 +386,58 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "Clooney Foundation: Mzia Amaglobeli’s trial fell short of fair trial standards",
+          "title": "Armenians and Georgians number among killed in Iran protests, reports say",
           "translated_title": null,
-          "link": "https://jam-news.net/clooney-foundation-mzia-amaglobelis-trial-fell-short-of-fair-trial-standards/",
-          "date": "Fri, 16 Jan 2026 14:35:21 +0000",
-          "category": "political crisis",
-          "confidence": 0.22888939082622528,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Changes to Azerbaijan’s Law on Information could become a tool for repression",
-          "translated_title": null,
-          "link": "https://jam-news.net/changes-to-azerbaijans-law-on-information-could-become-a-tool-for-repression/",
-          "date": "Fri, 16 Jan 2026 13:52:43 +0000",
-          "category": "political crisis",
-          "confidence": 0.18199890851974487,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Opinion: ‘Armenia will restore rail links with Azerbaijan and Turkey – with or without Russia’",
-          "translated_title": null,
-          "link": "https://jam-news.net/opinion-armenia-will-restore-rail-links-with-azerbaijan-and-turkey-with-or-without-russia/",
-          "date": "Fri, 16 Jan 2026 13:36:17 +0000",
-          "category": "neutral news",
-          "confidence": 0.41994181275367737,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "42.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Sixteen neo-Nazi group members arrested in Georgia",
-          "translated_title": null,
-          "link": "https://jam-news.net/sixteen-neo-nazi-group-members-arrested-in-georgia/",
-          "date": "Fri, 16 Jan 2026 12:32:25 +0000",
+          "link": "https://oc-media.org/armenians-and-georgians-number-among-killed-in-iran-protests-reports-say/",
+          "date": "Fri, 16 Jan 2026 14:21:15 +0000",
           "category": "violent protest",
-          "confidence": 0.422465056180954,
+          "confidence": 0.38496899604797363,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "42.2%",
+          "ai_confidence_score": "38.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
         },
         {
-          "title": "US embassy in Georgia answers key questions on suspension of immigrant visas",
+          "title": "Solovyov’s suggestion of ‘special military operation’ in Armenia a ‘personal opinion’, Kremlin says",
           "translated_title": null,
-          "link": "https://jam-news.net/us-embassy-in-georgia-answers-key-questions-on-suspension-of-immigrant-visas/",
-          "date": "Fri, 16 Jan 2026 09:40:16 +0000",
-          "category": "terrorist act",
-          "confidence": 0.20522476732730865,
+          "link": "https://oc-media.org/solovyovs-suggestion-of-special-military-operation-in-armenia-a-personal-opinion-kremlin-says/",
+          "date": "Fri, 16 Jan 2026 14:11:51 +0000",
+          "category": "military conflict",
+          "confidence": 0.3002065122127533,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.5%",
-          "detected_lang": "en",
+          "ai_confidence_score": "30.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "‘Help must reach the people of Iran’ — Iranians demonstrate in Tbilisi and Yerevan",
+          "translated_title": null,
+          "link": "https://oc-media.org/help-must-reach-the-people-of-iran-iranians-demonstrate-in-tbilisi-and-yerevan/",
+          "date": "Fri, 16 Jan 2026 14:04:45 +0000",
+          "category": "violent protest",
+          "confidence": 0.2325083166360855,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Army chaplains reportedly pressured to join Pashinyan’s Church reform initiative",
+          "translated_title": null,
+          "link": "https://oc-media.org/army-chaplains-reportedly-pressured-to-join-pashinyans-church-reform-initiative/",
+          "date": "Fri, 16 Jan 2026 13:57:08 +0000",
+          "category": "political crisis",
+          "confidence": 0.32414886355400085,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "32.4%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         }
@@ -463,7 +464,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Προβλήματα στο X - «Κάτω» για 2η φορά σε μία εβδομάδα",
-          "translated_title": null,
+          "translated_title": "Problems on X - 'Down' for 2nd time in a week",
           "link": "https://www.newsbomb.gr/technologia/story/1708548/provlimata-sto-x-kato-gia-2i-fora-se-mia-evdomada",
           "date": "Fri, 16 Jan 2026 17:52:33 +0200",
           "category": "violent protest",
@@ -472,8 +473,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "47.5%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
+          "is_translated": true,
+          "country": "Greece",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Παναθηναϊκός AKTOR: Βίντεο, ανάλυση λαθών και προπόνηση με τους γνωστούς απόντες",
@@ -665,22 +667,23 @@ window.BNTI_DATA = {
       "events": []
     },
     "Iraq": {
-      "index": 4.98,
-      "raw_score": 25.52,
+      "index": 5.03,
+      "raw_score": 26.43,
       "events": [
         {
-          "title": "Two killed as Israel intensifies strikes beyond south Lebanon",
-          "translated_title": "Two killed as Israel intensifies strikes beyond south Lebanon",
-          "link": "https://www.newarab.com/news/two-killed-israel-intensifies-strikes-beyond-south-lebanon",
-          "date": "Fri, 16 Jan 2026 13:17:15 +0000",
+          "title": "Saudi–Egypt–Somalia military bloc 'taking shape' amid tensions",
+          "translated_title": "Saudi–Egypt–Somalia military bloc 'taking shape' amid tensions",
+          "link": "https://www.newarab.com/news/saudi-egypt-somalia-military-bloc-taking-shape-amid-tensions",
+          "date": "Fri, 16 Jan 2026 16:42:16 +0000",
           "category": "military conflict",
-          "confidence": 0.9509080052375793,
-          "weight": 9.509080052375793,
+          "confidence": 0.8948183655738831,
+          "weight": 8.94818365573883,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
+          "ai_confidence_score": "89.5%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Iraq",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Residents confront loss and uncertainty after Aleppo clashes",
@@ -697,30 +700,43 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "US moves to defuse Syria–SDF tensions ahead of gov't assault",
-          "translated_title": "US moves to defuse Syria–SDF tensions ahead of gov't assault",
-          "link": "https://www.newarab.com/news/us-moves-defuse-syria-sdf-tensions-ahead-govt-assault",
-          "date": "Fri, 16 Jan 2026 13:35:55 +0000",
+          "title": "Lebanon detains Syrian who helped fund pro-Assad fighters",
+          "translated_title": "Lebanon detains Syrian who helped fund pro-Assad fighters",
+          "link": "https://www.newarab.com/news/lebanon-detains-syrian-who-helped-fund-pro-assad-fighters",
+          "date": "Fri, 16 Jan 2026 16:22:27 +0000",
           "category": "political crisis",
-          "confidence": 0.6990652084350586,
-          "weight": 4.194391250610352,
+          "confidence": 0.5723428130149841,
+          "weight": 3.434056878089905,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "69.9%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iraq",
-          "translation_engine": "Google Neural MT"
+          "ai_confidence_score": "57.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
         },
         {
-          "title": "Trump's shift on Iran sparks relief, anger among opponents",
-          "translated_title": "Trump's shift on Iran sparks relief, anger among opponents",
-          "link": "https://www.newarab.com/news/trumps-shift-iran-sparks-relief-anger-among-opponents",
-          "date": "Fri, 16 Jan 2026 13:42:20 +0000",
+          "title": "Kurdish group claims armed actions in Iran to defend protesters",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/kurdish-group-claims-armed-actions-iran-defend-protesters",
+          "date": "Fri, 16 Jan 2026 17:14:01 +0000",
           "category": "political crisis",
-          "confidence": 0.6361995339393616,
-          "weight": 3.8171972036361694,
+          "confidence": 0.5383744835853577,
+          "weight": 3.230246901512146,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "63.6%",
+          "ai_confidence_score": "53.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Gaza economy pins hopes on implementing ceasefire phase two",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/gaza-economy-pins-hopes-implementing-ceasefire-phase-two",
+          "date": "Fri, 16 Jan 2026 16:39:46 +0000",
+          "category": "economic crisis",
+          "confidence": 0.7048536539077759,
+          "weight": 2.8194146156311035,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "70.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -735,6 +751,20 @@ window.BNTI_DATA = {
           "weight": 1.4771952331066132,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "49.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Exclusive: Hamas says US must oblige Israel to move to phase two",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/exclusive-hamas-says-us-must-oblige-israel-move-phase-two",
+          "date": "Fri, 16 Jan 2026 16:48:16 +0000",
+          "category": "political crisis",
+          "confidence": 0.26448678970336914,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -833,34 +863,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "36.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Spike in PTSD, suicide among Israeli troops after Gaza genocide",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/spike-ptsd-suicide-among-israeli-troops-after-gaza-genocide",
-          "date": "Fri, 16 Jan 2026 13:12:54 +0000",
-          "category": "military conflict",
-          "confidence": 0.5338909029960632,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "53.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Azmi Bishara: Trump wants Iran's submission not regime change",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/azmi-bishara-trump-wants-irans-submission-not-regime-change",
-          "date": "Fri, 16 Jan 2026 12:57:28 +0000",
-          "category": "neutral news",
-          "confidence": 0.3353174328804016,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -882,22 +884,23 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 5.17,
-      "raw_score": 28.96,
+      "index": 5.03,
+      "raw_score": 26.43,
       "events": [
         {
-          "title": "Two killed as Israel intensifies strikes beyond south Lebanon",
-          "translated_title": "Two killed as Israel intensifies strikes beyond south Lebanon",
-          "link": "https://www.newarab.com/news/two-killed-israel-intensifies-strikes-beyond-south-lebanon",
-          "date": "Fri, 16 Jan 2026 13:17:15 +0000",
+          "title": "Saudi–Egypt–Somalia military bloc 'taking shape' amid tensions",
+          "translated_title": "Saudi–Egypt–Somalia military bloc 'taking shape' amid tensions",
+          "link": "https://www.newarab.com/news/saudi-egypt-somalia-military-bloc-taking-shape-amid-tensions",
+          "date": "Fri, 16 Jan 2026 16:42:16 +0000",
           "category": "military conflict",
-          "confidence": 0.9509080052375793,
-          "weight": 9.509080052375793,
+          "confidence": 0.8948183655738831,
+          "weight": 8.94818365573883,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
+          "ai_confidence_score": "89.5%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Residents confront loss and uncertainty after Aleppo clashes",
@@ -914,37 +917,8 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "US moves to defuse Syria–SDF tensions ahead of gov't assault",
-          "translated_title": "US moves to defuse Syria–SDF tensions ahead of gov't assault",
-          "link": "https://www.newarab.com/news/us-moves-defuse-syria-sdf-tensions-ahead-govt-assault",
-          "date": "Fri, 16 Jan 2026 13:35:55 +0000",
-          "category": "political crisis",
-          "confidence": 0.6990652084350586,
-          "weight": 4.194391250610352,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "69.9%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Syria",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Trump's shift on Iran sparks relief, anger among opponents",
-          "translated_title": "Trump's shift on Iran sparks relief, anger among opponents",
-          "link": "https://www.newarab.com/news/trumps-shift-iran-sparks-relief-anger-among-opponents",
-          "date": "Fri, 16 Jan 2026 13:42:20 +0000",
-          "category": "political crisis",
-          "confidence": 0.6361995339393616,
-          "weight": 3.8171972036361694,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "63.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Lebanon detains Syrian who helped fund pro-Assad fighters",
-          "translated_title": null,
+          "translated_title": "Lebanon detains Syrian who helped fund pro-Assad fighters",
           "link": "https://www.newarab.com/news/lebanon-detains-syrian-who-helped-fund-pro-assad-fighters",
           "date": "Fri, 16 Jan 2026 16:22:27 +0000",
           "category": "political crisis",
@@ -952,6 +926,34 @@ window.BNTI_DATA = {
           "weight": 3.434056878089905,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "57.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Kurdish group claims armed actions in Iran to defend protesters",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/kurdish-group-claims-armed-actions-iran-defend-protesters",
+          "date": "Fri, 16 Jan 2026 17:14:01 +0000",
+          "category": "political crisis",
+          "confidence": 0.5383744835853577,
+          "weight": 3.230246901512146,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "53.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Gaza economy pins hopes on implementing ceasefire phase two",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/gaza-economy-pins-hopes-implementing-ceasefire-phase-two",
+          "date": "Fri, 16 Jan 2026 16:39:46 +0000",
+          "category": "economic crisis",
+          "confidence": 0.7048536539077759,
+          "weight": 2.8194146156311035,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "70.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -966,6 +968,20 @@ window.BNTI_DATA = {
           "weight": 1.4771952331066132,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "49.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Exclusive: Hamas says US must oblige Israel to move to phase two",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/exclusive-hamas-says-us-must-oblige-israel-move-phase-two",
+          "date": "Fri, 16 Jan 2026 16:48:16 +0000",
+          "category": "political crisis",
+          "confidence": 0.26448678970336914,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1069,20 +1085,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Spike in PTSD, suicide among Israeli troops after Gaza genocide",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/spike-ptsd-suicide-among-israeli-troops-after-gaza-genocide",
-          "date": "Fri, 16 Jan 2026 13:12:54 +0000",
-          "category": "military conflict",
-          "confidence": 0.5338909029960632,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "53.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Putin speaks to Israel, Iran leaders to help 'de-escalate': Kremlin",
           "translated_title": null,
           "link": "https://www.newarab.com/news/putin-speaks-israel-iran-leaders-help-de-escalate-kremlin",
@@ -1099,39 +1101,9 @@ window.BNTI_DATA = {
       ]
     },
     "Bulgaria": {
-      "index": 5.33,
-      "raw_score": 32.41,
+      "index": 4.73,
+      "raw_score": 21.44,
       "events": [
-        {
-          "title": "Русия задържа директор на \"Атомстройекспорт\", заподозрян, че финансирал армията на Украйна",
-          "translated_title": "Russia detains director of Atomstroyexport, suspected of financing Ukraine's army",
-          "link": "https://www.dnevnik.bg/sviat/voinata_v_ukraina/2026/01/16/4873629_rusiia_zadurja_direktor_na_atomstroieksport/?ref=rss",
-          "date": "Fri, 16 Jan 2026 16:10:00 +0200",
-          "category": "military conflict",
-          "confidence": 0.8924354314804077,
-          "weight": 8.924354314804077,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "89.2%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Bulgaria",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Крадци обраха инкасо автомобил в Ихтиман",
-          "translated_title": "Thieves robbed a salvage car in Ikhtiman",
-          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873665_kradci_obraha_inkaso_avtomobil_v_ihtiman/?ref=rss",
-          "date": "Fri, 16 Jan 2026 17:34:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.7553755044937134,
-          "weight": 6.79837954044342,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "75.5%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Bulgaria",
-          "translation_engine": "Google Neural MT"
-        },
         {
           "title": "Разрив между управляващите: БСП поиска да отложи скенерите до 2027 г., ИТН е против",
           "translated_title": "Split between the rulers: BSP asked to postpone the scanners until 2027, ITN is against",
@@ -1163,6 +1135,21 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
+          "title": "Двама млади мъже обраха инкасо автомобил в Ихтиман",
+          "translated_title": "Two young men robbed a salvage car in Ihtiman",
+          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873665_kradci_obraha_inkaso_avtomobil_v_ihtiman/?ref=rss",
+          "date": "Fri, 16 Jan 2026 17:34:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.6789751052856445,
+          "weight": 4.752825736999512,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "67.9%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
+        },
+        {
           "title": "Директорът на ЦРУ се е срещнал с новия президент на Венецуела – ясен сигнал към опозицията",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/01/16/4873653_direktorut_na_cru_se_e_sreshtnal_s_noviia_prezident_na/?ref=rss",
@@ -1186,6 +1173,48 @@ window.BNTI_DATA = {
           "weight": 1.5718052387237549,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "52.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Съдът в Смолян пусна под гаранция от 5000 лв. Божидар Бобоков",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873712_sudut_v_smolian_pusna_pod_garanciia_ot_5000_lv_bojidar/?ref=rss",
+          "date": "Fri, 16 Jan 2026 19:25:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.18350157141685486,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Кметът Васил Терзиев отново предлага анализ от Световната банка за \"Топлофикация София\"",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/gradska_sreda/2026/01/16/4873695_kmetut_vasil_terziev_otnovo_predlaga_analiz_ot/?ref=rss",
+          "date": "Fri, 16 Jan 2026 18:42:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.1622987687587738,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Тръмп заплаши с мита държавите, които не приемат да получи Гренландия",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/2026/01/16/4873694_trump_zaplashi_s_mita_durjavite_koito_ne_priemat_da/?ref=rss",
+          "date": "Fri, 16 Jan 2026 18:34:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.17476046085357666,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1284,34 +1313,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "22.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "ГЕРБ, ИТН, БСП и \"Възраждане\" ограничиха броя на секциите за гласуване в чужбина",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/politika/2026/01/16/4873624_gerb_itn_bsp_i_vuzrajdane_namaliha_sekciite_za/?ref=rss",
-          "date": "Fri, 16 Jan 2026 16:03:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.22317655384540558,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Борсите през 2025: Злато, оръжие и доларови мечки",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/01/16/4868784_borsite_prez_2025_zlato_orujie_i_dolarovi_mechki/?ref=rss",
-          "date": "Fri, 16 Jan 2026 15:46:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.35459983348846436,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1746,44 +1747,65 @@ window.BNTI_DATA = {
       "bulgaria_signals": 15
     },
     {
-      "timestamp": "2026-01-16T16:33:16.059228",
-      "index": 7.16,
+      "timestamp": "2026-01-16T16:33:26.646415",
+      "index": NaN,
+      "main_index": 7.16,
+      "georgia_idx": 4.01,
+      "georgia_signals": 15,
+      "syria_signals": 15,
+      "greece_signals": 15,
+      "syria_idx": 5.17,
+      "total_signals": 90,
+      "greece_idx": 2.44,
+      "armenia_idx": 3.02,
+      "iran_idx": 1.0,
+      "iraq_signals": 15,
+      "iraq_idx": 4.98,
+      "armenia_signals": 15,
+      "bulgaria_idx": 5.33,
+      "iran_signals": 0,
+      "status": "CRITICAL",
+      "bulgaria_signals": 15
+    },
+    {
+      "timestamp": "2026-01-16T17:30:35.801617",
+      "index": 7.19,
       "type": "live"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T17:33:26.646415",
+      "timestamp": "2026-01-16T18:30:43.683947",
       "index": 10.0,
       "confidence": 0.46,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T18:33:26.646415",
+      "timestamp": "2026-01-16T19:30:43.683947",
       "index": 10.0,
       "confidence": 0.42,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T19:33:26.646415",
+      "timestamp": "2026-01-16T20:30:43.683947",
       "index": 10.0,
       "confidence": 0.38,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T20:33:26.646415",
+      "timestamp": "2026-01-16T21:30:43.683947",
       "index": 10.0,
       "confidence": 0.34,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T21:33:26.646415",
+      "timestamp": "2026-01-16T22:30:43.683947",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T22:33:26.646415",
+      "timestamp": "2026-01-16T23:30:43.683947",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
