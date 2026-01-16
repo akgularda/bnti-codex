@@ -102,8 +102,29 @@ class BNTIAnalyzer:
 
     def fetch_feed_entries(self, country, url):
         entries = []
+        import requests
+        from requests.adapters import HTTPAdapter
+        from urllib3.util.retry import Retry
+        
+        # Robust session with retries
+        session = requests.Session()
+        retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+        session.mount('https://', HTTPAdapter(max_retries=retries))
+        session.mount('http://', HTTPAdapter(max_retries=retries))
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (compatible; BNTI-Bot/1.0; +http://monarchcastle.tech)',
+            'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+        }
+
         try:
-            feed = feedparser.parse(url)
+            # Fetch raw content first with requests to control headers/timeout
+            response = session.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
+            
+            # Parse the content
+            feed = feedparser.parse(response.content)
+            
             if not hasattr(feed, 'entries'): return []
                 
             for entry in feed.entries:
@@ -114,10 +135,14 @@ class BNTIAnalyzer:
                 if published_date_str:
                     try:
                         published_date = date_parser.parse(published_date_str).replace(tzinfo=None)
-                        if published_date >= self.start_of_yesterday:
+                        # Relaxed date check for robustness (last 48 hours)
+                        if published_date >= (self.now - timedelta(days=2)):
                             entries.append(entry)
                     except ValueError:
                         continue
+                else:
+                    # If no date, assume it's recent enough given we just fetched it
+                    entries.append(entry)
             
             # Fallback
             if not entries and feed.entries:
@@ -126,6 +151,14 @@ class BNTIAnalyzer:
                 
         except Exception as e:
             logger.error(f"Error fetching {url}: {e}")
+            # Last ditch attempt with simple feedparser if requests failed (rare but possible with some weird redirects)
+            try:
+                feed = feedparser.parse(url)
+                if hasattr(feed, 'entries') and feed.entries:
+                    return feed.entries[:5]
+            except:
+                pass
+                
         return entries
 
     def analyze_news(self, titles):

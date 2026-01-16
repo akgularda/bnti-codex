@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3600"> <!-- Hard refresh every hour -->
     <title>Border Neighbors Threat Index v1.0 | Monarch Castle Technologies</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
@@ -730,11 +731,41 @@
             });
         }
 
+        // --- 4. Auto-Refresh Logic ---
+        function startAutoRefresh() {
+            // Check for new data every minute
+            setInterval(() => {
+                const now = new Date();
+                const genTime = new Date(data.meta.generated_at);
+                const diffMinutes = (now - genTime) / 1000 / 60;
+
+                // If data is older than 65 minutes, force reload to get new data
+                if (diffMinutes > 65) {
+                    console.log("Data stale, reloading...");
+                    window.location.reload();
+                }
+
+                // Update "Next Update" timer in status
+                // Next update is 1 hour after generation
+                const nextUpdate = new Date(genTime.getTime() + 60 * 60 * 1000);
+                const timeToNext = nextUpdate - now;
+
+                if (timeToNext > 0) {
+                    const mins = Math.floor((timeToNext / 1000 / 60) % 60);
+                    const secs = Math.floor((timeToNext / 1000) % 60);
+                    document.getElementById('last-update').innerText = `NEXT: ${mins}m ${secs}s`;
+                } else {
+                    document.getElementById('last-update').innerText = "UPDATING...";
+                }
+            }, 1000);
+        }
+
         // --- Boot ---
         (async () => {
             updateMetrics();
             updateFeed();
             initChart();
+            startAutoRefresh();
             await initMap();
         })();
 
