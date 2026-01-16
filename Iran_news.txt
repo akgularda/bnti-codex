@@ -1,0 +1,37 @@
+Analyzed 8 items.
+Raw Threat Points: 28.91
+Final BNT Index: 5.17 / 10.0
+
+=== DESTABILIZING FACTORS ===
+[POLITICAL CRISIS] (Weight: 2.80)
+Title: وزارت خارجه آمریکا ادعای خامنه‌ای درباره «نظم عادلانه» را با اشاره به سرکوب معترضان به چالش کشید
+Link: https://ir.voanews.com/a/8097991.html
+
+[VIOLENT PROTEST] (Weight: 6.17)
+Title: چهارمین روز اعتراضات ضدحکومتی دی ۱۴۰۴؛ گسترش به شهرهای بیشتر و افزایش خشونت نیروهای سرکوب
+Link: https://ir.voanews.com/a/8097989.html
+
+[POLITICAL CRISIS] (Weight: 3.65)
+Title: حمایت مقامات و چهره‌های اسرائیلی از اعتراضات مردم ایران علیه جمهوری اسلامی
+Link: https://ir.voanews.com/a/israel-we-hear-the-voices-of-the-protesting-iranian-people-support-for-israeli-officials-from-new-protests-in-iran/8097724.html
+
+[POLITICAL CRISIS] (Weight: 2.74)
+Title: آمریکا - ایران در ۲۰۲۵: سال بازگشت «فشار حداکثری»
+Link: https://ir.voanews.com/a/usa-sanction-iranian-regime/8097727.html
+
+[POLITICAL CRISIS] (Weight: 2.92)
+Title: اکثریت کمیته روابط خارجی مجلس نمایندگان آمریکا: «مردم ایران شایسته چیزی بهتر از این رژیم ناتوان و فاسد هستند»
+Link: https://ir.voanews.com/a/8097692.html
+
+[POLITICAL CRISIS] (Weight: 4.84)
+Title: سومین روز اعتراضات در شهرهای مختلف ایران؛ دانشجویان شعار دادند: «مرگ بر خامنه‌ای»
+Link: https://ir.voanews.com/a/8097690.html
+
+[MILITARY CONFLICT] (Weight: 5.80)
+Title: نتانیاهو به فاکس نیوز: جمهوری اسلامی به دنبال بازسازی توان ساخت موشک‌های بالیستیک است
+Link: https://ir.voanews.com/a/8097528.html
+
+=== STABILIZING / NEUTRAL ===
+[humanitarian crisis] (0.26)
+Title: اتحادیه اروپا: جمهوری اسلامی مدافعان حقوق بشر زندانی را فورا آزاد کند
+

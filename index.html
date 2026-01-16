@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNTI Enterprise Intelligence | Monarch Castle</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            /* Enterprise Slate Palette */
+            --bg-app: #0f172a;
+            /* Slate 900 */
+            --bg-panel: #1e293b;
+            /* Slate 800 */
+            --bg-header: #020617;
+            /* Slate 950 */
+            --border-subtle: #334155;
+            /* Slate 700 */
+            --border-focus: #475569;
+            /* Slate 600 */
+
+            --text-primary: #f8fafc;
+            /* Slate 50 */
+            --text-secondary: #cbd5e1;
+            /* Slate 300 */
+            --text-muted: #64748b;
+            /* Slate 500 */
+
+            /* Status Colors (Muted/Professional) */
+            --status-critical: #ef4444;
+            --status-elevated: #f59e0b;
+            --status-stable: #10b981;
+
+            --accent-brand: #3b82f6;
+            /* Blue 500 */
+            --accent-data: #06b6d4;
+            /* Cyan 500 */
+
+            --font-sans: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg-app);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            height: 48px;
+            background: var(--bg-header);
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            justify-content: space-between;
+        }
+
+        .brand-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-box {
+            width: 24px;
+            height: 24px;
+            background: var(--accent-brand);
+            color: white;
+            font-weight: 800;
+            font-size: 14px;
+            display: grid;
+            place-items: center;
+            border-radius: 2px;
+        }
+
+        .app-title {
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .app-subtitle {
+            color: var(--text-muted);
+            font-size: 12px;
+            border-left: 1px solid var(--border-subtle);
+            padding-left: 12px;
+        }
+
+        .sys-status {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-muted);
+            display: flex;
+            gap: 16px;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--status-stable);
+        }
+
+        .status-dot.pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.4;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Main Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 320px 1fr 400px;
+            grid-template-rows: 1fr;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* Panels */
+        .panel {
+            border-right: 1px solid var(--border-subtle);
+            display: flex;
+            flex-direction: column;
+            background: var(--bg-app);
+        }
+
+        .panel:last-child {
+            border-right: none;
+        }
+
+        .panel-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            background: var(--bg-panel);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Left Panel: Metrics & Weights */
+        .metric-card {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .metric-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .metric-sub {
+            font-size: 12px;
+            margin-top: 4px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .metric-value.critical {
+            color: var(--status-critical);
+        }
+
+        .metric-value.elevated {
+            color: var(--status-elevated);
+        }
+
+        .metric-value.stable {
+            color: var(--status-stable);
+        }
+
+        .chart-mini {
+            height: 160px;
+            padding: 16px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .weights-table {
+            font-size: 12px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .weights-table td {
+            padding: 8px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .weights-table .val {
+            text-align: right;
+            font-family: var(--font-mono);
+            font-weight: 600;
+        }
+
+        /* Center Panel: Map */
+        .map-container {
+            flex: 1;
+            background: #0b1120;
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+
+        #map-svg {
+            width: 95%;
+            height: 95%;
+            max-height: 80vh;
+        }
+
+        .country-path {
+            stroke: #334155;
+            stroke-width: 0.5;
+            fill: #1e293b;
+            transition: all 0.2s;
+            cursor: crosshair;
+        }
+
+        .country-path:hover {
+            stroke: white;
+            stroke-width: 1.5;
+        }
+
+        .country-path.critical {
+            fill: rgba(239, 68, 68, 0.2);
+            stroke: #ef4444;
+        }
+
+        .country-path.elevated {
+            fill: rgba(245, 158, 11, 0.2);
+            stroke: #f59e0b;
+        }
+
+        .country-path.stable {
+            fill: rgba(16, 185, 129, 0.2);
+            stroke: #10b981;
+        }
+
+        .map-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid var(--border-subtle);
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        /* Right Panel: Intel Stream */
+        .stream-list {
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .stream-item {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: background 0.1s;
+        }
+
+        .stream-item:hover {
+            background: var(--bg-panel);
+        }
+
+        .stream-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            font-size: 10px;
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+        }
+
+        .badge {
+            padding: 2px 6px;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+
+        .badge.critical {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--status-critical);
+        }
+
+        .badge.elevated {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--status-elevated);
+        }
+
+        .stream-title {
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }
+
+        .stream-footer {
+            display: flex;
+            gap: 12px;
+            font-size: 10px;
+            color: var(--text-muted);
+            align-items: center;
+        }
+
+        .ai-confidence {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .conf-bar {
+            width: 30px;
+            height: 3px;
+            background: #334155;
+            border-radius: 1px;
+            overflow: hidden;
+        }
+
+        .conf-fill {
+            height: 100%;
+            background: var(--accent-data);
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-app);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-subtle);
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="brand-section">
+            <div class="logo-box">MC</div>
+            <span class="app-title">BNTI INTELLIGENCE</span>
+            <span class="app-subtitle">Border Threat Analysis System v2.1</span>
+        </div>
+        <div class="sys-status">
+            <div class="status-item">
+                <span>MODEL:</span> <span style="color: var(--text-primary)">XLM-ROBERTA-XNLI</span>
+            </div>
+            <div class="status-item">
+                <span>DATA:</span> <span style="color: var(--text-primary)" id="last-update">LIVE</span>
+            </div>
+            <div class="status-item">
+                <div class="status-dot pulse"></div>
+                <span>SYSTEM ONLINE</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-grid">
+        <!-- Sidebar: Analytics -->
+        <div class="panel">
+            <div class="metric-card">
+                <div class="metric-label">Composite Threat Index</div>
+                <div class="metric-value" id="main-index">--</div>
+                <div class="metric-sub">
+                    <span id="status-text">INITIALIZING</span>
+                    <span style="color: var(--text-muted)">•</span>
+                    <span id="trend-text">--</span>
+                </div>
+            </div>
+
+            <div class="panel-header">48H Trend & Forecast</div>
+            <div class="chart-mini">
+                <canvas id="trendChart"></canvas>
+            </div>
+
+            <div class="panel-header">Scoring Weights</div>
+            <table class="weights-table" id="weights-table">
+                <!-- Populated by JS -->
+            </table>
+        </div>
+
+        <!-- Center: Geospatial -->
+        <div class="panel">
+            <div class="panel-header">Geospatial Threat Visualization</div>
+            <div class="map-container">
+                <svg id="map-svg" viewBox="0 0 800 500"></svg>
+                <div class="map-overlay">
+                    <div>PROJECTION: MERCATOR (MODIFIED)</div>
+                    <div>SOURCE: GEOJSON / SATELLITE</div>
+                    <div>ACTIVE ZONES: <span id="active-zones-count">8</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Intel Feed -->
+        <div class="panel">
+            <div class="panel-header">
+                <span>Intelligence Stream</span>
+                <span>LIVE FEED</span>
+            </div>
+            <div class="stream-list" id="stream-feed">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="bnti_data.js"></script>
+    <script>
+        // Init Check
+        if (typeof window.BNTI_DATA === 'undefined') console.error("Data Load Failed");
+        const data = window.BNTI_DATA;
+
+        // --- 1. Map Logic ---
+        const TARGET_COUNTRIES = ["Turkey", "Greece", "Bulgaria", "Georgia", "Armenia", "Iran", "Iraq", "Syria"];
+        const BOUNDS = { minLon: 18, maxLon: 65, minLat: 25, maxLat: 46 };
+        // Adjusted Lat for better Turkey centering
+
+        function project(lon, lat) {
+            const w = 800, h = 500;
+            const x = ((lon - BOUNDS.minLon) / (BOUNDS.maxLon - BOUNDS.minLon)) * w;
+            const y = ((BOUNDS.maxLat - lat) / (BOUNDS.maxLat - BOUNDS.minLat)) * h;
+            return [x, y];
+        }
+
+        async function initMap() {
+            const svg = document.getElementById('map-svg');
+            const res = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
+            const geo = await res.json();
+
+            geo.features.forEach(f => {
+                const name = f.properties.ADMIN || f.properties.name;
+                if (!TARGET_COUNTRIES.includes(name)) return;
+
+                const coords = f.geometry.type === 'Polygon' ? f.geometry.coordinates[0] : f.geometry.coordinates[0][0];
+                const pathData = coords.map(c => {
+                    const p = project(c[0], c[1]);
+                    return `${p[0].toFixed(1)},${p[1].toFixed(1)}`;
+                }).join(' ');
+
+                const path = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+                path.setAttribute("points", pathData);
+
+                // Styling based on data
+                const cData = data.countries[name];
+                const score = cData ? cData.index : 0;
+                let status = "stable";
+                if (score >= 7) status = "critical";
+                else if (score >= 4) status = "elevated";
+
+                path.setAttribute("class", `country-path ${status}`);
+
+                // Add tooltip title
+                const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+                title.textContent = `${name}: ${score.toFixed(2)} (${status.toUpperCase()})`;
+                path.appendChild(title);
+
+                svg.appendChild(path);
+            });
+        }
+
+        // --- 2. Chart Logic ---
+        function initChart() {
+            const ctx = document.getElementById('trendChart');
+            const hist = data.history || [];
+            const forecast = data.forecast || [];
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [...hist.map(h => ''), ...forecast.map(f => '')],
+                    datasets: [{
+                        data: hist.map(h => h.main_index || h.index),
+                        borderColor: '#3b82f6',
+                        borderWidth: 1.5,
+                        pointRadius: 0,
+                        tension: 0.2
+                    }, {
+                        data: [...Array(hist.length - 1).fill(null), hist[hist.length - 1]?.index, ...forecast.map(f => f.index)],
+                        borderColor: '#64748b',
+                        borderDash: [4, 4],
+                        borderWidth: 1.5,
+                        pointRadius: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { display: false },
+                        y: { display: true, min: 0, max: 10, grid: { color: '#334155' } }
+                    }
+                }
+            });
+        }
+
+        // --- 3. UI Populations ---
+        function updateMetrics() {
+            // Main Index
+            const idx = data.meta.main_index;
+            const el = document.getElementById('main-index');
+            el.innerText = idx.toFixed(2);
+            el.className = `metric-value ${data.meta.status.toLowerCase()}`;
+
+            document.getElementById('status-text').innerText = data.meta.status;
+            document.getElementById('last-update').innerText = new Date(data.meta.generated_at).toLocaleTimeString();
+
+            // Weights
+            const tbody = document.getElementById('weights-table');
+            const weights = data.methodology?.weights || {};
+            // Sort by impact
+            Object.entries(weights)
+                .sort(([, a], [, b]) => b - a)
+                .slice(0, 6) // Top 6 only
+                .forEach(([k, v]) => {
+                    tbody.innerHTML += `
+                        <tr>
+                            <td style="text-transform: capitalize; color: var(--text-secondary)">${k.replace('_', ' ')}</td>
+                            <td class="val" style="color: ${v > 0 ? 'var(--status-critical)' : 'var(--status-stable)'}">${v}</td>
+                        </tr>
+                    `;
+                });
+        }
+
+        function updateFeed() {
+            const container = document.getElementById('stream-feed');
+            let events = [];
+            // Flatten events
+            Object.entries(data.countries).forEach(([cName, cData]) => {
+                cData.events.forEach(e => {
+                    events.push({ ...e, country: cName });
+                });
+            });
+
+            // Sort by confidence * weight
+            events.sort((a, b) => (b.weight * (b.confidence || 0.5)) - (a.weight * (a.confidence || 0.5)));
+
+            // Top 30 only for performance
+            events.slice(0, 30).forEach(e => {
+                const isCrit = e.weight >= 6;
+                const isElev = e.weight >= 3 && e.weight < 6;
+                const badgeClass = isCrit ? 'critical' : isElev ? 'elevated' : 'stable';
+
+                const conf = e.ai_confidence_score ? parseInt(e.ai_confidence_score) : Math.round((e.confidence || 0.5) * 100);
+                const translationInfo = e.is_translated ? `Translated from ${e.detected_lang || 'Local'}` : `Source: ${e.detected_lang || 'EN'}`;
+
+                const html = `
+                <div class="stream-item">
+                    <div class="stream-meta">
+                        <span>${new Date(e.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+                        <span>${e.country.toUpperCase()}</span>
+                        <span class="badge ${badgeClass}">${e.category.toUpperCase().replace('_', ' ')}</span>
+                    </div>
+                    <div class="stream-title">${e.translated_title || e.title}</div>
+                    <div class="stream-footer">
+                        <div class="ai-confidence" title="AI Confidence Score">
+                            <div class="conf-bar"><div class="conf-fill" style="width: ${conf}%"></div></div>
+                            <span>${conf}% AI Conf.</span>
+                        </div>
+                        <span>•</span>
+                        <span>${translationInfo}</span>
+                    </div>
+                </div>
+                `;
+                container.innerHTML += html;
+            });
+        }
+
+        // --- Boot ---
+        (async () => {
+            updateMetrics();
+            updateFeed();
+            initChart();
+            await initMap();
+        })();
+
+    </script>
+</body>
+
+</html>

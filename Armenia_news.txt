@@ -1,0 +1,23 @@
+Analyzed 5 items.
+Raw Threat Points: 4.95
+Final BNT Index: 2.71 / 10.0
+
+=== DESTABILIZING FACTORS ===
+[ECONOMIC CRISIS] (Weight: 2.27)
+Title: Citigroup is exiting Russia
+Link: https://en.1in.am/1072847.html
+
+[POLITICAL CRISIS] (Weight: 2.68)
+Title: Tehran vows heavy response to US
+Link: https://en.1in.am/1072844.html
+
+=== STABILIZING / NEUTRAL ===
+[neutral news] (0.35)
+Title: Snow is expected on the afternoon of December 31 and January 1-2
+
+[neutral news] (0.36)
+Title: Rome’s Trevi Fountain will become a paid attraction
+
+[political crisis] (0.38)
+Title: Putin congratulated Pashinyan and Khachaturyan
+

@@ -1,0 +1,27 @@
+Analyzed 6 items.
+Raw Threat Points: 8.38
+Final BNT Index: 3.40 / 10.0
+
+=== DESTABILIZING FACTORS ===
+[POLITICAL CRISIS] (Weight: 2.57)
+Title: Year of Descent and Endurance: 2025 in Georgia
+Link: https://civil.ge/archives/716137
+
+[POLITICAL CRISIS] (Weight: 2.60)
+Title: Tamar Mearakishvili Released From Detention in Tskhinvali
+Link: https://civil.ge/archives/716489
+
+[POLITICAL CRISIS] (Weight: 3.20)
+Title: Russian Citizens Advised to Weigh Risks Before Traveling to Georgia Amid Entry Denials
+Link: https://civil.ge/archives/716450
+
+=== STABILIZING / NEUTRAL ===
+[neutral news] (0.31)
+Title: Court Releases October 4 Protester on Bail Amid Health, Family-Related Concerns
+
+[neutral news] (0.37)
+Title: MIA: Over 5,000 Arrested on Drug Charges in Seven Months
+
+[neutral news] (0.34)
+Title: Georgia’s GDP Up by 7.2% in November 2025
+

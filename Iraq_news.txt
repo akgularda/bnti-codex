@@ -1,0 +1,72 @@
+Analyzed 20 items.
+Raw Threat Points: 23.25
+Final BNT Index: 4.85 / 10.0
+
+=== DESTABILIZING FACTORS ===
+[POLITICAL CRISIS] (Weight: 2.91)
+Title: مفهوم -الأرض المقدسة- توطئة لتواطؤ صهيو امبريالي - سعيد مضيه
+Link: https://www.ssrcaw.org/ar/show.art.asp?aid=899802
+
+[POLITICAL CRISIS] (Weight: 3.39)
+Title: تأثير الفساد على الانتخابات في العراق - سربست مصطفى رشيد اميدي
+Link: https://www.ssrcaw.org/ar/show.art.asp?aid=899801
+
+[POLITICAL CRISIS] (Weight: 3.19)
+Title: مع الشعب الايراني ضد المشروع الامريكي الصهيوني ! - عارف معروف
+Link: https://www.ssrcaw.org/ar/show.art.asp?aid=899797
+
+[POLITICAL CRISIS] (Weight: 3.84)
+Title: طوفان الأقصى 817 - اليمن… حين ينقلب تحالف الحرب إلى صراع نفوذ - زياد الزبيدي
+Link: https://www.ssrcaw.org/ar/show.art.asp?aid=899745
+
+[POLITICAL CRISIS] (Weight: 3.23)
+Title: مقاومة المدافعين عن النظام الدوليّ المبني على القواعد.... إفلاس المطبّعين وانتكاسة الرجعيّين - عصام بن الشيخ
+Link: https://www.ssrcaw.org/ar/show.art.asp?aid=899743
+
+[MILITARY CONFLICT] (Weight: 6.69)
+Title: حروب التأسيس بين آل سعود والطوائف والقبائل الجزيرية - علاء اللامي
+Link: https://www.ssrcaw.org/ar/show.art.asp?aid=899739
+
+=== STABILIZING / NEUTRAL ===
+[neutral news] (0.37)
+Title: في بعض التجليات الثقافية الفلسطينية لعام 2025 - محمود شقير
+
+[neutral news] (0.33)
+Title: في الدين والقيم والإنسان.. (93) / أذ. بنعيسى احسينات - المغرب - بنعيسى احسينات
+
+[political crisis] (0.39)
+Title: في الذكرى السبعين للاستقلال لابديل غير الحل الداخلي - تاج السر عثمان
+
+[political crisis] (0.25)
+Title: ترامب منح إسرائيل ونتنياهو حصانة مطلقة في ما يخص غزة. هذا ليس ما يفعله الأصدقاء الحقيقيون - جدعون ليفي
+
+[political crisis] (0.37)
+Title: ماذا بعد أن تكشف دور إسرائيل في المنطقة؟ - سنية الحسيني
+
+[political crisis] (0.31)
+Title: الشهادات المزورة نعمة الاهية - مؤيد عبد الستار
+
+[neutral news] (0.34)
+Title: كيف كانت الفلسفة قبل سقراط؟ (الجزء الثالث) - أحمد رباص
+
+[neutral news] (0.35)
+Title: الاحتفال برأس السنة الميلادية 112 - طلال الربيعي
+
+[neutral news] (0.29)
+Title: نظريّة و ممارسة التخطيط الماوي : دفاعا عن إشتراكيّة فعّالة و ملهمة – كلمة ختاميّة لريموند لوتا من كتاب - الإقتصاد الماويّ و الطريق الثوريّ إلى الشيوعيّة - ( كتاب شنغاي ) - شادي الشماوي
+
+[neutral news] (0.36)
+Title: كلمات بمناسبة العام الجديد 2026.. - غازي الصوراني
+
+[neutral news] (0.20)
+Title: من يصنع المنجّمين في زمن الذكاء الاصطناعي؟ الإعلام بين تجارة الخوف واغتيال العقل - وسام فتحي زغبر
+
+[political crisis] (0.23)
+Title: صورة العراق في الرواية الإنكليزية المعاصرة - حكمت الحاج
+
+[neutral news] (0.30)
+Title: العفن الأجتماعي ! - خليل قانصوه
+
+[violent protest] (0.29)
+Title: عام من التوحش غير المسبوق - نهاد ابو غوش
+

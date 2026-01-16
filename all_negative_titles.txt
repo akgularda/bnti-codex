@@ -1,0 +1,96 @@
+Country: Armenia | [economic crisis]
+Title: Citigroup is exiting Russia
+Points: 2.2684
+
+Country: Armenia | [political crisis]
+Title: Tehran vows heavy response to US
+Points: 2.6839
+
+Country: Georgia | [political crisis]
+Title: Year of Descent and Endurance: 2025 in Georgia
+Points: 2.5750
+
+Country: Georgia | [political crisis]
+Title: Tamar Mearakishvili Released From Detention in Tskhinvali
+Points: 2.5976
+
+Country: Georgia | [political crisis]
+Title: Russian Citizens Advised to Weigh Risks Before Traveling to Georgia Amid Entry Denials
+Points: 3.2027
+
+Country: Greece | [humanitarian crisis]
+Title: Ελβετία: Δεκάδες νεκροί και εκατό τραυματίες από την έκρηξη στο Κραν Μοντανά – Η γιορτή μετατράπηκε σε εφιάλτη
+Points: 1.2559
+
+Country: Greece | [violent protest]
+Title: Τουλάχιστον 24 νεκροί και 50 τραυματίες σε ουκρανικό πλήγμα στη Χερσώνα
+Points: 5.7210
+
+Country: Iran | [political crisis]
+Title: وزارت خارجه آمریکا ادعای خامنه‌ای درباره «نظم عادلانه» را با اشاره به سرکوب معترضان به چالش کشید
+Points: 2.7953
+
+Country: Iran | [violent protest]
+Title: چهارمین روز اعتراضات ضدحکومتی دی ۱۴۰۴؛ گسترش به شهرهای بیشتر و افزایش خشونت نیروهای سرکوب
+Points: 6.1708
+
+Country: Iran | [political crisis]
+Title: حمایت مقامات و چهره‌های اسرائیلی از اعتراضات مردم ایران علیه جمهوری اسلامی
+Points: 3.6450
+
+Country: Iran | [political crisis]
+Title: آمریکا - ایران در ۲۰۲۵: سال بازگشت «فشار حداکثری»
+Points: 2.7365
+
+Country: Iran | [political crisis]
+Title: اکثریت کمیته روابط خارجی مجلس نمایندگان آمریکا: «مردم ایران شایسته چیزی بهتر از این رژیم ناتوان و فاسد هستند»
+Points: 2.9184
+
+Country: Iran | [political crisis]
+Title: سومین روز اعتراضات در شهرهای مختلف ایران؛ دانشجویان شعار دادند: «مرگ بر خامنه‌ای»
+Points: 4.8405
+
+Country: Iran | [military conflict]
+Title: نتانیاهو به فاکس نیوز: جمهوری اسلامی به دنبال بازسازی توان ساخت موشک‌های بالیستیک است
+Points: 5.8012
+
+Country: Iraq | [political crisis]
+Title: مفهوم -الأرض المقدسة- توطئة لتواطؤ صهيو امبريالي - سعيد مضيه
+Points: 2.9091
+
+Country: Iraq | [political crisis]
+Title: تأثير الفساد على الانتخابات في العراق - سربست مصطفى رشيد اميدي
+Points: 3.3874
+
+Country: Iraq | [political crisis]
+Title: مع الشعب الايراني ضد المشروع الامريكي الصهيوني ! - عارف معروف
+Points: 3.1918
+
+Country: Iraq | [political crisis]
+Title: طوفان الأقصى 817 - اليمن… حين ينقلب تحالف الحرب إلى صراع نفوذ - زياد الزبيدي
+Points: 3.8407
+
+Country: Iraq | [political crisis]
+Title: مقاومة المدافعين عن النظام الدوليّ المبني على القواعد.... إفلاس المطبّعين وانتكاسة الرجعيّين - عصام بن الشيخ
+Points: 3.2340
+
+Country: Iraq | [military conflict]
+Title: حروب التأسيس بين آل سعود والطوائف والقبائل الجزيرية - علاء اللامي
+Points: 6.6899
+
+Country: Syria | [military conflict]
+Title: Al Jazeera Sızıntıları: Devrik Rejim Unsurlarının Silahlı Planları Ortaya Çıktı
+Points: 4.4514
+
+Country: Syria | [terrorist act]
+Title: Halep’in Bab El-Ferec’de Meydana Gelen İntihar Saldırısının Olay Yerinden Görüntüler
+Points: 7.7250
+
+Country: Bulgaria | [economic crisis]
+Title: Кои държави отказват да въведат еврото, Полша въобще мисли за него
+Points: 1.6811
+
+Country: Bulgaria | [military conflict]
+Title: Кървава новогодишна нощ: 24 убити при атака с дронове в хотел край Херсон
+Points: 4.1114
+

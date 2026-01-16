@@ -1,0 +1,68 @@
+Analyzed 20 items.
+Raw Threat Points: 4.68
+Final BNT Index: 2.64 / 10.0
+
+=== DESTABILIZING FACTORS ===
+[ECONOMIC CRISIS] (Weight: 1.68)
+Title: Кои държави отказват да въведат еврото, Полша въобще мисли за него
+Link: https://www.dnes.bg/a/2-svyat/705474-koi-darzhavi-otkazvat-da-vavedat-evroto-polsha-vaobshte-misli-za-nego
+
+[MILITARY CONFLICT] (Weight: 4.11)
+Title: Кървава новогодишна нощ: 24 убити при атака с дронове в хотел край Херсон
+Link: https://www.dnes.bg/a/581-voynata-v-ukrayna/705468-karvava-novogodishna-nosht-24-ubiti-pri-ataka-s-dronove-v-hotel-kray-herson
+
+=== STABILIZING / NEUTRAL ===
+[violent protest] (0.33)
+Title: Фоейрверки взривиха бар в Кран Монтана, близо 40 загинаха ВИДЕО
+
+[neutral news] (0.20)
+Title: За първи път мач от Серия А ще се играе в чужбина
+
+[neutral news] (0.36)
+Title: Работата на 31 декември и 1 януари се заплаща различно
+
+[neutral news] (0.29)
+Title: Почти на 80 и вече блондинка Шер ще става булка за трети път
+
+[neutral news] (0.33)
+Title: Градският транспорт в София в евро – ето новите цени за карти и билети
+
+[neutral news] (0.29)
+Title: От Москва и Киев до Рио: Новогодишна красота от цял свят СНИМКИ
+
+[neutral news] (0.31)
+Title: Среброто изпревари златото като инвестиция №1 на 2025
+
+[peaceful diplomacy] (0.56)
+Title: Григор и Ейса посрещнаха 2026 край океана с любовен танц
+
+[military conflict] (0.34)
+Title: САЩ са установили, че Киев не е атакувал резиденцията на Путин във Валдай
+
+[peaceful diplomacy] (0.36)
+Title: Пожеланията на политическите лидери към българите - под знака на еврото
+
+[violent protest] (0.25)
+Title: Инциденти в новогодишната нощ: Дете е с ранено око от пиратка, друго падна от седмия етаж
+
+[neutral news] (0.28)
+Title: Тръмп посрещна Нова година в компанията на Нетаняху (видео)
+
+[neutral news] (0.32)
+Title: Какво очаквате от 2026 година?
+
+[neutral news] (0.35)
+Title: Васильовден - благословение и Сурва в един от най-значимите празници за нашата идентичност
+
+[neutral news] (0.24)
+Title: Президентът: От нас зависи да спрем да обикаляме в кръг. Готови сме, можем и ще успеем
+
+[neutral news] (0.39)
+Title: Честита Нова година!
+
+[neutral news] (0.29)
+Title: 50 снимки за историята
+
+[humanitarian crisis] (0.24)
+Title: Пиян шофьор мина на червено и погуби семейство в Нова Загора
+

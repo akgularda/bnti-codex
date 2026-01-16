@@ -1,0 +1,81 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Methodological Framework for the Border Neighbours Threat Index (BNTI): A Computational Approach to Geopolitical Risk Quantification}
+\author{Antigravity AI \\ Department of Advanced Agentic Coding}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents the methodology behind the Border Neighbours Threat Index (BNTI), a computational system designed to quantify geopolitical instability among neighboring states. By synthesizing the Goldstein Scale for event intensity with modern Zero-Shot Classification techniques, BNTI offers a nuanced, real-time assessment of regional security threats. We discuss the theoretical underpinnings of our weighting system, the integration of institutional stability factors derived from Democratic Peace Theory, and the logarithmic normalization process used to produce a standardized risk index.
+\end{abstract}
+
+\section{Introduction}
+Quantifying political risk has traditionally relied on manual expert analysis or coarse-grained sentiment analysis. The BNTI seeks to bridge the gap between qualitative political science theory and quantitative natural language processing (NLP). By analyzing real-time RSS feeds from strategic border nations, the system constructs a dynamic threat index that reflects not just the volume of negative news, but the specific \textit{intensity} of conflict events.
+
+\section{Theoretical Framework}
+
+\subsection{The Modified Goldstein Scale}
+The core scoring logic of BNTI is adapted from the Goldstein Scale \cite{goldstein1992conflict}, originally developed for the World Event/Interaction Survey (WEIS). Goldstein proposed a continuous scale ranging from -10 (extreme conflict) to +10 (extreme cooperation) to code political events.
+
+For the purpose of conflict early-warning, we adhere to the intensity hierarchy established by Goldstein but invert the polarity to produce a positive "Threat Score." As noted by Leetaru and Schrodt \cite{leetaru2013gdelt} in their work on GDELT, differentiating between material and verbal conflict is crucial for accurate risk assessment. Our weighting system (Table 1) reflects this distinction.
+
+\begin{table}[h]
+\centering
+\caption{BNTI Event Weighting System}
+\label{tab:weights}
+\begin{tabular}{@{}llc@{}}
+\toprule
+\textbf{Category} & \textbf{Description} & \textbf{Weight ($W_c$)} \\ \midrule
+Military Conflict & Kinetic engagement (e.g., artillery, border clashes) & 10.0 \\
+Terrorist Act & High-intensity asymmetric violence & 9.0 \\
+Violent Protest & Civil instability and breakdown of order & 7.0 \\
+Political Crisis & Diplomatic rupture, regime instability & 6.0 \\
+Economic Crisis & Structural economic stress (recession, currency) & 4.0 \\
+Peaceful Diplomacy & Stabilizing diplomatic statements or treaties & -2.0 \\
+Neutral News & General reporting without security implications & 0.0 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Institutional Stability Factors}
+Raw event counts often fail to account for the stabilizing effect of international institutions. Drawing on Democratic Peace Theory and the broader literature on institutional liberalism \cite{russett2001triangulating}, we posit that conflict dyads embedded in robust security architectures (e.g., NATO) possess higher thresholds for escalation. 
+
+Consequently, BNTI applies a dampening coefficient ($\delta = 0.6$) to threat scores emerging from NATO-allied neighbors (e.g., Greece). This adjustment reflects the lower probability of militarized dispute escalation compared to non-integrated neighbors.
+
+\section{Methodology}
+
+\subsection{Zero-Shot Classification}
+Unlike traditional sentiment analysis which offers a binary positive/negative output, BNTI utilizes a BART-large-mnli model for Zero-Shot Classification \cite{yin2019benchmarking}. This allows the system to semantically map news headlines to specific conflict categories (e.g., "Military Conflict" vs. "Political Crisis") without task-specific fine-tuning.
+
+The raw threat contribution ($C_i$) for a news item $i$ is calculated as:
+\begin{equation}
+    C_i = \begin{cases} 
+    W_c \times S_{conf} & \text{if } S_{conf} \ge \tau \\
+    0 & \text{if } S_{conf} < \tau 
+    \end{cases}
+\end{equation}
+where $W_c$ is the category weight, $S_{conf}$ is the model's confidence score, and $\tau = 0.4$ is the noise filtration threshold.
+
+\subsection{Logarithmic Normalization}
+To align the final index with standard metrics like the Fragile States Index \cite{messner2018fragile}, we normalize the aggregated raw score ($R$) using a logarithmic function. This prevents high-volume news cycles from skewing the index disproportionately compared to low-volume, high-intensity events.
+
+The final BNTI Index ($I$) is derived as:
+\begin{equation}
+    I = \min\left(10.0, \; \log_{10}(1 + R) \times 3.5\right)
+\end{equation}
+
+\section{Conclusion}
+The BNTI represents an advancement in automated threat perception, moving beyond simple sentiment analysis to a theoretically grounded, event-intensity model. By codifying the Goldstein Scale into a modern NLP pipeline, we provide a robust tool for real-time geopolitical monitoring.
+
+\bibliography{citations}
+\bibliographystyle{plain}
+
+\end{document}

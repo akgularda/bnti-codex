@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "generated_at": "2026-01-01T17:33:39.091996",
+    "main_index": 7.46,
+    "status": "CRITICAL"
+  },
+  "countries": {
+    "Armenia": {
+      "index": 1.0,
+      "raw_score": 0.0,
+      "events": [
+        {
+          "title": "Citigroup is exiting Russia",
+          "link": "https://en.1in.am/1072847.html",
+          "date": "Tue, 30 Dec 2025 13:01:03 +0000",
+          "category": "neutral news",
+          "confidence": 0.18642671406269073,
+          "weight": 0.0
+        },
+        {
+          "title": "Tehran vows heavy response to US",
+          "link": "https://en.1in.am/1072844.html",
+          "date": "Tue, 30 Dec 2025 12:42:07 +0000",
+          "category": "violent protest",
+          "confidence": 0.39951595664024353,
+          "weight": 0.0
+        },
+        {
+          "title": "Snow is expected on the afternoon of December 31 and January 1-2",
+          "link": "https://en.1in.am/1072841.html",
+          "date": "Tue, 30 Dec 2025 12:23:27 +0000",
+          "category": "violent protest",
+          "confidence": 0.2737596035003662,
+          "weight": 0.0
+        },
+        {
+          "title": "Rome’s Trevi Fountain will become a paid attraction",
+          "link": "https://en.1in.am/1072834.html",
+          "date": "Tue, 30 Dec 2025 12:04:07 +0000",
+          "category": "violent protest",
+          "confidence": 0.26000726222991943,
+          "weight": 0.0
+        },
+        {
+          "title": "Putin congratulated Pashinyan and Khachaturyan",
+          "link": "https://en.1in.am/1072838.html",
+          "date": "Tue, 30 Dec 2025 11:45:28 +0000",
+          "category": "neutral news",
+          "confidence": 0.21686910092830658,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Georgia": {
+      "index": 1.0,
+      "raw_score": 0.0,
+      "events": [
+        {
+          "title": "Year of Descent and Endurance: 2025 in Georgia",
+          "link": "https://civil.ge/archives/716137",
+          "date": "Wed, 31 Dec 2025 14:12:34 +0000",
+          "category": "violent protest",
+          "confidence": 0.21206338703632355,
+          "weight": 0.0
+        },
+        {
+          "title": "Court Releases October 4 Protester on Bail Amid Health, Family-Related Concerns",
+          "link": "https://civil.ge/archives/716124",
+          "date": "Wed, 31 Dec 2025 13:34:58 +0000",
+          "category": "neutral news",
+          "confidence": 0.31072667241096497,
+          "weight": 0.0
+        },
+        {
+          "title": "Tamar Mearakishvili Released From Detention in Tskhinvali",
+          "link": "https://civil.ge/archives/716489",
+          "date": "Wed, 31 Dec 2025 13:04:04 +0000",
+          "category": "neutral news",
+          "confidence": 0.22059838473796844,
+          "weight": 0.0
+        },
+        {
+          "title": "MIA: Over 5,000 Arrested on Drug Charges in Seven Months",
+          "link": "https://civil.ge/archives/716462",
+          "date": "Wed, 31 Dec 2025 09:56:56 +0000",
+          "category": "violent protest",
+          "confidence": 0.3415451943874359,
+          "weight": 0.0
+        },
+        {
+          "title": "Georgia’s GDP Up by 7.2% in November 2025",
+          "link": "https://civil.ge/archives/716461",
+          "date": "Wed, 31 Dec 2025 09:45:00 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2482980638742447,
+          "weight": 0.0
+        },
+        {
+          "title": "Russian Citizens Advised to Weigh Risks Before Traveling to Georgia Amid Entry Denials",
+          "link": "https://civil.ge/archives/716450",
+          "date": "Wed, 31 Dec 2025 07:59:05 +0000",
+          "category": "neutral news",
+          "confidence": 0.26715126633644104,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Greece": {
+      "index": 4.53,
+      "raw_score": 18.71,
+      "events": [
+        {
+          "title": "Συγκρούσεις μεταξύ διαδηλωτών και δυνάμεων ασφαλείας στο Ιράν – Ένας νεκρός κατά τη διάρκεια των κινητοποιήσεων",
+          "link": "https://www.in.gr/2026/01/01/world/sygkrouseis-metaksy-diadiloton-kai-dynameon-asfaleias-sto-iran-enas-nekros-kata-ti-diarkeia-ton-kinitopoiiseon/",
+          "date": "Thu, 01 Jan 2026 15:15:37 +0300",
+          "category": "violent protest",
+          "confidence": 0.9352718591690063,
+          "weight": 6.546903014183044
+        },
+        {
+          "title": "Η Μάρτζορι Γκριν απολογείται για την αφέλειά της: Πώς από μαζορέτα του Τραμπ, μεταμορφώθηκε σε εχθρό του",
+          "link": "https://www.in.gr/2026/01/01/world/martzori-gkrin-apologeitai-gia-tin-afeleia-tis-pos-apo-mazoreta-tou-tramp-metamorfothike-se-exthro-tou/",
+          "date": "Thu, 01 Jan 2026 15:35:33 +0300",
+          "category": "political crisis",
+          "confidence": 0.9314906597137451,
+          "weight": 5.588943958282471
+        },
+        {
+          "title": "Ελβετία: Η στιγμή που ξεσπά η φονική πυρκαγιά σε μπαρ στο Κραν Μοντανά – Βίντεο ντοκουμέντο",
+          "link": "https://www.in.gr/2026/01/01/world/elvetia-pos-ksekinise-foniki-pyrkagia-se-mpar-sto-kran-montana-vinteo-ntokoumento/",
+          "date": "Thu, 01 Jan 2026 15:50:36 +0300",
+          "category": "violent protest",
+          "confidence": 0.6300480365753174,
+          "weight": 4.410336256027222
+        },
+        {
+          "title": "Λονδίνο: Η γεωγραφία της εξουσίας μέσα από την έκθεση «Secret Maps»",
+          "link": "https://www.in.gr/2026/01/01/world/londino-geografia-tis-eksousias-mesa-apo-tin-ekthesi-secret-maps/",
+          "date": "Thu, 01 Jan 2026 14:55:11 +0300",
+          "category": "political crisis",
+          "confidence": 0.7209460735321045,
+          "weight": 4.325676441192627
+        },
+        {
+          "title": "«Γραμμένο για το γιο μου»: Η Άντζελα Δημητρίου για τη σπαρακτική ιστορία πίσω από το κομμάτι της «Ποια θυσία»",
+          "link": "https://www.in.gr/2026/01/01/go-fun/fizz/grammeno-gia-gio-mou-antzela-dimitriou-gia-ti-sparaktiki-istoria-piso-apo-kommati-tis-poia-thysia/",
+          "date": "Thu, 01 Jan 2026 15:40:02 +0300",
+          "category": "violent protest",
+          "confidence": 0.6154794692993164,
+          "weight": 4.308356285095215
+        },
+        {
+          "title": "Βεζένκοφ: «Είναι το μεγαλύτερο ντέρμπι της Ευρώπης»",
+          "link": "https://www.in.gr/2026/01/01/sports/basketball/euroleague/vezenkof-einai-to-megalytero-ntermpi-tis-eyropis-i-niki-tha-mas-anevasei-tin-psyxologia/",
+          "date": "Thu, 01 Jan 2026 15:17:29 +0300",
+          "category": "violent protest",
+          "confidence": 0.4462522268295288,
+          "weight": 3.1237655878067017
+        },
+        {
+          "title": "Ελβετία: Η χώρα βιώνει μία από τις μεγαλύτερες τραγωδίες της – Μαρτυρίες επιζώντων για το πώς ξεκίνησε η φωτιά",
+          "link": "https://www.in.gr/2026/01/01/world/elvetia-xora-vionei-mia-apo-tis-megalyteres-tragodies-tis-martyries-epizonton-gia-pos-ksekinise-fotia/",
+          "date": "Thu, 01 Jan 2026 15:26:25 +0300",
+          "category": "humanitarian crisis",
+          "confidence": 0.960456907749176,
+          "weight": 2.881370723247528
+        },
+        {
+          "title": "Όλα για τα δάνεια σε ελβετικό φράγκο – Τι πρέπει να γνωρίζετε",
+          "link": "https://www.in.gr/2026/01/01/economy/diethnis-oikonomia/ola-gia-ta-daneia-se-elvetiko-fragko-ti-prepei-na-gnorizete/",
+          "date": "Thu, 01 Jan 2026 16:15:50 +0300",
+          "category": "violent protest",
+          "confidence": 0.2582418620586395,
+          "weight": 0.0
+        },
+        {
+          "title": "Ευρωλίγκα: Οι διαιτητές του Παναθηναϊκός – Ολυμπιακός",
+          "link": "https://www.in.gr/2026/01/01/sports/basketball/eyroligka-oi-diaitites-tou-panathinaikos-olympiakos/",
+          "date": "Thu, 01 Jan 2026 16:05:44 +0300",
+          "category": "peaceful diplomacy",
+          "confidence": 0.22460325062274933,
+          "weight": 0.0
+        },
+        {
+          "title": "Όταν τα ταξίδια συνδυάζουν μάθηση και αναψυχή – 10 κορυφαίοι προορισμοί του 2026 για ανάπτυξη δεξιοτήτων",
+          "link": "https://www.in.gr/2026/01/01/life/diakopes/otan-ta-taksidia-syndyazoun-mathisi-kai-anapsyxi-10-koryfaioi-proorismoi-tou-2026-gia-anaptyksi-deksiotiton/",
+          "date": "Thu, 01 Jan 2026 16:00:35 +0300",
+          "category": "neutral news",
+          "confidence": 0.2169005423784256,
+          "weight": 0.0
+        },
+        {
+          "title": "Ο Γκρεγκ Έιμπελ στη σκιά του Γουόρεν Μπάφετ – Νέος CEO στην Berkshire Hathaway",
+          "link": "https://www.in.gr/2026/01/01/economy/diethnis-oikonomia/o-gkregk-eimpel-sti-skia-tou-gouoren-mpafet-neos-ceo-stin-berkshire-hathaway/",
+          "date": "Thu, 01 Jan 2026 15:45:08 +0300",
+          "category": "violent protest",
+          "confidence": 0.2742343842983246,
+          "weight": 0.0
+        },
+        {
+          "title": "Παρελθόν και επίσημα από την Τσέλσι ο Μαρέσκα",
+          "link": "https://www.in.gr/2026/01/01/sports/football/episimo-telos-apo-ti-tselsi-o-entso-mareska/",
+          "date": "Thu, 01 Jan 2026 15:41:16 +0300",
+          "category": "neutral news",
+          "confidence": 0.31382957100868225,
+          "weight": 0.0
+        },
+        {
+          "title": "Greece’s Economy in 2026: Growth, Risks and Open Questions",
+          "link": "https://www.in.gr/2026/01/01/english-edition/greeces-economy-2026-growth-risks-open-questions/",
+          "date": "Thu, 01 Jan 2026 15:11:24 +0300",
+          "category": "economic crisis",
+          "confidence": 0.2880006432533264,
+          "weight": 0.0
+        },
+        {
+          "title": "Χιονισμένη Πρωτοχρονιά: Στα λευκά ντύθηκαν νησιά στις Κυκλάδες και στο Θρακικό πέλαγος",
+          "link": "https://www.in.gr/2026/01/01/greece/xionismeni-protoxronia-sta-leyka-ntythikan-nisia-stis-kyklades-kai-sto-thrakiko-pelagos/",
+          "date": "Thu, 01 Jan 2026 15:04:11 +0300",
+          "category": "violent protest",
+          "confidence": 0.34496939182281494,
+          "weight": 0.0
+        },
+        {
+          "title": "Το σώμα μου να είχατε: Η απολαυστική απάντηση της Τζένιφερ Λόπεζ σε όσους σχολιάζουν την εμφάνισή της",
+          "link": "https://www.in.gr/2026/01/01/go-fun/fizz/soma-mou-na-eixate-apolaystiki-apantisi-tis-tzenifer-lopez-se-osous-sxoliazoun-tin-emfanisi-tis/",
+          "date": "Thu, 01 Jan 2026 14:48:26 +0300",
+          "category": "neutral news",
+          "confidence": 0.2526823580265045,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Iran": {
+      "index": 5.69,
+      "raw_score": 41.37,
+      "events": [
+        {
+          "title": "نتانیاهو به فاکس نیوز: جمهوری اسلامی به دنبال بازسازی توان ساخت موشک‌های بالیستیک است",
+          "link": "https://ir.voanews.com/a/8097528.html",
+          "date": "Wed, 31 Dec 2025 03:30:03 +0330",
+          "category": "military conflict",
+          "confidence": 0.9639790654182434,
+          "weight": 9.639790654182434
+        },
+        {
+          "title": "وزارت خارجه آمریکا ادعای خامنه‌ای درباره «نظم عادلانه» را با اشاره به سرکوب معترضان به چالش کشید",
+          "link": "https://ir.voanews.com/a/8097991.html",
+          "date": "Thu, 01 Jan 2026 07:15:17 +0330",
+          "category": "political crisis",
+          "confidence": 0.9387867450714111,
+          "weight": 5.632720470428467
+        },
+        {
+          "title": "چهارمین روز اعتراضات ضدحکومتی دی ۱۴۰۴؛ گسترش به شهرهای بیشتر و افزایش خشونت نیروهای سرکوب",
+          "link": "https://ir.voanews.com/a/8097989.html",
+          "date": "Thu, 01 Jan 2026 05:14:25 +0330",
+          "category": "violent protest",
+          "confidence": 0.778161346912384,
+          "weight": 5.447129428386688
+        },
+        {
+          "title": "حمایت مقامات و چهره‌های اسرائیلی از اعتراضات مردم ایران علیه جمهوری اسلامی",
+          "link": "https://ir.voanews.com/a/israel-we-hear-the-voices-of-the-protesting-iranian-people-support-for-israeli-officials-from-new-protests-in-iran/8097724.html",
+          "date": "Wed, 31 Dec 2025 21:52:57 +0330",
+          "category": "political crisis",
+          "confidence": 0.8761711120605469,
+          "weight": 5.257026672363281
+        },
+        {
+          "title": "آمریکا - ایران در ۲۰۲۵: سال بازگشت «فشار حداکثری»",
+          "link": "https://ir.voanews.com/a/usa-sanction-iranian-regime/8097727.html",
+          "date": "Wed, 31 Dec 2025 21:14:09 +0330",
+          "category": "violent protest",
+          "confidence": 0.7422089576721191,
+          "weight": 5.195462703704834
+        },
+        {
+          "title": "وزارت خارجه آمریکا: سرکوب و سوء‌مدیریت مداوم رژیم جمهوری اسلامی رنج مردم را عمیق‌تر کرده است",
+          "link": "https://ir.voanews.com/a/islamic-republic-iran-regime-repression/8097998.html",
+          "date": "Thu, 01 Jan 2026 17:48:50 +0330",
+          "category": "political crisis",
+          "confidence": 0.7576435208320618,
+          "weight": 4.545861124992371
+        },
+        {
+          "title": "سومین روز اعتراضات در شهرهای مختلف ایران؛ دانشجویان شعار دادند: «مرگ بر خامنه‌ای»",
+          "link": "https://ir.voanews.com/a/8097690.html",
+          "date": "Wed, 31 Dec 2025 05:18:58 +0330",
+          "category": "violent protest",
+          "confidence": 0.4077220559120178,
+          "weight": 2.8540543913841248
+        },
+        {
+          "title": "اتحادیه اروپا: جمهوری اسلامی مدافعان حقوق بشر زندانی را فورا آزاد کند",
+          "link": "https://ir.voanews.com/a/iran-statement-by-the-high-representative-on-behalf-of-the-eu-on-the-arrest-and-detention-of-human-rights-defenders/8097702.html",
+          "date": "Wed, 31 Dec 2025 18:48:05 +0330",
+          "category": "humanitarian crisis",
+          "confidence": 0.9338045716285706,
+          "weight": 2.8014137148857117
+        },
+        {
+          "title": "اکثریت کمیته روابط خارجی مجلس نمایندگان آمریکا: «مردم ایران شایسته چیزی بهتر از این رژیم ناتوان و فاسد هستند»",
+          "link": "https://ir.voanews.com/a/8097692.html",
+          "date": "Wed, 31 Dec 2025 07:29:52 +0330",
+          "category": "neutral news",
+          "confidence": 0.22076016664505005,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Iraq": {
+      "index": 5.78,
+      "raw_score": 43.92,
+      "events": [
+        {
+          "title": "أخطار الحرب الروسية الأوكرانية على السلم في العالم - مصطفى محمد غريب",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899821",
+          "date": "Thu, 01 Jan 2026 18:24:00 EST",
+          "category": "military conflict",
+          "confidence": 0.8756588101387024,
+          "weight": 8.756588101387024
+        },
+        {
+          "title": "إسرائيل ترصد و المقاومة تتعافىَّ - عصام محمد جميل مروة",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899823",
+          "date": "Thu, 01 Jan 2026 18:24:12 EST",
+          "category": "military conflict",
+          "confidence": 0.8061291575431824,
+          "weight": 8.061291575431824
+        },
+        {
+          "title": "مفهوم -الأرض المقدسة- توطئة لتواطؤ صهيو امبريالي - سعيد مضيه",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899802",
+          "date": "Thu, 01 Jan 2026 13:53:55 EST",
+          "category": "military conflict",
+          "confidence": 0.7805752754211426,
+          "weight": 7.805752754211426
+        },
+        {
+          "title": "الردة في الإسلام: جذور التكفير وتداعياته التاريخية تحرير الدين من السلطة ودعوة لبناء الدولة المدنية - حسن خليل غريب",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899828",
+          "date": "Thu, 01 Jan 2026 18:25:15 EST",
+          "category": "violent protest",
+          "confidence": 0.8554235100746155,
+          "weight": 5.987964570522308
+        },
+        {
+          "title": "القومية أفيوناً - حميد كوره جي",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899809",
+          "date": "Thu, 01 Jan 2026 16:30:54 EST",
+          "category": "political crisis",
+          "confidence": 0.7160800099372864,
+          "weight": 4.296480059623718
+        },
+        {
+          "title": "تأثير الفساد على الانتخابات في العراق - سربست مصطفى رشيد اميدي",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899801",
+          "date": "Thu, 01 Jan 2026 13:53:49 EST",
+          "category": "political crisis",
+          "confidence": 0.6875899434089661,
+          "weight": 4.125539660453796
+        },
+        {
+          "title": "تفكيك أسطورة الجوع العالمي! - ادم عربي",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899822",
+          "date": "Thu, 01 Jan 2026 18:24:06 EST",
+          "category": "humanitarian crisis",
+          "confidence": 0.8418505787849426,
+          "weight": 2.525551736354828
+        },
+        {
+          "title": "نزوح تلميذة - هروب من الحرب - -   قصة قصيرة / 31ديسمبر2025 - أمين أحمد ثابت",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899814",
+          "date": "Thu, 01 Jan 2026 16:30:46 EST",
+          "category": "humanitarian crisis",
+          "confidence": 0.7880876660346985,
+          "weight": 2.3642629981040955
+        },
+        {
+          "title": "الرأسمالية الوثنية والشيطنة الإبراهيمية - ق - طلعت خيري",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899832",
+          "date": "Thu, 01 Jan 2026 18:25:48 EST",
+          "category": "neutral news",
+          "confidence": 0.23595958948135376,
+          "weight": 0.0
+        },
+        {
+          "title": "مشيخة كاكه عيداني واقليم البصرة الخليجي الايراني -2 - مكسيم العراقي",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899827",
+          "date": "Thu, 01 Jan 2026 18:25:01 EST",
+          "category": "violent protest",
+          "confidence": 0.2812272012233734,
+          "weight": 0.0
+        },
+        {
+          "title": "ليكن عام 2026: القراءة أساس الكفاءة السياسية والفكرية - عبدالله سلمان",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899815",
+          "date": "Thu, 01 Jan 2026 16:35:36 EST",
+          "category": "neutral news",
+          "confidence": 0.21091598272323608,
+          "weight": 0.0
+        },
+        {
+          "title": "بعض المصادر غير الإسلامية حول الإسلام في الخمسين عامًا الأولى....1-2 - عبد الحسين سلمان عاتي",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899812",
+          "date": "Thu, 01 Jan 2026 16:27:30 EST",
+          "category": "neutral news",
+          "confidence": 0.2933153510093689,
+          "weight": 0.0
+        },
+        {
+          "title": "من أبي رغال إلى نواف الزيدان... مِلةُ النذالة واحدة - علاء اللامي",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899811",
+          "date": "Thu, 01 Jan 2026 16:27:21 EST",
+          "category": "violent protest",
+          "confidence": 0.29128792881965637,
+          "weight": 0.0
+        },
+        {
+          "title": "نعوم تشومسكي و علاقته بجيفري ابستين: تأملات شخص عادي - كريس غرين",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899806",
+          "date": "Thu, 01 Jan 2026 16:26:06 EST",
+          "category": "neutral news",
+          "confidence": 0.7627483010292053,
+          "weight": 0.0
+        },
+        {
+          "title": "كل عام وأنتم بخير - سعود سالم",
+          "link": "https://www.ssrcaw.org/ar/show.art.asp?aid=899805",
+          "date": "Thu, 01 Jan 2026 16:01:06 EST",
+          "category": "neutral news",
+          "confidence": 0.20688092708587646,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Syria": {
+      "index": 4.4,
+      "raw_score": 17.03,
+      "events": [
+        {
+          "title": "Suriye İçişleri Bakanlığı, Halep’te IŞİD’in Kanlı Planını Önledi",
+          "link": "https://sana.sy/tr/locals/2277033/",
+          "date": "Thu, 01 Jan 2026 10:59:19 +0000",
+          "category": "terrorist act",
+          "confidence": 0.8534687161445618,
+          "weight": 7.681218445301056
+        },
+        {
+          "title": "Al Jazeera Sızıntıları: Devrik Rejim Unsurlarının Silahlı Planları Ortaya Çıktı",
+          "link": "https://sana.sy/tr/press/2277025/",
+          "date": "Thu, 01 Jan 2026 10:05:02 +0000",
+          "category": "military conflict",
+          "confidence": 0.571219801902771,
+          "weight": 5.71219801902771
+        },
+        {
+          "title": "Halep’in Bab El-Ferec’de Meydana Gelen İntihar Saldırısının Olay Yerinden Görüntüler",
+          "link": "https://sana.sy/tr/photos/2277004/",
+          "date": "Thu, 01 Jan 2026 09:08:01 +0000",
+          "category": "violent protest",
+          "confidence": 0.4329756498336792,
+          "weight": 3.0308295488357544
+        },
+        {
+          "title": "Esed Rejimi, Kurbanlarının Ölümünü Gizlemek İçin Sistematik Bir Mekanizma Kurdu",
+          "link": "https://sana.sy/tr/press/2277030/",
+          "date": "Thu, 01 Jan 2026 10:29:54 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.6419506669044495,
+          "weight": 1.9258520007133484
+        },
+        {
+          "title": "İdlib kırsalındaki El-Kaniya Köyü Yeni Yıl Dolayısıyla Kutlama Havasına Büründü",
+          "link": "https://sana.sy/tr/locals/2277055/",
+          "date": "Thu, 01 Jan 2026 13:11:21 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.27314984798431396,
+          "weight": 0.0
+        },
+        {
+          "title": "Cumhurbaşkanlığı Medya Danışmanı: Suriye, Devlet İnşasında Önemli Bir Sıçrama Yaptı",
+          "link": "https://sana.sy/tr/locals/2277052/",
+          "date": "Thu, 01 Jan 2026 12:25:37 +0000",
+          "category": "neutral news",
+          "confidence": 0.17362456023693085,
+          "weight": 0.0
+        },
+        {
+          "title": "Şam’daki Hristiyanlar Yeni Yılı Kutladı",
+          "link": "https://sana.sy/tr/locals/2277039/",
+          "date": "Thu, 01 Jan 2026 11:12:29 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.29366058111190796,
+          "weight": 0.0
+        },
+        {
+          "title": "Başkent Şam’da yeni yıl, kent genelinde düzenlenen kutlamalarla karşılandı",
+          "link": "https://sana.sy/tr/governorates/2277014/",
+          "date": "Thu, 01 Jan 2026 09:58:45 +0000",
+          "category": "neutral news",
+          "confidence": 0.5731213092803955,
+          "weight": 0.0
+        },
+        {
+          "title": "Lazkiye’de Yeni Yıl Coşkusu: Suriye Sahilinde Kutlamalar",
+          "link": "https://sana.sy/tr/photos/2276994/",
+          "date": "Thu, 01 Jan 2026 09:03:22 +0000",
+          "category": "neutral news",
+          "confidence": 0.23815208673477173,
+          "weight": 0.0
+        },
+        {
+          "title": "Suriyeliler, Güvenlik ve İstikrar Umuduyla 2026’yı Karşılıyor",
+          "link": "https://sana.sy/tr/locals/2277044/",
+          "date": "Thu, 01 Jan 2026 11:52:26 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.6611778736114502,
+          "weight": -1.3223557472229004
+        }
+      ]
+    },
+    "Bulgaria": {
+      "index": 4.07,
+      "raw_score": 13.52,
+      "events": [
+        {
+          "title": "Взрив уби десетки празнуващи в бар на новогодишно парти в Швейцария (видео/снимки)",
+          "link": "https://dnes.dir.bg/svyat/vzriv-ubi-desetki-praznuvashti-v-bar-na-novogodishno-parti-v-shveytsariya-video",
+          "date": "Thu, 01 Jan 2026 12:33:54 +0200",
+          "category": "terrorist act",
+          "confidence": 0.8418217897415161,
+          "weight": 7.576396107673645
+        },
+        {
+          "title": "Теодор изпревари Боян за първо бебе на 2026 г., проплака 24 минути след полунощ в АГ \"Света София\"",
+          "link": "https://dnes.dir.bg/obshtestvo/yunak-boyan-e-parvoto-bebe-za-2026-g-rodeno-35-minuti-sled-polunosht-v-maychin-dom",
+          "date": "Thu, 01 Jan 2026 14:00:40 +0200",
+          "category": "violent protest",
+          "confidence": 0.9874879121780396,
+          "weight": 6.912415385246277
+        },
+        {
+          "title": "Зохран Мамдани положи клетва като кмет на Ню Йорк",
+          "link": "https://dnes.dir.bg/obshtestvo/zohran-mamdani-polozhi-kletva-kato-kmet-na-nyu-jork",
+          "date": "Thu, 01 Jan 2026 16:30:37 +0200",
+          "category": "neutral news",
+          "confidence": 0.2386123090982437,
+          "weight": 0.0
+        },
+        {
+          "title": "Нетаняху е обсъдил с Тръмп възможни нови удари срещу Иран през 2026 г.",
+          "link": "https://dnes.dir.bg/svyat/netanyahu-e-obsadil-s-tramp-vazmozhni-novi-udari-sreshtu-iran-prez-2026-g",
+          "date": "Thu, 01 Jan 2026 15:06:00 +0200",
+          "category": "political crisis",
+          "confidence": 0.2515071630477905,
+          "weight": 0.0
+        },
+        {
+          "title": "Унгария загуби правото да получи над 1 милиард евро помощ от ЕС",
+          "link": "https://dnes.dir.bg/svyat/ungariya-zagubi-pravoto-da-poluchi-nad-1-miliard-evro-pomosht-ot-es",
+          "date": "Thu, 01 Jan 2026 15:00:46 +0200",
+          "category": "neutral news",
+          "confidence": 0.30124330520629883,
+          "weight": 0.0
+        },
+        {
+          "title": "ЕК и ЕП ни поздравиха, Роберта Мецола: Добре дошла в еврото, България!",
+          "link": "https://dnes.dir.bg/politika/ek-i-ep-ni-pozdraviha-roberta-metsola-dobre-doshla-v-evroto-balgariya",
+          "date": "Thu, 01 Jan 2026 14:52:41 +0200",
+          "category": "violent protest",
+          "confidence": 0.31817832589149475,
+          "weight": 0.0
+        },
+        {
+          "title": "Първото евро от български банкомат е изтеглено само 20 секунди след полунощ",
+          "link": "https://dnes.dir.bg/ikonomika/parvoto-evro-ot-balgarski-bankomat-e-iztegleno-samo-20-sekundi-sled-polunosht",
+          "date": "Thu, 01 Jan 2026 14:30:30 +0200",
+          "category": "violent protest",
+          "confidence": 0.22846007347106934,
+          "weight": 0.0
+        },
+        {
+          "title": "Празнична благословия: Патриархът ни пожела свобода, за да избираме бъдещето си (видео)",
+          "link": "https://dnes.dir.bg/obshtestvo/praznichna-blagosloviya-patriarhat-ni-pozhela-svoboda-za-da-izbirame-badeshteto-si-video",
+          "date": "Thu, 01 Jan 2026 13:35:45 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.3406088650226593,
+          "weight": 0.0
+        },
+        {
+          "title": "САЩ са установили, че Киев не е атакувал резиденцията на Путин във Валдай",
+          "link": "https://dnes.dir.bg/svyat/sasht-ustanovili-che-kiev-ne-e-atakuval-rezidentsiyata-na-putin-vav-valday",
+          "date": "Thu, 01 Jan 2026 11:48:42 +0200",
+          "category": "neutral news",
+          "confidence": 0.2317667156457901,
+          "weight": 0.0
+        },
+        {
+          "title": "Пожеланията на политическите лидери към българите - под знака на еврото",
+          "link": "https://dnes.dir.bg/politika/pozhelaniyata-na-politicheskite-lideri-kam-balgarite-pod-znaka-na-evroto",
+          "date": "Thu, 01 Jan 2026 11:16:16 +0200",
+          "category": "terrorist act",
+          "confidence": 0.21750780940055847,
+          "weight": 0.0
+        },
+        {
+          "title": "Инциденти в новогодишната нощ: Дете е с ранено око от пиратка, друго падна от седмия етаж",
+          "link": "https://dnes.dir.bg/intsidenti/intsidenti-v-novogodishnata-nosht-dete-e-s-raneno-oko-ot-piratka-drugo-padna-ot-sedmiya-etazh",
+          "date": "Thu, 01 Jan 2026 10:36:04 +0200",
+          "category": "humanitarian crisis",
+          "confidence": 0.33717823028564453,
+          "weight": 0.0
+        },
+        {
+          "title": "Тръмп посрещна Нова година в компанията на Нетаняху (снимки/видео)",
+          "link": "https://dnes.dir.bg/svyat/tramp-posreshtna-nova-godina-v-kompaniyata-na-netanyahu-video",
+          "date": "Thu, 01 Jan 2026 09:25:46 +0200",
+          "category": "neutral news",
+          "confidence": 0.26469936966896057,
+          "weight": 0.0
+        },
+        {
+          "title": "Какво очаквате от 2026 година?",
+          "link": "https://dnes.dir.bg/na-fokus/kakvo-ochakvate-ot-2026-godina",
+          "date": "Thu, 01 Jan 2026 08:45:09 +0200",
+          "category": "terrorist act",
+          "confidence": 0.30171719193458557,
+          "weight": 0.0
+        },
+        {
+          "title": "Президентът: От нас зависи да спрем да обикаляме в кръг. Готови сме, можем и ще успеем",
+          "link": "https://dnes.dir.bg/politika/prezidentat-ot-nas-zavisi-da-sprem-da-obikalyame-v-krag-gotovi-sme-mozhem-i-shte-uspeem",
+          "date": "Thu, 01 Jan 2026 00:20:49 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2762810289859772,
+          "weight": 0.0
+        },
+        {
+          "title": "Васильовден - благословение и Сурва в един от най-значимите празници за нашата идентичност",
+          "link": "https://dnes.dir.bg/na-fokus/vasilyovden-blagoslovenie-i-surva-v-edin-ot-nay-znachimite-praznitsi-za-nashata-identichnost",
+          "date": "Thu, 01 Jan 2026 08:43:31 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.4845581352710724,
+          "weight": -0.9691162705421448
+        }
+      ]
+    }
+  }
+}

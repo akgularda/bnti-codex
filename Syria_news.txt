@@ -1,0 +1,38 @@
+Analyzed 10 items.
+Raw Threat Points: 10.88
+Final BNT Index: 3.76 / 10.0
+
+=== DESTABILIZING FACTORS ===
+[MILITARY CONFLICT] (Weight: 4.45)
+Title: Al Jazeera Sızıntıları: Devrik Rejim Unsurlarının Silahlı Planları Ortaya Çıktı
+Link: https://sana.sy/tr/press/2277025/
+
+[TERRORIST ACT] (Weight: 7.73)
+Title: Halep’in Bab El-Ferec’de Meydana Gelen İntihar Saldırısının Olay Yerinden Görüntüler
+Link: https://sana.sy/tr/photos/2277004/
+
+=== STABILIZING / NEUTRAL ===
+[neutral news] (0.37)
+Title: Başkent Şam’da yeni yıl, kent genelinde düzenlenen kutlamalarla karşılandı
+
+[neutral news] (0.53)
+Title: Lazkiye’de Yeni Yıl Coşkusu: Suriye Sahilinde Kutlamalar
+
+[neutral news] (0.53)
+Title: Lazkiye’de Yeni Yıl Coşkusu: Suriye Sahilinde Kutlamalar
+
+[neutral news] (0.32)
+Title: Tartus’ta Halkın Yeni Yıl Kutlamalarından Renkli Görüntüler
+
+[humanitarian crisis] (0.27)
+Title: Yılbaşı Gecesinde Humus’un Eski Sokakları
+
+[neutral news] (0.41)
+Title: Hristiyan Toplulukları, Miladi Yeni Yıl Nedeniyle Kiliselerde Ayin ve Dualar düzenliyor
+
+[peaceful diplomacy] (0.65)
+Title: Suriye, Yemen’in Birliğini ve Meşru Hükümeti Destekliyor
+
+[peaceful diplomacy] (0.33)
+Title: Cumhurbaşkanı Ahmed El-Şara’dan Suriyelilere Yeni Yıl Tebriği
+
