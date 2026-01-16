@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BNTI Enterprise Intelligence | Monarch Castle</title>
+    <title>Border Neighbors Threat Index v1.0 | Monarch Castle Technologies</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
@@ -76,16 +76,32 @@
             gap: 12px;
         }
 
-        .logo-box {
-            width: 24px;
-            height: 24px;
-            background: var(--accent-brand);
-            color: white;
-            font-weight: 800;
+        .logo-img {
+            height: 32px;
+            width: auto;
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .brand-name {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
             font-size: 14px;
-            display: grid;
-            place-items: center;
-            border-radius: 2px;
+            letter-spacing: 0.5px;
+            color: var(--text-primary);
+        }
+
+        .brand-tagline {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 10px;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            text-transform: uppercase;
         }
 
         .app-title {
@@ -451,9 +467,11 @@
 
     <div class="top-bar">
         <div class="brand-section">
-            <div class="logo-box">MC</div>
-            <span class="app-title">BNTI INTELLIGENCE</span>
-            <span class="app-subtitle">Border Threat Analysis System v2.1</span>
+            <img src="logo.png" alt="MCT" class="logo-img">
+            <div class="brand-text">
+                <span class="brand-name">MONARCH CASTLE TECHNOLOGIES</span>
+                <span class="brand-tagline">Defence Intelligence</span>
+            </div>
         </div>
         <div class="sys-status">
             <div class="status-item">
