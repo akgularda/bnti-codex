@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-16T17:30:35.801630",
-    "main_index": 7.19,
+    "generated_at": "2026-01-16T18:43:02.089923",
+    "main_index": 7.18,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-01-16T18:00:00",
+    "next_update": "2026-01-16T19:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -98,62 +98,6 @@
           "country": "Armenia"
         },
         {
-          "title": "Ucom Introduces Hecttor AI to Improve Call Center Communications",
-          "translated_title": null,
-          "link": "https://a1plus.am/en/article/496401",
-          "date": "Tue, 13 Jan 2026 13:51:00 +0400",
-          "category": "peaceful diplomacy",
-          "confidence": 0.17270724475383759,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Khachkar Studios Publishes New Systems Map of a Failing U.S. Armenian Christian Ecosystem",
-          "translated_title": null,
-          "link": "https://a1plus.am/en/article/496126",
-          "date": "Tue, 06 Jan 2026 00:25:00 +0400",
-          "category": "economic crisis",
-          "confidence": 0.1759740263223648,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Switzerland takes over OSCE Chair",
-          "translated_title": null,
-          "link": "https://a1plus.am/en/article/496020",
-          "date": "Thu, 01 Jan 2026 12:05:00 +0400",
-          "category": "neutral news",
-          "confidence": 0.2362036556005478,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "New Year’s Message of His Holiness Karekin II, Supreme Patriarch and Catholicos of All Armenians (video)",
-          "translated_title": null,
-          "link": "https://a1plus.am/en/article/496011",
-          "date": "Wed, 31 Dec 2025 23:38:00 +0400",
-          "category": "peaceful diplomacy",
-          "confidence": 0.23077894747257233,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
           "title": "Businessman Samvel Karapetyan Sent Back to Jail",
           "translated_title": null,
           "link": "https://hetq.am/en/article/179267",
@@ -206,6 +150,62 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "29.3%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Ucom Introduces Hecttor AI to Improve Call Center Communications",
+          "translated_title": null,
+          "link": "https://a1plus.am/en/article/496401",
+          "date": "Tue, 13 Jan 2026 13:51:00 +0400",
+          "category": "peaceful diplomacy",
+          "confidence": 0.17270724475383759,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Khachkar Studios Publishes New Systems Map of a Failing U.S. Armenian Christian Ecosystem",
+          "translated_title": null,
+          "link": "https://a1plus.am/en/article/496126",
+          "date": "Tue, 06 Jan 2026 00:25:00 +0400",
+          "category": "economic crisis",
+          "confidence": 0.1759740263223648,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Switzerland takes over OSCE Chair",
+          "translated_title": null,
+          "link": "https://a1plus.am/en/article/496020",
+          "date": "Thu, 01 Jan 2026 12:05:00 +0400",
+          "category": "neutral news",
+          "confidence": 0.2362036556005478,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "New Year’s Message of His Holiness Karekin II, Supreme Patriarch and Catholicos of All Armenians (video)",
+          "translated_title": null,
+          "link": "https://a1plus.am/en/article/496011",
+          "date": "Wed, 31 Dec 2025 23:38:00 +0400",
+          "category": "peaceful diplomacy",
+          "confidence": 0.23077894747257233,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.1%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -464,7 +464,7 @@
         },
         {
           "title": "Προβλήματα στο X - «Κάτω» για 2η φορά σε μία εβδομάδα",
-          "translated_title": "Problems on X - 'Down' for 2nd time in a week",
+          "translated_title": null,
           "link": "https://www.newsbomb.gr/technologia/story/1708548/provlimata-sto-x-kato-gia-2i-fora-se-mia-evdomada",
           "date": "Fri, 16 Jan 2026 17:52:33 +0200",
           "category": "violent protest",
@@ -473,9 +473,8 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "47.5%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Greece"
         },
         {
           "title": "Παναθηναϊκός AKTOR: Βίντεο, ανάλυση λαθών και προπόνηση με τους γνωστούς απόντες",
@@ -667,8 +666,8 @@
       "events": []
     },
     "Iraq": {
-      "index": 5.03,
-      "raw_score": 26.43,
+      "index": 5.18,
+      "raw_score": 29.23,
       "events": [
         {
           "title": "Saudi–Egypt–Somalia military bloc 'taking shape' amid tensions",
@@ -686,15 +685,29 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Residents confront loss and uncertainty after Aleppo clashes",
-          "translated_title": "Residents confront loss and uncertainty after Aleppo clashes",
-          "link": "https://www.newarab.com/features/residents-confront-loss-and-uncertainty-after-aleppo-clashes",
-          "date": "Fri, 16 Jan 2026 14:16:25 +0000",
-          "category": "military conflict",
-          "confidence": 0.8119837641716003,
-          "weight": 8.119837641716003,
+          "title": "US threatens funding freeze over Palestine UN bid and ICC action",
+          "translated_title": "US threatens funding freeze over Palestine UN bid and ICC action",
+          "link": "https://www.newarab.com/news/us-threatens-funding-freeze-over-palestine-un-bid-and-icc-action",
+          "date": "Fri, 16 Jan 2026 17:52:15 +0000",
+          "category": "political crisis",
+          "confidence": 0.9439147710800171,
+          "weight": 5.6634886264801025,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "81.2%",
+          "ai_confidence_score": "94.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Yemen prosecutor seeking to investigate STC head for 'treason'",
+          "translated_title": "Yemen prosecutor seeking to investigate STC head for 'treason'",
+          "link": "https://www.newarab.com/news/yemen-prosecutor-seeking-investigate-stc-head-treason",
+          "date": "Fri, 16 Jan 2026 17:30:23 +0000",
+          "category": "political crisis",
+          "confidence": 0.6088755130767822,
+          "weight": 3.6532530784606934,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "60.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -756,6 +769,62 @@
           "country": "Iraq"
         },
         {
+          "title": "IShowSpeed goes viral for 'first ever' Egypt pyramids livestream",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/ishowspeed-goes-viral-first-ever-egypt-pyramids-livestream",
+          "date": "Fri, 16 Jan 2026 18:19:52 +0000",
+          "category": "violent protest",
+          "confidence": 0.23863770067691803,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Israel bars PA Jerusalem affairs minister from West Bank",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/israel-bars-pa-jerusalem-affairs-minister-west-bank",
+          "date": "Fri, 16 Jan 2026 17:59:14 +0000",
+          "category": "political crisis",
+          "confidence": 0.1798015534877777,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Saudi Arabia's King Salman undergoes medical tests: royal court",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/saudi-arabias-king-salman-undergoes-medical-tests-royal-court",
+          "date": "Fri, 16 Jan 2026 17:57:26 +0000",
+          "category": "violent protest",
+          "confidence": 0.41218194365501404,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "41.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "US congress members visit Denmark to support Greenland",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/us-congress-members-visit-denmark-support-greenland",
+          "date": "Fri, 16 Jan 2026 17:40:55 +0000",
+          "category": "neutral news",
+          "confidence": 0.38672390580177307,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
           "title": "Exclusive: Hamas says US must oblige Israel to move to phase two",
           "translated_title": null,
           "link": "https://www.newarab.com/news/exclusive-hamas-says-us-must-oblige-israel-move-phase-two",
@@ -810,82 +879,12 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "French prosecutor seeks year in jail for Iranian over comments online",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/french-prosecutor-seeks-year-jail-iranian-over-comments-online",
-          "date": "Fri, 16 Jan 2026 15:09:33 +0000",
-          "category": "political crisis",
-          "confidence": 0.34874504804611206,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "South Africa to probe Iran's role in war games that angered US",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/south-africa-probe-irans-role-war-games-angered-us",
-          "date": "Fri, 16 Jan 2026 14:56:01 +0000",
-          "category": "political crisis",
-          "confidence": 0.6791478395462036,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "67.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Ms. Rachel brings Gaza children's art to a New York exhibition",
-          "translated_title": null,
-          "link": "https://www.newarab.com/features/ms-rachel-brings-gaza-childrens-art-new-york-exhibition",
-          "date": "Fri, 16 Jan 2026 14:08:39 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.3283989429473877,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "32.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Portugal far-right hopeful Ventura enters vote as favourite",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/portugal-far-right-hopeful-ventura-enters-vote-favourite",
-          "date": "Fri, 16 Jan 2026 14:07:25 +0000",
-          "category": "neutral news",
-          "confidence": 0.3671714663505554,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Putin speaks to Israel, Iran leaders to help 'de-escalate': Kremlin",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/putin-speaks-israel-iran-leaders-help-de-escalate-kremlin",
-          "date": "Fri, 16 Jan 2026 14:37:52 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.7977259159088135,
-          "weight": -1.595451831817627,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "79.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 5.03,
-      "raw_score": 26.43,
+      "index": 5.18,
+      "raw_score": 29.23,
       "events": [
         {
           "title": "Saudi–Egypt–Somalia military bloc 'taking shape' amid tensions",
@@ -903,15 +902,29 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Residents confront loss and uncertainty after Aleppo clashes",
-          "translated_title": "Residents confront loss and uncertainty after Aleppo clashes",
-          "link": "https://www.newarab.com/features/residents-confront-loss-and-uncertainty-after-aleppo-clashes",
-          "date": "Fri, 16 Jan 2026 14:16:25 +0000",
-          "category": "military conflict",
-          "confidence": 0.8119837641716003,
-          "weight": 8.119837641716003,
+          "title": "US threatens funding freeze over Palestine UN bid and ICC action",
+          "translated_title": "US threatens funding freeze over Palestine UN bid and ICC action",
+          "link": "https://www.newarab.com/news/us-threatens-funding-freeze-over-palestine-un-bid-and-icc-action",
+          "date": "Fri, 16 Jan 2026 17:52:15 +0000",
+          "category": "political crisis",
+          "confidence": 0.9439147710800171,
+          "weight": 5.6634886264801025,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "81.2%",
+          "ai_confidence_score": "94.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Yemen prosecutor seeking to investigate STC head for 'treason'",
+          "translated_title": "Yemen prosecutor seeking to investigate STC head for 'treason'",
+          "link": "https://www.newarab.com/news/yemen-prosecutor-seeking-investigate-stc-head-treason",
+          "date": "Fri, 16 Jan 2026 17:30:23 +0000",
+          "category": "political crisis",
+          "confidence": 0.6088755130767822,
+          "weight": 3.6532530784606934,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "60.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -973,6 +986,62 @@
           "country": "Syria"
         },
         {
+          "title": "IShowSpeed goes viral for 'first ever' Egypt pyramids livestream",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/ishowspeed-goes-viral-first-ever-egypt-pyramids-livestream",
+          "date": "Fri, 16 Jan 2026 18:19:52 +0000",
+          "category": "violent protest",
+          "confidence": 0.23863770067691803,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Israel bars PA Jerusalem affairs minister from West Bank",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/israel-bars-pa-jerusalem-affairs-minister-west-bank",
+          "date": "Fri, 16 Jan 2026 17:59:14 +0000",
+          "category": "political crisis",
+          "confidence": 0.1798015534877777,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Saudi Arabia's King Salman undergoes medical tests: royal court",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/saudi-arabias-king-salman-undergoes-medical-tests-royal-court",
+          "date": "Fri, 16 Jan 2026 17:57:26 +0000",
+          "category": "violent protest",
+          "confidence": 0.41218194365501404,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "41.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "US congress members visit Denmark to support Greenland",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/us-congress-members-visit-denmark-support-greenland",
+          "date": "Fri, 16 Jan 2026 17:40:55 +0000",
+          "category": "neutral news",
+          "confidence": 0.38672390580177307,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "Exclusive: Hamas says US must oblige Israel to move to phase two",
           "translated_title": null,
           "link": "https://www.newarab.com/news/exclusive-hamas-says-us-must-oblige-israel-move-phase-two",
@@ -1027,82 +1096,12 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
-        },
-        {
-          "title": "French prosecutor seeks year in jail for Iranian over comments online",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/french-prosecutor-seeks-year-jail-iranian-over-comments-online",
-          "date": "Fri, 16 Jan 2026 15:09:33 +0000",
-          "category": "political crisis",
-          "confidence": 0.34874504804611206,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "South Africa to probe Iran's role in war games that angered US",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/south-africa-probe-irans-role-war-games-angered-us",
-          "date": "Fri, 16 Jan 2026 14:56:01 +0000",
-          "category": "political crisis",
-          "confidence": 0.6791478395462036,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "67.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Ms. Rachel brings Gaza children's art to a New York exhibition",
-          "translated_title": null,
-          "link": "https://www.newarab.com/features/ms-rachel-brings-gaza-childrens-art-new-york-exhibition",
-          "date": "Fri, 16 Jan 2026 14:08:39 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.3283989429473877,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "32.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Portugal far-right hopeful Ventura enters vote as favourite",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/portugal-far-right-hopeful-ventura-enters-vote-favourite",
-          "date": "Fri, 16 Jan 2026 14:07:25 +0000",
-          "category": "neutral news",
-          "confidence": 0.3671714663505554,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Putin speaks to Israel, Iran leaders to help 'de-escalate': Kremlin",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/putin-speaks-israel-iran-leaders-help-de-escalate-kremlin",
-          "date": "Fri, 16 Jan 2026 14:37:52 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.7977259159088135,
-          "weight": -1.595451831817627,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "79.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 4.73,
-      "raw_score": 21.44,
+      "index": 4.22,
+      "raw_score": 15.11,
       "events": [
         {
           "title": "Разрив между управляващите: БСП поиска да отложи скенерите до 2027 г., ИТН е против",
@@ -1135,21 +1134,6 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Двама млади мъже обраха инкасо автомобил в Ихтиман",
-          "translated_title": "Two young men robbed a salvage car in Ihtiman",
-          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873665_kradci_obraha_inkaso_avtomobil_v_ihtiman/?ref=rss",
-          "date": "Fri, 16 Jan 2026 17:34:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.6789751052856445,
-          "weight": 4.752825736999512,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "67.9%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Bulgaria",
-          "translation_engine": "Google Neural MT"
-        },
-        {
           "title": "Директорът на ЦРУ се е срещнал с новия президент на Венецуела – ясен сигнал към опозицията",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/01/16/4873653_direktorut_na_cru_se_e_sreshtnal_s_noviia_prezident_na/?ref=rss",
@@ -1164,15 +1148,43 @@
           "country": "Bulgaria"
         },
         {
-          "title": "Прокуратурата разследва палеж за пожара, при който загинаха три жени",
+          "title": "Близо 60% от левовете в обращение вече са извадени",
           "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873630_prokuraturata_razsledva_palej_za_pojara_pri_koito/?ref=rss",
-          "date": "Fri, 16 Jan 2026 16:12:00 +0200",
-          "category": "humanitarian crisis",
-          "confidence": 0.523935079574585,
-          "weight": 1.5718052387237549,
+          "link": "https://www.dnevnik.bg/biznes/2026/01/16/4873717_blizo_60_ot_levovete_v_obrashtenie_veche_sa_izvadeni/?ref=rss",
+          "date": "Fri, 16 Jan 2026 20:35:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.22204074263572693,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "52.4%",
+          "ai_confidence_score": "22.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Пет са подадените оферти за ремонта на тунел на \"Тракия\" за над 40 млн. евро",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873658_petima_sa_kandidatite_za_remonta_na_tunel_na_trakiia/?ref=rss",
+          "date": "Fri, 16 Jan 2026 19:42:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.2582526206970215,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Китайските университети се изкачват в глобалните класации, американските губят позиции",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/obrazovanie/2026/01/16/4873711_kitaiskite_universiteti_se_izkachvat_v_globalnite/?ref=rss",
+          "date": "Fri, 16 Jan 2026 19:33:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.24642913043498993,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1248,6 +1260,20 @@
           "country": "Bulgaria"
         },
         {
+          "title": "Двама въоръжени мъже обраха инкасо автомобил в Ихтиман",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/01/16/4873665_kradci_obraha_inkaso_avtomobil_v_ihtiman/?ref=rss",
+          "date": "Fri, 16 Jan 2026 17:34:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.3184508681297302,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
           "title": "Съветник в Белия дом не очаква изненади от разследването срещу Пауъл",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/01/16/4873659_suvetnik_v_beliia_dom_ne_ochakva_iznenadi_ot/?ref=rss",
@@ -1285,34 +1311,6 @@
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "30.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Китай е спрял да купува ток от Русия",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/01/16/4873636_kitai_e_spial_da_kupuva_tok_ot_rusiia/?ref=rss",
-          "date": "Fri, 16 Jan 2026 16:27:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.2256203293800354,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Норвежки политици определиха като \"абсурдно\" решението на Мачадо за Нобеловия медал",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/01/16/4873614_norvejki_politici_opredeliha_kato_absurdno_reshenieto/?ref=rss",
-          "date": "Fri, 16 Jan 2026 16:11:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.2290526032447815,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1768,44 +1766,65 @@
       "bulgaria_signals": 15
     },
     {
-      "timestamp": "2026-01-16T17:30:35.801617",
-      "index": 7.19,
+      "timestamp": "2026-01-16T17:30:43.683947",
+      "index": NaN,
+      "main_index": 7.19,
+      "georgia_idx": 5.11,
+      "georgia_signals": 15,
+      "syria_signals": 15,
+      "greece_signals": 15,
+      "syria_idx": 5.03,
+      "total_signals": 90,
+      "greece_idx": 2.44,
+      "armenia_idx": 3.02,
+      "iran_idx": 1.0,
+      "iraq_signals": 15,
+      "iraq_idx": 5.03,
+      "armenia_signals": 15,
+      "bulgaria_idx": 4.73,
+      "iran_signals": 0,
+      "status": "CRITICAL",
+      "bulgaria_signals": 15
+    },
+    {
+      "timestamp": "2026-01-16T18:43:02.089909",
+      "index": 7.18,
       "type": "live"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T18:30:43.683947",
+      "timestamp": "2026-01-16T19:43:06.979410",
       "index": 10.0,
       "confidence": 0.46,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T19:30:43.683947",
+      "timestamp": "2026-01-16T20:43:06.979410",
       "index": 10.0,
       "confidence": 0.42,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T20:30:43.683947",
+      "timestamp": "2026-01-16T21:43:06.979410",
       "index": 10.0,
       "confidence": 0.38,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T21:30:43.683947",
+      "timestamp": "2026-01-16T22:43:06.979410",
       "index": 10.0,
       "confidence": 0.34,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T22:30:43.683947",
+      "timestamp": "2026-01-16T23:43:06.979410",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-16T23:30:43.683947",
+      "timestamp": "2026-01-17T00:43:06.979410",
       "index": 10.0,
       "confidence": 0.3,
       "type": "forecast"
