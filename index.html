@@ -294,6 +294,7 @@
         .stream-list {
             overflow-y: auto;
             flex: 1;
+            max-height: calc(100vh - 100px);
         }
 
         .stream-item {
@@ -471,38 +472,48 @@
 
         async function initMap() {
             const svg = document.getElementById('map-svg');
-            const res = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
-            const geo = await res.json();
+            try {
+                const res = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson');
+                const geo = await res.json();
 
-            geo.features.forEach(f => {
-                const name = f.properties.ADMIN || f.properties.name;
-                if (!TARGET_COUNTRIES.includes(name)) return;
+                geo.features.forEach(f => {
+                    const name = f.properties.ADMIN || f.properties.name;
+                    if (!TARGET_COUNTRIES.includes(name)) return;
 
-                const coords = f.geometry.type === 'Polygon' ? f.geometry.coordinates[0] : f.geometry.coordinates[0][0];
-                const pathData = coords.map(c => {
-                    const p = project(c[0], c[1]);
-                    return `${p[0].toFixed(1)},${p[1].toFixed(1)}`;
-                }).join(' ');
+                    // Handle both Polygon and MultiPolygon
+                    const renderPolygon = (ring) => {
+                        const pathData = ring.map(c => {
+                            const p = project(c[0], c[1]);
+                            return `${p[0].toFixed(1)},${p[1].toFixed(1)}`;
+                        }).join(' ');
 
-                const path = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-                path.setAttribute("points", pathData);
+                        const path = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+                        path.setAttribute("points", pathData);
 
-                // Styling based on data
-                const cData = data.countries[name];
-                const score = cData ? cData.index : 0;
-                let status = "stable";
-                if (score >= 7) status = "critical";
-                else if (score >= 4) status = "elevated";
+                        const cData = data.countries[name];
+                        const score = cData ? cData.index : 0;
+                        let status = "stable";
+                        if (score >= 7) status = "critical";
+                        else if (score >= 4) status = "elevated";
 
-                path.setAttribute("class", `country-path ${status}`);
+                        path.setAttribute("class", `country-path ${status}`);
+                        const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+                        title.textContent = `${name}: ${score.toFixed(2)} (${status.toUpperCase()})`;
+                        path.appendChild(title);
+                        svg.appendChild(path);
+                    };
 
-                // Add tooltip title
-                const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-                title.textContent = `${name}: ${score.toFixed(2)} (${status.toUpperCase()})`;
-                path.appendChild(title);
-
-                svg.appendChild(path);
-            });
+                    if (f.geometry.type === 'Polygon') {
+                        renderPolygon(f.geometry.coordinates[0]);
+                    } else if (f.geometry.type === 'MultiPolygon') {
+                        f.geometry.coordinates.forEach(poly => renderPolygon(poly[0]));
+                    }
+                });
+                console.log('Map loaded successfully');
+            } catch (e) {
+                console.error('Map load failed:', e);
+                document.getElementById('map-svg').innerHTML = '<text x="400" y="250" fill="#64748b" text-anchor="middle">Map data unavailable</text>';
+            }
         }
 
         // --- 2. Chart Logic ---
