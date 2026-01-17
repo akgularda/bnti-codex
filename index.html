@@ -167,7 +167,6 @@
       gap: 18px;
       padding: 22px 28px 30px;
       flex: 1;
-      min-height: 0;
     }
 
     .panel {
@@ -310,6 +309,12 @@
       stroke: rgba(130, 150, 180, 0.35);
       stroke-width: 0.6;
       transition: fill 0.3s ease, stroke 0.3s ease;
+      cursor: pointer;
+    }
+
+    .country-shape:hover {
+      filter: brightness(1.15);
+      stroke-width: 1.2;
     }
 
     .country-shape.critical {
@@ -338,6 +343,7 @@
       font-size: 11px;
       min-width: 180px;
       color: var(--text-secondary);
+      pointer-events: none;
     }
 
     .map-overlay h4 {
@@ -380,8 +386,6 @@
     .feed-panel {
       display: flex;
       flex-direction: column;
-      min-height: 0;
-      overflow: hidden;
     }
 
     .stream-list {
@@ -391,7 +395,6 @@
       display: flex;
       flex-direction: column;
       gap: 12px;
-      min-height: 0;
     }
 
     .stream-item {
@@ -495,13 +498,6 @@
 
       .grid {
         grid-template-columns: 1fr;
-      }
-    }
-
-    @media (min-width: 1201px) {
-      .app-shell {
-        height: 100vh;
-        overflow: hidden;
       }
     }
 
