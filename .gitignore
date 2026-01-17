@@ -8,3 +8,4 @@ __pycache__/
 *.bat
 update_bnti.bat
 serve.bat
+agents/
