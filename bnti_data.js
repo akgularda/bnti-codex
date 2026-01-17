@@ -1,17 +1,31 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-01-17T12:49:19.314011",
-    "main_index": 7.92,
+    "generated_at": "2026-01-17T13:48:09.734123",
+    "main_index": 7.83,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-01-17T13:00:00",
+    "next_update": "2026-01-17T14:00:00",
     "version": "2.0.0"
   },
   "countries": {
     "Armenia": {
       "index": 1.0,
-      "raw_score": -3.29,
+      "raw_score": -1.66,
       "events": [
+        {
+          "title": "Analysis: Armenia–Azerbaijan deal worries Iran - Long War Journal",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX2cxZnVTUG4yc0FDLTdhNXVidXI2LVFHR2VrUy1PMUdCdGd4N0JqVHdnRkNxYUk1SFBqZVdMQS1RVzNrVlB2VmtvTHFMZ3lDajgxblJXSk91M0JWV3VvRFI3bFNoc3pTeHptaHQ1OFdGc2s0blVEZTVhM2FiX0xzZDVjRTFnZXBsMzgzTWdLdGdJQkJvbVNKMVRaS0pyZw?oc=5",
+          "date": "Tue, 12 Aug 2025 07:00:00 GMT",
+          "category": "political crisis",
+          "confidence": 0.5777730345726013,
+          "weight": 3.466638207435608,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "57.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Armenia"
+        },
         {
           "title": "Sovereignty or strategy? U.S. to take majority stake in company managing TRIPP corridor",
           "translated_title": null,
@@ -69,6 +83,34 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
+          "title": "In Armenia, rising ceasefire violations bring fears of war with Azerbaijan - Reuters",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTjRjRFMyS3g3TFR2ZURPZTZJT2hLZDIwZ2pDNUVLN3hmREhaNjdtXzN3QjM4eHYwVUlRNFRGdW84U3N4enFVa0FXUlMtU194bDVnd1RndjZwSTE4anNRUXNaUVpGb0hoOGdRX2tTQWs5VlBmREVVbUtieDNtcVB3aXNiMUUyZ1JCM1dLQ29ublRKZWItRWxmQkxxUnZITWJYU3dkeVE3MV9FWkc1dVE?oc=5",
+          "date": "Thu, 12 Jun 2025 07:00:00 GMT",
+          "category": "military conflict",
+          "confidence": 0.505702555179596,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "50.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Armenia and Azerbaijan: The Hard Road to a Lasting Peace - International Crisis Group",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbnBmcW9BU1lfZVVPeVlpLXZGVnF6a2R0Qkdqa0w3UTBhWjZYR3d6VWhBek9MLU9GeUtKNDNQbFhfOTdzVlZ0S042TXk1bjVlSWhINmFZalVlSE1yWFFLc3Vob0JZVjZtek5NdWJ6WXhqLVM3SmI3OUxTX1F6QTVyVmFJUGQ0cFhsRlN6VFZWVUwzaDBUblV0OVRnQlUyVVdOcDJXanQ5QjhCeHpDNE1OSWx2a0ZIZlFTeV81bzZnUHRlaWlRTGtZdG9UdERuUVJ1bGc?oc=5",
+          "date": "Fri, 05 Sep 2025 07:00:00 GMT",
+          "category": "terrorist act",
+          "confidence": 0.27414852380752563,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
           "title": "Azerbaijan ramps up 'Trump route' construction along Armenia border - Nikkei Asia",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOekM5YXgyVzRaUDJzVzQ1UkY0bTJndl9ZdEwyRzFUZEgweFdPNkQ2ZVE5SmZBMTdINVRIQktJUWRES3E5RjRqWHpfN1FtYUhyejNmV1BZNDFBWGlZNzBGQnpGRm11R0tWS0doem9WU0VWN3lRV0l1VE16T1B6UVlfRnk1bHZ5NHVzUE16bV9GN3JwRmhiVkwzRnhuVl9pY19Ya0NXdzhrZHRhOGxZRDI3cXdILWlWOTNEQzhVVkVwQQ?oc=5",
@@ -83,15 +125,15 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
-          "title": "Armenia, Azerbaijan representatives jointly inspect Yeraskh-Sadarak railway section condition - Armenia News",
+          "title": "Turkey announces plans to open border checkpoint with Armenia later this month - Armenia News",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBDdnAxZDVuOE5KajNuSDMyQjg2dDNUb21QT1Q4VDhtUXNPSGNnbU5jRlRudGlBMlVteWNKZFRubUNhQmFGR1FnMHFOOTU?oc=5",
-          "date": "Thu, 15 Jan 2026 13:59:06 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4REtGQmRjT3dJLWVoeTd0MGpwTk9rcFVBVTdlbzRmdEhvWG05NUpHUUtacTVRdUM5YWg1dXJGSnZzUEl6Rm9tUjdRT2g?oc=5",
+          "date": "Fri, 16 Jan 2026 14:43:57 GMT",
           "category": "violent protest",
-          "confidence": 0.185779869556427,
+          "confidence": 0.22938299179077148,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.6%",
+          "ai_confidence_score": "22.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -125,20 +167,6 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
-          "title": "U.S. and Armenia Set Framework for Trump-Backed Trade Corridor - Crude Oil Prices Today | OilPrice.com",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTUlFMGwta043X25mblFTRDU0SDJtNHRfM3R1SmE5ekhLU3A5VHNTQjgyVzV4WUJhbl85V21XUzNUM1VfOVZudlR1QWhHWGFtWWtBc3RBb0FzNXpYQTVwV0FkcXgzODRMMTVKY0ZlMnRwTU13ZTE1ZzRkdkJPd1BsU0dHTmpxVTNkejE3Q0xXc2Z2MlpxMDJ6UkpLa2x6NGVlSEZTUkxR0gGrAUFVX3lxTE5qX29tMkFvSDJRdVhWNHRJMWpTUHFuSEcyMS12d1BoWWZGVUs1YzVyanN6M1VpaUpDX3FPb29oR2d2cEI1X05fY1VjMzI5RHFOTmVYYkhKZXcyZXFzZFRoelJVRkZIbENkUTRyMW1ZbUZHTGhaclVBVnphMl9wbWFILTBrOGlpS25vRVF5STN2aG1ubkRyQ1VyWjFrSzV0ZHUtcGVzWGlPZFBSVQ?oc=5",
-          "date": "Thu, 15 Jan 2026 17:00:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.21823132038116455,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
           "title": "“We have mutually closed the page of enmity”: Armenian Parliament Speaker on relations with Turkey - JAMnews",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMFBINUZLLXFCOTdLZGlvT24yRWVzQzlBNW5FWTdTVEFrZXRUdGIzRW83aGtYU0VwTlNqLWJoNkp1eC01bEVhaTk4SWI1TjhjdWhpV3dfZVVtbVZVTjZ5SWo3RndMMFA1ZFBTM0Nxem02WlBZYWhmRXJEcHJxa093dEQ1WW9MTmVwOEkydlpSVEhseDNNVHZoRmlobnhnLUZqOE5yaDdONUkzTUhCcFNwd0ROcWhBNzRnR3ExTE9B?oc=5",
@@ -153,58 +181,16 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
-          "title": "Armenia, Germany Review Strategic Partnership Agenda - Caspian Post",
+          "title": "Armenia, Azerbaijan Sign Deal Aimed At Ending Decades Of Conflict - Radio Free Europe/Radio Liberty",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLUx0NkpjR1NoNXQ4akVSXy1UYnZINFZyWmgzTEtncVVDTnVqbXBtN2Q3RXY5VnJ1XzcyaVA2d2xFUzdaaDZHUmNuNDRweUk1ZUJZQU1hNUhPRzBSMG1KR0JCcFFxbHZFOWphTkJMaG9JakpXOEtWQVIwMFB0V1ZMQ0ZjNE5oV3ozdXY4?oc=5",
-          "date": "Fri, 16 Jan 2026 18:59:00 GMT",
-          "category": "terrorist act",
-          "confidence": 0.3099340796470642,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Fidan Did Not Speak of Supporting Armenia’s Elections: What Turkey’s Foreign Minister Actually Said — FIP - MassisPost",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOWhvVF9wQjAzRVBZTXVHSU94ekt3OHBBWFlZajZmZkgyaHlWWkZjei1IMFh2ZWJBSjJnT2d6MHBZYjdiRVdCdWI2d0tndFZPM2lqZUQ1VkduVTNYajQ2RUc4UDBLVDlCRXdMQUlWTlNYNTlJZTFqUW1sa0NBcm0tUjE5eF9ST0FxaXMwRmFLV2NKWFRsWS1FWU1VMVFqQWVQTlJSdmhEak9ieEhOQndtVjRQUWxQOUlvS2pGbXo2RXFqdlhIRnhQaVRYc1bSAdIBQVVfeXFMUGhRVFVkOGltRWN6WFVUck9RSGdGaEJwNGxNY0pXZTNFVVAzVllsY0M5ejVBMXVKTk5ST1NBOW94eGdwM1ZRcVVZUWkwRjBOa2N2c2tLZzNMTElTOUZvMkh5WlQ1V2U0V1pyQkNTZDR3Q2d6dWVwQnJzRFZBbTlJdUNtZ25wNnRUMlpnQUJwT0FnLXNsUlA4QTRvSEZZMFUtX2w1ekI0QzVkQlpvU0h0cjdHdGtvVE1JMm9tdnQxLTFtLXlmSVlQTElfQk53SUExWGh3?oc=5",
-          "date": "Sat, 17 Jan 2026 02:10:20 GMT",
-          "category": "violent protest",
-          "confidence": 0.23659062385559082,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Armenia: Archbishop Terteryan Explains Joining Church ‘Reform’ - Eurasia Review",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV3BEdWNJN3N0SnprUmR2Vkd6SjZrX1BJaHN5a3lIN2J4Nkh3TXh0em9CNjJaWUpiSHhiVWlhWl8yZW83V0VTSmNYLUdURk4tT25OLTJqX1N1WGt6UzVQREVHNk1SOUZmd19UUGxQTjg1cmFneXRmVW04ZElhNXo1djAwUEl3dk8xb2I3b3RjSENxVXlEbUtnV0tsY3pKeDU4?oc=5",
-          "date": "Fri, 16 Jan 2026 23:58:59 GMT",
-          "category": "neutral news",
-          "confidence": 0.20050041377544403,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Armenian PM Pashinyan says TRIPP reshapes South Caucasus security landscape - Türkiye Today",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRm5OaXhYa3RZdFZRUzhZSlE3a1ZVWDZjdDVoZExPX005VXN3a3ZSNXY2dkFNUmt2MndITUFXZWttSE4tOXpaV1NQOXF6UGtyTDMwSFl0WklOdkp5Xzdral94d2xEak1WNDljTU11cWlmYVpTclZHU3ZNX2hSbWxoUWhMeGRPUDExbkI0NUF0b19lbEFFUDd5Rl9KaW9jVU1ZemJWMzRfVnljdDBGYnJ0UnR0YVNQSEl4YVpJ?oc=5",
-          "date": "Sat, 17 Jan 2026 12:26:26 GMT",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU1plVUJZYzBtMjRoOVVfZG95UmJQQUs3TEdyNGpPNmVvbnB0b0JLdDlocndzME5FZFdWaF9IWlJ3aUx0T1hRUlc3bngyRWk1ZW1SNGJhSFhWeS1JLWMtNEU4RVMtUG9PaTdRUGZZYUd5MGZPb1Z3MHg0azRzZlJVSFlJWU1NNjVjNjNhSld5RG5EaGdI0gGXAUFVX3lxTE9FcnNRNXJyNk11NUF6eXVhMDY2ZzNJYUdYQUNVR2xfZG9rTExhQlR2alZPbHdaVXB6N0hOeGpmSTkwVGIwckhGMW9rOXRlaHJOSEc4b2xSTDlCbFV5a1loaTJFRXk5Uk80LVFpWmpDbjBMVjBwc2oyV1ByTWJDb3Y3RFl0Rmd6WjFvcll3RkRUQVN1dmFSOG8?oc=5",
+          "date": "Fri, 08 Aug 2025 07:00:00 GMT",
           "category": "peaceful diplomacy",
-          "confidence": 0.6574209928512573,
-          "weight": -1.3148419857025146,
+          "confidence": 0.5872654318809509,
+          "weight": -1.1745308637619019,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "65.7%",
-          "detected_lang": "local",
+          "ai_confidence_score": "58.7%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -219,6 +205,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "98.9%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Azerbaijan-Armenia peace plan hinges on narrow strip of land along Iran border - PBS",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV3ZXbk5VeloxbmQtSUc2NFZpTmFFY280ZTBqSEhrcFNhcGZ4QmNjLVBacmhtSWEyNEUyLVBVVmduU3lrMUxiSjh5OFJDaUYwdE43VFpGRWFLeUZVQjZHVWJucnRoLWxHMDZtdHRsSnZPdldBa3FTZVVTUFcySGxkRXBFUTQtRGU2VmltRXhtMnJhWktYS2t5M1A2TWdZY0M3ZnpTS044aE1qb0EyaTV4bmxR?oc=5",
+          "date": "Wed, 31 Dec 2025 08:00:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.9892255663871765,
+          "weight": -1.978451132774353,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "98.9%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         }
@@ -272,20 +272,6 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "October Protest Leaders Defend Their Actions in Tbilisi Courtroom - Caspian Post",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZDZVZFlfVTh5Zl9ab1U0NV9Qc3RYOThnODlIU1d0RkFBY2VyeHFzT0s0NkhkSEdxZG0tRWZOZEo0WGcxQjNDa25wZ09KckZmZmh0a00wcU8yWE1Jb0NhN2hTRlVtUjNnbG1KQWJfTjBsT3llSXBwRXdsMWFOMkdJcnBmZEloaUw1MmVkY3MzOURsUWY3TTByazZvR0thZw?oc=5",
-          "date": "Fri, 16 Jan 2026 12:45:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.2803024351596832,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
           "title": "Türkiye's TAV to invest $150M in Georgia's Tbilisi Airport to double capacity - Türkiye Today",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUVmeVF6U1czYzZTMjkzaW1LQ1pTcV9rQ3g1TG42OHItS2F0ckJfSHhnekY5SVZXcjBRd19JVzNicVl1N0d6U0Q4WnJYSkVENVdHdjFIbDNheHk3LVpwQm9QU01heUI3UVFlaEhoQ1V6Tjd4YThQVTFWd20tM1JkYVRRbE5pUEllVHhEblBZeVUtdVB3RWZsdW10b3FuNlJMV1dRcDVXRUt4VTRxQnZvdlRiMEhQN1FVdG5Keg?oc=5",
@@ -296,6 +282,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "24.1%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "October Protest Leaders Defend Their Actions in Tbilisi Courtroom - Caspian Post",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZDZVZFlfVTh5Zl9ab1U0NV9Qc3RYOThnODlIU1d0RkFBY2VyeHFzT0s0NkhkSEdxZG0tRWZOZEo0WGcxQjNDa25wZ09KckZmZmh0a00wcU8yWE1Jb0NhN2hTRlVtUjNnbG1KQWJfTjBsT3llSXBwRXdsMWFOMkdJcnBmZEloaUw1MmVkY3MzOURsUWY3TTByazZvR0thZw?oc=5",
+          "date": "Fri, 16 Jan 2026 12:45:00 GMT",
+          "category": "political crisis",
+          "confidence": 0.2803024351596832,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.0%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -572,6 +572,20 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
+          "title": "Assassin's Creed: Odyssey Map Of Greece On 32K Texture In Your Browser - 80 Level",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLVVEWDl6Z0JzQkZLb05aYzhueDVpbjVJM0FOZkN0QTFTSkYzcnBJWDJYb0VURGRVb1k5a3N2M2pBVml3cVlvMVFiVUthMlRkUFpJRGFMN21iOGU5d2dMdHVQMzZlU09RdGpmMFZEdVVzbDRwdG9URVEyU1RMazJ2Qm0wMmhSbGNReW1EdG83V1FEeDMzcHRF?oc=5",
+          "date": "Fri, 16 Jan 2026 14:00:12 GMT",
+          "category": "violent protest",
+          "confidence": 0.3861216902732849,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
           "title": "Princess Irene of Greece, Queen Sofia of Spain’s Sister, Dies at Age 83 - Vanity Fair",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdWVFYWNmZlIwV0gwTWZxNWVYcWVMaGFfQldFMm9xb1h4VWwyc2R1dkVkZ0FwT1lvTDVJMXFfQUViUjdhSVdWeEw2LXBMUzYwRHkxc1lHT0pNTDM1aXdmWklEbk9aT3hlQm9QLVB6c01wWFlHS2Qtb2ZWdHVaNXl2Slc0ek91SlNVeUpNNU5FYnh0RXp2YmFVSUppRTBJTDN2ekFlMUZ1U0lTYjA?oc=5",
@@ -600,20 +614,6 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Greece Plans Extension of Territorial Waters Despite Warning from Turkiye - Marine News Magazine",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcm1xWm1MbEptaHpmWXRDdjl2Uk5jeHd6UWc2QklXQnRud3d0UnFvYTJ2UE5lSXEtSzdnQlpJdGVfeTdYVXp5Uk9nUzZLOERxS21LR0tXLTJuQWk1VmY0ck9VOWJJRkZxWVAwYVhua1FEU3JLbzRLamR0TGtRMHpwWE1uTjVWdms?oc=5",
-          "date": "Fri, 16 Jan 2026 17:18:39 GMT",
-          "category": "peaceful diplomacy",
-          "confidence": 0.22051508724689484,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "15 Must-see Cities and Charming Towns to Visit in Greece - Travel + Leisure",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84eExuald5a1daVHRnQU1VMmpqelJMZGVWVjFLcXhDbWZxNENRanBFMUNMSWZNOGVRQW1xSElXcWdDbFloYVNqelVqMXJjNW0wUXpnTWlDUktRNWJfd2Y0eTFic1NIREJ0elhJUll4MTljR2dVZ1FRcEV6cFM3dw?oc=5",
@@ -628,23 +628,23 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Greece: Seán Binder acquitted of all charges - Amnesty International",
+          "title": "Greece Plans Extension of Territorial Waters Despite Warning from Turkiye - Marine News Magazine",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU1hodHoyNV9IU3BybW9JZHlTWk91a1RkdnExaU9md1JFeGxfdXkxLWg4NUU4LTRld3luNk5adkpRMUFTYzdwTl8ySG9SNmYxMURlTXdoSFpJYi1SYkUwNk1Kb3pTU3FiX0YxZUZlaTdzX3o0bVVmUlE2SU5ZWGU2RmVZQlJpZ0Vmd3IxNm9remF2NnAxaFE?oc=5",
-          "date": "Thu, 15 Jan 2026 18:25:28 GMT",
-          "category": "neutral news",
-          "confidence": 0.3032882809638977,
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcm1xWm1MbEptaHpmWXRDdjl2Uk5jeHd6UWc2QklXQnRud3d0UnFvYTJ2UE5lSXEtSzdnQlpJdGVfeTdYVXp5Uk9nUzZLOERxS21LR0tXLTJuQWk1VmY0ck9VOWJJRkZxWVAwYVhua1FEU3JLbzRLamR0TGtRMHpwWE1uTjVWdms?oc=5",
+          "date": "Fri, 16 Jan 2026 17:18:39 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.22051508724689484,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.3%",
-          "detected_lang": "local",
+          "ai_confidence_score": "22.1%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Greece"
         },
         {
           "title": "Princess Irene of Greece obituary: reserved royal and humanitarian - The Times",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPSG1CaTBFd0IzcXIzOUZTVTgzNzg1ZXlDTEZ0S3d2YWZGSS1yZ1M1Vm4zV1Y0T3JkSUpjd1V6ZnVvcThJU1k2RVVXVmowd2EzaUdsU0hQdkRBNWV6a0tneU1rdUpNbEZWelpvaTk5X0dXQldaTU1GSEdSdFlrc1pCdXFMOFZDZk45WktBUzhELWpTc1hPTEt4MzFEZ2VSdTZ3QkFNSHc3Rm52eXVHSFlWVkdyS2xwMEpHa2llNVJWNVZMaEtjMGdHcWhBdHN5a0NFMDlVZnZ5WHJLY1Y1a3lESlgxNGlTR2E0ckd5X3dVUEFOU2R3dlhCRGh5cWZjaTRxVWplUXNlRVRnNEc5V1BHTnVBUlZYWF82SmNmRW1Fa1FuLVhVSXJaVFMtR2FhM3dVU3dFLVpjUDJxai1lM0pBREhLUVBXY1k2RDV4MlNKemlNblRNbGhJTks4MVlBQV9NbzBlaUZ1ejVkbnpvaExET01QcmdiZElmSVo2OXk4Wm12UU1keFQ3UVhfVldjTXZtREN1ZnhXWWUtbTFjbVhFWlY3WlU3YWRSc0JMVGx6Q2Y5dkFEblRQb0ZKc1ZrSkNPZzI3LVVERQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQNE0tQjF4U09NbDVVcEVTM0JRbmo4ejJKNnU0N3gyT05NeTd1SGJQc3FzNUM2dU9BWDBrcnVMNVhrYTE5U21OWHMzbEREV2ZHT2tsRVJZTFdHMnp6Yk1yOW1sdGFkVVBBeTVFejZocmpqcjU2RFp6dlBTRnB5dk80dFBkeVNGUmI5eDVqWm5QRVJMUUFXZkJDSHVJdmJVby12bDJXUlJ6Y0dfTWJydFM3UVZaVlNUaS1UOGR3WWJVdi1JaUdqWnFKV2ZoOWgxWmRBeGhSUFFJTHJCN1NVZ1oxN3N5R2JDTkVxMWlWLWdPYXhJSjcta1JoWDFTSDZVWHR4NUREVkE1S3UyY2JfVlpWS0lUX2ltbDkzWWRrSU1RM0NNWjVOajFBd25hbVdSeUt2R0dIN2t6WjZNZHpjMVZVQVYya2xvUU9rNG1fckpHWmdsUnd3S2JZRzNySG5tTHBTNGN5ZXlpZVlfRFNIU2lLOWpDbC1uWE1hMGMyTndEc0ZKQ0dORXktVjJSODdkdFRfeHdvRUxseGdIbHgxYWxnZXlHZm9CNVNnaXl5bWlrelNSTWhHZzlpY0xmbk51VHozN2lNMTFXaw?oc=5",
           "date": "Fri, 16 Jan 2026 18:30:00 GMT",
           "category": "peaceful diplomacy",
           "confidence": 0.7906334400177002,
@@ -658,9 +658,23 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 5.31,
-      "raw_score": 31.87,
+      "index": 5.56,
+      "raw_score": 37.85,
       "events": [
+        {
+          "title": "Syrian army takes control of east Aleppo towns as Kurdish fighters withdraw",
+          "translated_title": "Syrian army takes control of east Aleppo towns as Kurdish fighters withdraw",
+          "link": "https://www.aljazeera.com/news/2026/1/17/syrian-army-takes-control-of-east-aleppo-towns-as-kurdish-fighters-withdraw?traffic_source=rss",
+          "date": "Sat, 17 Jan 2026 12:42:28 +0000",
+          "category": "military conflict",
+          "confidence": 0.9740509390830994,
+          "weight": 9.740509390830994,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "97.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
         {
           "title": "Photos: Syrian army enters Deir Hafer after SDF withdrawal",
           "translated_title": "Photos: Syrian army enters Deir Hafer after SDF withdrawal",
@@ -671,20 +685,6 @@ window.BNTI_DATA = {
           "weight": 9.701678156852722,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "97.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Syria live news: Army enters east Aleppo towns as clashes with SDF reported",
-          "translated_title": "Syria live news: Army enters east Aleppo towns as clashes with SDF reported",
-          "link": "https://www.aljazeera.com/news/liveblog/2026/1/17/syria-live-news-army-takes-control-of-deir-hafer-as-sdf-withdraws?traffic_source=rss",
-          "date": "Sat, 17 Jan 2026 08:14:34 +0000",
-          "category": "military conflict",
-          "confidence": 0.9639511108398438,
-          "weight": 9.639511108398438,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "96.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -704,6 +704,20 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
+          "title": "Iran: The protests, the blackout and the narrative war",
+          "translated_title": "Iran: The protests, the blackout and the narrative war",
+          "link": "https://www.aljazeera.com/video/the-listening-post/2026/1/17/iran-the-protests-the-blackout-and-the-narrative-war?traffic_source=rss",
+          "date": "Sat, 17 Jan 2026 12:47:26 +0000",
+          "category": "political crisis",
+          "confidence": 0.9800129532814026,
+          "weight": 5.8800777196884155,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "98.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
           "title": "Uganda’s Wine says escaped raid on house amid disputed presidential vote",
           "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/1/17/ugandas-wine-says-escaped-raid-on-house-amid-disputed-presidential-vote?traffic_source=rss",
@@ -713,6 +727,34 @@ window.BNTI_DATA = {
           "weight": 5.8702486753463745,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "97.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Uganda’s President Yoweri Museveni wins seventh term",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/1/17/ugandas-president-yoweri-museveni-wins-seventh-term-electoral-commission?traffic_source=rss",
+          "date": "Sat, 17 Jan 2026 13:13:02 +0000",
+          "category": "neutral news",
+          "confidence": 0.3040926158428192,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Senegal vs Morocco: AFCON final – teams, start time, lineups",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/sports/2026/1/17/senegal-vs-morocco-afcon-final-teams-start-time-lineups?traffic_source=rss",
+          "date": "Sat, 17 Jan 2026 13:09:29 +0000",
+          "category": "violent protest",
+          "confidence": 0.3158382475376129,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
@@ -816,48 +858,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Syria decree grants Kurds new rights, formally recognising Kurdish language",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/1/17/syria-decree-grants-kurds-new-rights-formally-recognising-kurdish-language?traffic_source=rss",
-          "date": "Sat, 17 Jan 2026 08:47:21 +0000",
-          "category": "political crisis",
-          "confidence": 0.31810814142227173,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "US judge orders curbs on ICE agents’ actions against Minnesota protesters",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/1/17/us-judge-orders-curbs-on-ice-agents-actions-against-minnesota-protesters?traffic_source=rss",
-          "date": "Sat, 17 Jan 2026 08:29:17 +0000",
-          "category": "violent protest",
-          "confidence": 0.29794996976852417,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "AFCON, Colonialism and Lumumba",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/game-theory/2026/1/17/afcon-colonialism-and-lumumba?traffic_source=rss",
-          "date": "Sat, 17 Jan 2026 07:55:51 +0000",
-          "category": "economic crisis",
-          "confidence": 0.2127925455570221,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "Sudan: A truce of separation",
           "translated_title": null,
           "link": "https://www.aljazeera.com/opinions/2026/1/17/sudan-a-truce-of-separation?traffic_source=rss",
@@ -874,8 +874,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iraq": {
-      "index": 5.14,
-      "raw_score": 28.51,
+      "index": 4.72,
+      "raw_score": 21.37,
       "events": [
         {
           "title": "Syrian forces enter Deir Hafer after Kurdish fighters withdraw",
@@ -906,43 +906,15 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "Reza Pahlavi appeals for more pressure to help Iran's protesters",
+          "title": "Syria Kurdish administration says rights 'don't rest on decrees'",
           "translated_title": null,
-          "link": "https://www.newarab.com/news/reza-pahlavi-appeals-more-pressure-help-irans-protesters",
-          "date": "Fri, 16 Jan 2026 22:12:26 +0000",
+          "link": "https://www.newarab.com/news/syria-kurdish-administration-says-rights-dont-rest-decrees",
+          "date": "Sat, 17 Jan 2026 13:21:39 +0000",
           "category": "political crisis",
-          "confidence": 0.9217405915260315,
-          "weight": 5.530443549156189,
+          "confidence": 0.7438902854919434,
+          "weight": 4.46334171295166,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "92.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Five pro-Palestine activists plead not guilty over base break in",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/five-pro-palestine-activists-plead-not-guilty-over-base-break",
-          "date": "Fri, 16 Jan 2026 22:42:59 +0000",
-          "category": "violent protest",
-          "confidence": 0.6578056216239929,
-          "weight": 4.60463935136795,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "65.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Qatar fashion show postponed on regional security concerns",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/qatar-fashion-show-postponed-regional-security-concerns",
-          "date": "Fri, 16 Jan 2026 23:15:28 +0000",
-          "category": "political crisis",
-          "confidence": 0.5548240542411804,
-          "weight": 3.3289443254470825,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "55.5%",
+          "ai_confidence_score": "74.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -957,6 +929,34 @@ window.BNTI_DATA = {
           "weight": 2.170011878013611,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "72.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Infant dies from cold in Gaza, Trump appoints ‘board of peace'",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/infant-dies-cold-gaza-trump-appoints-board-peace",
+          "date": "Sat, 17 Jan 2026 13:04:53 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.6190274953842163,
+          "weight": 1.857082486152649,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "61.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Latest US sanctions target Houthi funding networks",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/latest-us-sanctions-target-houthi-funding-networks",
+          "date": "Sat, 17 Jan 2026 13:00:31 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.32398587465286255,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "32.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1091,18 +1091,32 @@ window.BNTI_DATA = {
     },
     "Syria": {
       "index": 6.5,
-      "raw_score": 71.12,
+      "raw_score": 70.82,
       "events": [
         {
           "title": "Syria live news: Army enters east Aleppo towns as clashes with SDF reported - Al Jazeera",
           "translated_title": "Syria live news: Army enters east Aleppo towns as clashes with SDF reported - Al Jazeera",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGdodUthWWVTbXlRYXFfdVYwNGpZN0k0cEVOcGV1TXJmU1V1Y2xjS05EdElKNXUzaW5Oa01HN3pVNkRRaUtGZFhSa2RTS291SmtZSFJZMkpaQ3ZZWVprTHFrWUlrLWpHVkdlb3BBSzV4dzd3bjJCQ3BZdHV0cmM5allobWR4TEh4aHNmcWZwX25fVjV3RkpGc2xSSXQ5SWY5T2w5clktM0RRSktfMjc2UGpSWGxnd9IBuwFBVV95cUxNdzVWZUZwLXdHQ282QVZkWnFPUi1KaE9LRU42YVduVjEzZWF3YkdQeC1lMnVRZWpObEtnM2M5bHp3REFXd1ltb2lhUUJxU2R2RWVOb3pqVzQwUUdyNWtLX2N2Ti1IVlVsUjc5Yy14c2lVRFFYcU40d21LX3BWZ3NaendzaExSdGduQldLMDktN3pXYk50UlFndnRjNDdQV1B6Z2djUUtWNXFhVmpnRUNrMFQ0TlVFbDJET1hR?oc=5",
-          "date": "Sat, 17 Jan 2026 12:22:30 GMT",
+          "date": "Sat, 17 Jan 2026 13:30:00 GMT",
           "category": "military conflict",
           "confidence": 0.9707461595535278,
           "weight": 9.707461595535278,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "97.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syrian army announces full control of Deir Hafer after SDF withdrawal - Al Jazeera",
+          "translated_title": "Syrian army announces full control of Deir Hafer after SDF withdrawal - Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOREc0Z1NYeHlDQXpRLUNIbjV2dkwwY1RFaV9PcFYyckdWRnJyZEJUemYyNGtHb25TcDJKLW5kQWV1SUhiRUNUYkZxY3J4QjFKZEYyM2o4NUNHOW9DSWNFdFB0TlcwcEVKN3hLd1o5SVAwVlZ2M09DV25VRmJIWUNvYlpsOUV1Tkd5eVVkUXY1LUxzdEhvOU1mYndWVkJEbjZMVWZuaWo3bi1yZ0I30gGyAUFVX3lxTE9uR3FfdnhYdzJ1cE1STlpaOTQxM1Q4eGpyWi00UjFuRG1nVWZPU296RlprZUJqSGJFR2NscmVvRFpsOExWeTVjRWJfUkQ0YTBWRkM3QnlBWGZ2UkpIWlFuQmR6dkZ5SFpKcF9lUHBYM2taOXQ3NHNTLURsUXItZm5OTVJFeFAtZ1IwWGJCTjV5Qk5pY21MU0NYMVltTy0xcVdza3ppb1JyZEFoZU00S05qTGc?oc=5",
+          "date": "Sat, 17 Jan 2026 08:00:36 GMT",
+          "category": "military conflict",
+          "confidence": 0.9660688042640686,
+          "weight": 9.660688042640686,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "96.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1164,20 +1178,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "IDF soldiers accused of stealing 250 goats from Syria - N12 - The Jerusalem Post",
-          "translated_title": "IDF soldiers accused of stealing 250 goats from Syria - N12 - The Jerusalem Post",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiRDNUSDRicXltR1VoaVNNQWF1d3JkcE4wbmlJWnQ4QVhBSk1qLS1ZREdTcWcwWEVMS2x1c3EwOFU1MTViT1hwYnQwT1dwQ0lMeUExeW95SG00aGJIeEN0Q2xTbHROWkpsdkllNU5FbGNvZw?oc=5",
-          "date": "Sat, 17 Jan 2026 08:02:13 GMT",
-          "category": "military conflict",
-          "confidence": 0.6912710070610046,
-          "weight": 6.912710070610046,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "69.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Israeli troops steal 250 goats from Syria and smuggle them to occupied West Bank - Middle East Eye",
           "translated_title": "Israeli troops steal 250 goats from Syria and smuggle them to occupied West Bank - Middle East Eye",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWlYYmJRWG82aF94b1A5MmZITElFb3V2MFotMnZ1MnZwZjJ1QkdSTE5JT3JPX2RoWHBoQW1kam83UGVENVRUbHoteldqZmJqelZzOUx4X0NLNkpiTHhlRkROQUUyYmJzSW91ZkpndllfcnplYXdHV1VabWhkQ25tYXdEWmJRd2ltU01yZXJTLVRHcVp6Y0ZNVVN1VWhDUWRhdXpVR055VzRUWW8?oc=5",
@@ -1187,20 +1187,6 @@ window.BNTI_DATA = {
           "weight": 6.017893552780151,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "60.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Photos show Syrians returning home following clashes between government forces and Kurdish fighters - 10tv.com",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPY2Nfdl9WLV85QURuQ3ZYaGd3UmtPZlJXUF9CdUJxcEtabTdTck55QzhYM2dNSnZoTHdyQkdMZ0thV29nWi1jUWhVa2lVS2lsb0NEdmg0Y2s5a1dSUEUzaVUxdmFwZ1NfS0lVTS16LTRIUmFSRlI1dVc4SllGNHdVMzZmUHJ4VU1HaFgwS1RFaFFpUWpZSmxZVWpSUUVQSTJqc0Y2UmNFSFJkY3VBa2FMc2FZM2ktOF90YmVLLXYxZGxDajgyZUE1UGZfUzEtTWxmMWNtdlV0bW8tdjB5cDV4Z0x6di1LNmdKbHhfWGU5MGlKSE85SDJDdHNFSjk3bFhWSzM4dHJTblN4UUVaNmFsLXBMWWRVdVBhaVdTU2luTHNNZUU?oc=5",
-          "date": "Sat, 17 Jan 2026 12:37:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.5718709826469421,
-          "weight": 5.718709826469421,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "57.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1220,15 +1206,29 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Syria's Sharaa declares Kurdish a 'national language' following clashes - France 24",
+          "title": "Kurdish-led Syrian Democratic Forces withdraw from Aleppo province after clashes with Syrian government - Long War Journal",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMTZ5c2NqOWRXdC12d0tPeEdyV1Nzam5VNzhpTFN3SEt4NHpGYWpjNmcxd2o1ZlZ5Z3RpWE84elBNWmNHMVZKZFhoTXg5Y1FwSUdmMEtHb2NuLWRVZVZuSXNLZXdiWW1OUV9jaC1QMEFROWZEa1ZxMFFxQVdGZVFxQ0dtc0hMMFRGRUZ2dG9XLXZMeGJyaGFkZXNlU3lhdzY4ZWZyOENYcjA1cElSWmQyMTViYnQ?oc=5",
-          "date": "Fri, 16 Jan 2026 21:10:54 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWUcxRC1tUHdNUnE5c2dFN0sxeVk2bm8wSi10ZHd2eDMwbEJmVGdTSnE4OEkzb0w2eEJkcFhaYzhHOEZwMWtCdmlDaDFqUElkRDVvMldISkNtUWFwbUgxZURNMVMtcXgzdlp0dlAwOG5wSDVtMV8xenBqc1BiM3F4U1BOT18tSmd3MlhjeVdGb0VIOXBiWVA0Xy0tUUJrLU4tS2FzQ3BCUTlNZk1vbmtlV215ZzdvRUU4RUo4SFVnVzhNcFNUblFRMFNSRlNsN3RwQUc5SGV2Rm4yNUd6ZzVyWlNDZ3VxZm5xVERn?oc=5",
+          "date": "Fri, 16 Jan 2026 22:10:37 GMT",
           "category": "political crisis",
-          "confidence": 0.5589010119438171,
-          "weight": 3.353406071662903,
+          "confidence": 0.5390525460243225,
+          "weight": 3.234315276145935,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "55.9%",
+          "ai_confidence_score": "53.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Turkey says Syrian government could use force against Kurds - Reuters",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmJfLXhVN2hxcDBPcjR2UzRmSE5SN0R4TGl1TFRNc2dQanQ2NllDRldQRWpjOHctM1QwdGxfUlZIdGFaOUFZWlJYeXBDWW9mWkl6MGdjMDhtQVZIOXFxbXNiVXVNZzVzR0Nqdk55WUthT2tuVENRRjVxRXdqSUhxSVFkdU40bFZORTZiSUJJdGlfTk9WcFBLblpTdXFZNDJ0bjczaEl3Q2VmdTdvei05V3ZuNG9Ic2FWdU1GSV9nYw?oc=5",
+          "date": "Thu, 15 Jan 2026 15:20:56 GMT",
+          "category": "political crisis",
+          "confidence": 0.46575719118118286,
+          "weight": 2.794543147087097,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "46.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1236,7 +1236,7 @@ window.BNTI_DATA = {
         {
           "title": "Exclusive | U.S. Officials Concerned Syria, Backed by Turkey, Will Expand Operation Against Kurds - The Wall Street Journal",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxNN19ncUhEX1JGemNodmNaeGlUbzZUaWVoZzh3X0lRRFNPMXhTMUhONndybkdxemY3WDdKc003YmI1ai05YUhZMFJ6TzJkYlNPb2hCYnNJSlpkZFNKNHRyWVNjVEkza1A4Zm8zbU50RU9KOWpoaXd5a1IzZWc0Qy1rektCZ3Ziby1nenhxM2g5eUZkbnkzVkZSZFpLdUt6aThiT2RxLWtEWjFxcVlpZG5oMDRZUlplRlVXVERhRG13R1lwV3g0ZGRNc0VldHNzbGtMcFBoTjhCTFdoNVJDZjJabmdDYzN5SHdQY3Y2OVVxaHZVaFF2RmNYel9WemQ0enNFNXlkNkEyMGJ2akliRVIxVERtZENBUW1GRWlhX2pWTUZlQlg4b3g2cDNGZDhHanl4MlgtMlFLVFJZa1RpTkVXQVhWR3hKMFRPRjU4QWxtdkV4OXREd3M1dGVEd1B2cU0zc1NKSjRtUk1ZY3BCc2pVUjhodElTbVJIcGlBbUFDenFjYlpnamhDbTVFUG5DS1hQb1JrTXQxYXd2cXNod3FLNExXMVI5VHg5bWpCekM2YXdGcTV5UWdLQkJrUmY1VE9QRkk2UFhuX0hoU093S0EzdzVLcw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxPd2dLZmZRcnhWU2VyclpIbTFVRjAtWjNWY095bkRtbDZERDB0VzBTNHRjMUN4bk5OblY3dm9zTTdmb2llcEt5dEllbndqRnRUWDZfUmEzTHhMY2RGZUhFcm5mcXpFQURkTkRrYlpLYlBtRDhvX0UwUXBIT3B5TkdrSWN3bjROX011TTZ0Y1EtaEFHOG1YTEhoaTJlcEtoOEpPVHFlTW1VQTlkYTJEQUI3SGJNUURTc0pZTnJoN1JRdHp3TkVGUXdEYXM3S2RBNjZaeDd6T1ZVZE1ZMDA1dzhLaFNGa1kzTWxhdEpoc3NVdHJkTEdKRERPNGVZMGNTVjRpNFBtZWpIS19BVndpNHNwbUpSamFkSWdVd3NXb1oyU3pMNXM1RG14aXQzT3BlNVdzZ2oxVm1mM3NaRkV2TVo5OFZfUDRKZy1BLW9haVlCSVBpN3NjVFAwT29hMzdPdzNLdzk3ZUZUMk9FZTJjVzBmZzdHVnZkTlZxMm9mTjJrZVNJLWZqSUdLZjdMVG5hZGxSeFRURTNVTE5WaktVZkJkSkNkUXZmSmFSUkUybnB5Ujk5ZDE2UExlXzBibGtJREpHUGVQWmMwWVhUejNBamFVTlpmSQ?oc=5",
           "date": "Fri, 16 Jan 2026 22:27:00 GMT",
           "category": "military conflict",
           "confidence": 0.479398250579834,
@@ -1251,26 +1251,12 @@ window.BNTI_DATA = {
           "title": "Syria’s President Affirms Kurds’ Rights, in Overture to the Minority - The New York Times",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQTNLNEVHWlhnREJ3MjM5R3daZHl4M0h1UkNnUnVQMmNESUxMVjVfNG10bnRUVDlaLUtrTnNMUU5IMXdrX243UndUOUtJMUJXcDh4ZE5KclVjT2p4MGhlTU56eE15N1hCVk5ZSDRaMWxLdkpMMDdXMU9fNjVMZ1ZMeVZVdjJOREQ5dlo2N0R6UzFBVmRW?oc=5",
-          "date": "Sat, 17 Jan 2026 11:54:00 GMT",
+          "date": "Fri, 16 Jan 2026 23:28:53 GMT",
           "category": "political crisis",
           "confidence": 0.2388751357793808,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "23.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Israeli troops smuggled herd of 250 goats from Syria to West Bank farms — report - The Times of Israel",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON3ZJVjE2d1EzZ2hHcWx5cGJ1WHF6LVVRb0xfbnJLN0lFZGVwM1oyaWMtcUc1dnNOb3lxbEdLS3d5a09aeXRrQ1NWZy1ybmhmZDdRdFJISmJIZU9wb2p3c0lHZkkxNWlZQmdpbVY3emV3bXEzSjdUTERyYkFoWW9BRDM0d05CODNjOXRJUUtDVFZmVGVNa0RSQ2F3T3lGeDZ2R3BZR05KeEVjeWx3amfSAbMBQVVfeXFMTzFsRzczQlhBT3VEVHFtcXhFaXJhSklCMnVGREdMWU1qeC1qUEtqaVN5RU5LdHozQTNrSEhTUG9id3pqcDZ1QkxqSGFvS01LVUVVV0pxVEMxT2dxa2xBUm16WENMMHVkZmxxd2VpRWVCcURia1RyMF9Kd21Vb19KTDkwclczT0JzTDRXSDZvbk83S1NnVnhXUzM1VHBKNnM2ZEZRd296UG5jdWVzbkQ5ZG5KZk0?oc=5",
-          "date": "Fri, 16 Jan 2026 03:47:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.2937168776988983,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
@@ -1302,27 +1288,40 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "Kurdish granted national language status in Syria - France 24",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWGxoLUVXcGV0YUpTalR2dWhmSzRsY2t4TWpXWG94enIxRl91MGZuSkJnNFluc3VnODdPQlp0TkpHQmhDTGZOdmVCQzBUalMwN1dGVmpIQno1azVyQnNuamFuOW04OXBNY1htbEZWanZHaUVBck5ubGR4ODVSdHlVbHI1cw?oc=5",
+          "date": "Sat, 17 Jan 2026 09:58:37 GMT",
+          "category": "neutral news",
+          "confidence": 0.27026230096817017,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 4.7,
-      "raw_score": 20.98,
+      "index": 4.94,
+      "raw_score": 24.75,
       "events": [
         {
-          "title": "Tennessee Guard participates in Bulgaria’s Best Warrior Competition - af.mil",
-          "translated_title": "Tennessee Guard participates in Bulgaria’s Best Warrior Competition - af.mil",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQnItcTR3cHh3eHQ0bnd4X014Z01XMmhJNGFvc1BBZVYwdTNqMHBXQTFqLTBNTjgyQnU3R0VmRGp5T0Z4TEFDVUMwNUVtV2pFb19STVBOUHRPN1pHbFRmNF9nWnZTZnRiOGJSbGdFcFhqWktEamV5QXhkbF9EOXhTakJDbHpJYUxqMkc5cnctV09YNzdvNG8yR09QWmVGWlc2YzYwTnJ0T1p6RVpKSk0yMmI4TWdCa081U0ZuWXh0dVY?oc=5",
-          "date": "Thu, 03 Jul 2025 07:00:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.7368147373199463,
-          "weight": 7.368147373199463,
+          "title": "Bulgaria to hold snap vote after coalition talks fail - Euractiv",
+          "translated_title": "Bulgaria to hold snap vote after coalition talks fail - Euractiv",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdUtaSS00QXFZUnh4UEdiQW1YaE5qQ0xESV9SbXdDY3pQamtBTFdNWFFzcEVxZWE0dTRjTVc0UkVKV3d5Q2h4eVFSWks1NXJyNm16NmxIcVJfYWpXMFBIOU8zRzE1SEFqMGtUZnNIOUVuSnBhZFVrZnc4V1MwVUUzbWwydmxzUUtUbnBTdQ?oc=5",
+          "date": "Fri, 16 Jan 2026 13:36:31 GMT",
+          "category": "violent protest",
+          "confidence": 0.8432334065437317,
+          "weight": 5.902633845806122,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "73.7%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Bulgaria",
-          "translation_engine": "Google Neural MT"
+          "ai_confidence_score": "84.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
         },
         {
           "title": "Bulgaria set for another snap election after protests oust government - Al Jazeera",
@@ -1334,6 +1333,20 @@ window.BNTI_DATA = {
           "weight": 5.867110848426819,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "97.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Bulgaria will hold election after leading parties refused mandate to form government, president says - 1470 & 100.3 WMBD",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdnNpZGppbVd4dkU1ZndmbnhObV8wdGt0NzljbEtQYWk4anVqMjVqYTJIRlhPOE8xNVJ3dDFyQnVnSUZEcXZDSVJRcFVxOVhIYmpBWi03WWNiUGtJWTd1NWxKaUhUOW1GOWRhXzVHdUJZNkpFR0tWZ0syX3lsQTVhNEFXZExJdzlfRm9UMUZZZXJyT0R4TVVuVTFMVEliU2hSRG9pdTlUOVdLaUcyb1Y4R0pISndFVkVyQ1RuTXh3MkR0RzBMTHFKdFUzVjJkZw?oc=5",
+          "date": "Fri, 16 Jan 2026 09:58:28 GMT",
+          "category": "political crisis",
+          "confidence": 0.8721304535865784,
+          "weight": 5.23278272151947,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "87.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1362,62 +1375,6 @@ window.BNTI_DATA = {
           "weight": 3.7250590324401855,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "62.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Teledyne FLIR Defense wins $32 million contract to provide recon surveillance kit on Strykers for Bulgaria - EDR Magazine",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdmtoMmtGck5rQm1kSjBIVGxDTjlXcWdDSHktMFZUX0xYcnp6Qml2bS1zaE1COFUtci02R2pOeVFBaE1vandsckNzcEo2bDllcm45a2kyN1JjUURLU1A5V1VqRHJ1V090UzlTUHVSUHFNS1FUbV9qVDVDODdXc3VaQlRzZ280RzlWeUFySmtPeTZjdVFvNG5kUl8tUEREUExuZFU5Tk5pbUYydGJGSFhFRWRYZUZFRUpreTMyb1l0NmZCUEIxblNkTUVvWUQ?oc=5",
-          "date": "Wed, 14 Jan 2026 17:47:55 GMT",
-          "category": "violent protest",
-          "confidence": 0.31161099672317505,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "How Bulgaria supplies Ukraine with weapons and ammunition - dw.com",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX3VRZ2Fkd0prZmR3RVhRbG1HNHVvTWpEbmFBZmhwWnBXSzM3M25TSWVyMnVJM3F3X2xvMHpYUEQ3TFFXS1ZQZ0llZW53bmVxMllIVjlSdnNMWTNwSHdDcl9pMTNoM3ZCd3Ezb3ItUWJWd0pGalRwbFBVcmdpY2dab0E1cGZSay1OYWV2ZkJCSmpZdml30gGUAUFVX3lxTE45aTdyT21QVWo2aloyb1p0ZnlJY2dZVmhCbmFub2lpTjlraDlEdm9WQWtlSXRUTVNwb2hnMG1ZTUs0V0J4dXJUUGFkbncyX0xLakY3eXh4Qzd6eDFHd094alFiNnZONDRaTVVFaGwteTJXcEVsZUtkU1l4N2RMOW40MTNJMEQxVGx0cHlxOXVBS196bmY?oc=5",
-          "date": "Tue, 09 Sep 2025 07:00:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.2644251883029938,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Bulgaria to Equip Units With Drone Simulators, Expand Unmanned Systems - The Defense Post",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkJpVG5kRTR0aTNzaDVGSlFoaWh6TWFHN1ZXVEwxZ3NGUVhWNklnYUdLRWE0U010QjF4bVhVZTJMUHk3QmlOOTRCVTh2OG5fRy1MTUxVaUVnS3hsc0NqZEN5dkIwLXVuWWZKOHpaUkhHQzNwNkRXbnpCNl9wanBTUU1uVTh5UU9o0gGOAUFVX3lxTE8wS3RMdkxncFdJS3dORlZTa0dRNnlRTHFLdDFrR1dEMkVCd2pndjJxcXBTdGNnMW84d3RncHdiYUQ2RDUtVC1iVXFndWN2SzR1cnJLRkVDZTJXWkp4eDlJaTR5UVNvM01tc3pqZW9RdHVaaHJURmVuUjUwVTczQzFXc1V2ZjlkOGFURERfYXc?oc=5",
-          "date": "Mon, 10 Nov 2025 08:00:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.28879255056381226,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Video: NATO's presence in Bulgaria - shape.nato.int",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vbXRkRExiRkpwRVFmWUpUeGd1elZpNFZlVGpVaWtQRmZ2Qk9iZFV6ajVtRXFRMGNDRi1XV05maTB0Z1U2MzlzdlI1QjltSDdqVDk1eDM5cG1wdXd0TEdaYm80Zm9HdW1zT3B1Q0tpaTZQWEFzMEo3M2hFRDVwQQ?oc=5",
-          "date": "Fri, 21 Nov 2025 08:00:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.19062112271785736,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1465,15 +1422,15 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Freezing Weekend Ahead: Northeasterly Winds and Sub-Zero Days Across Bulgaria - Novinite.com",
+          "title": "Freezing Weekend Ahead: Northeasterly Winds and Sub-Zero Days Across Bulgaria - Novinite.com - Sofia News Agency",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU2Zqd2VCQl9sMUMyUS1BT1ptbzlFNUh4T3hWN1l0cGpSUk83N2pWaElZUTh2UVdLNTJuX0lpdWpULTNreGhIRHZCYXlkM1ZhSVh3MEx2ZzRrTmdaY0NESnpNdEdKZ0hSQTlQXzZWY1hiMjdoY19uQTBKeDdwMmZUYVBuR2xuZmxweGxXZE53ODh2dzJNb1J1ZFp0alh3cXduQ1B3SVZnR1JRci1tbEYwRmphTHRnbWtpRVMybw?oc=5",
           "date": "Fri, 16 Jan 2026 15:56:15 GMT",
           "category": "neutral news",
-          "confidence": 0.27540192008018494,
+          "confidence": 0.30939409136772156,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "27.5%",
+          "ai_confidence_score": "30.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1507,39 +1464,67 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "United States and Bulgaria Deepen Cooperation in Cybersecurity Realm - Novinite.com",
+          "title": "United States and Bulgaria Deepen Cooperation in Cybersecurity Realm - Novinite.com - Sofia News Agency",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbW1kM0ZaZHp5VGpvZmVncWRzenNYZ3F1UjJrZGg4M3ZJczY3MFNsdHp1enoxZ0xOQmFublVQeG1UOUVmYlE5V0RCRG1wZ2VfUUpoR05sYlMyemVhY3BtN3VHeFdPb0NzZThwZUdFS1lZTTMyc3JXV2lvODNSTGswRGVEa2dhdUVtbFJrdFMzdjA3Rkc0WjNZMFNTb29EWEx5eDl4TVhnNk1GajhzREE?oc=5",
           "date": "Sat, 17 Jan 2026 07:07:30 GMT",
           "category": "violent protest",
-          "confidence": 0.4376515746116638,
+          "confidence": 0.39363744854927063,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "43.8%",
+          "ai_confidence_score": "39.4%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "White House announces ‘Board of Peace’, names Bulgaria’s Mladenov as High Representative for Gaza - The Sofia Globe",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2lPM3FPcVVOSjZhdWNDRE85THg5djczRFprM0xIcTAxeVFObFEyWFVrTHpNVFg0U0d6T1hMSXRaU1lpNXFuR3F5MEpUNWpKa05KV20xWlpkRVc5RElSYzdEbXJBVldVYXZIRDd3aDcyR1V0bjJ3MjN5U0lvMlI0eFNKMkpqN2d4eVU3YXhkYkp1S2RsZEo0cGZVcHBqazNQWTlGSzJnTTVsY2NqcF9UVjdTU3R4VXZSVVZoWF9BclBJV1ZpM25J?oc=5",
+          "date": "Sat, 17 Jan 2026 09:44:09 GMT",
+          "category": "humanitarian crisis",
+          "confidence": 0.3068033754825592,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Bulgaria to host renewable electricity plants on Luxembourg’s behalf - Balkan Green Energy News",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGViSk16bHk0YkNka3NLdExwQUwxSVdKaXdDSENMUC1Ib0FEMFFqS0k4R3FqaDkzTk94dlE1MGtQMzdBc2xkSzIydG40aDBzdXpZVGdYSEQxVHMyb3RlTGFJbGY4cmt0dVdJVlVJUlJ2N0RhZ2Fwc2hsOHQtXzNuODZLTWh1RFBhTERncFNFb1ZneW9YaGNIRU9URGw0OVRLdXk2SQ?oc=5",
+          "date": "Fri, 16 Jan 2026 16:31:47 GMT",
+          "category": "neutral news",
+          "confidence": 0.6404982209205627,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "64.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "AES flags up to $325 million impairment charge on Bulgaria power plant - TradingView — Track All Markets",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON0E2R25Vd0Yta0czMGV0YXdNOXk2YktBREthQ25UaVlwSVF1THM1VS1Sei1HOGlfelM0aE9Zdm9KOXR1VEZhX1F5aTBGVVdmRlU1b0hsRFd1VXZESVc0cGllalFYU3RkRUhId2l1ckJMMVRKX2JNNHVyTUZvSTc5QmpWMndfS2FBekpxdVBIaS1naldiSDlCcFlPYzVtQ0NBX19tYXE4UFZlbldlcXRXTXNQZXJlUmNWaXJrdWVPNmVmRGYwYzlrMnEtbExvOVl2QzdVOGZB?oc=5",
+          "date": "Fri, 16 Jan 2026 22:05:52 GMT",
+          "category": "economic crisis",
+          "confidence": 0.19448889791965485,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.4%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         }
       ]
     },
     "Turkey": {
-      "index": 4.63,
-      "raw_score": 20.03,
+      "index": 2.89,
+      "raw_score": 5.7,
       "events": [
-        {
-          "title": "Turkey says Syria using force is an option against US-backed fighters who helped defeat ISIS - Fox News",
-          "translated_title": "Turkey says Syria using force is an option against US-backed fighters who helped defeat ISIS - Fox News",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcmo1Vy14VTRMb1hSTlFWZW5TczhhTlM0QlNnQ2I2VVVqclRJTGpPaTIxaG5SUzVTR2pNRHlraGN2SGFMd0o4NGRua2tyQ2NuR3N0aElya2UtY1g4SzZqTDBsRm81bUYyQ2pCSVdjVlhfc0ZzMlVQOXVUSWhxWHlpUzlFM2pjc3F0ZnNhZTFVUGpXRFh5NWVjZkswR0dhYVpzQjU4Q3d3UFYwbzFUNk9MenBRdUt4SWfSAbwBQVVfeXFMTndQdGI0TU4zSHR2QlBvVGszcm5tdDdMa3Q2SUgwTHp6a3NraUJlTkRab2xUWTgtajF2U2xrY3l0bUJiN0MtcHJZd3Brb2swUkhSR3prcmNhY2RwNGNYdWx3TXB0N29QQnh1aXVNVTQ3WGhtTjNmSUpjSmE4ZUdDZUtnSm5JMXFGcXVVbDBMNHJ6cUF0NF9kQURpMDFkWHRJcnFCNkNvMVl3U0RWNVhmYkd0TUpFSHFRUjVTclE?oc=5",
-          "date": "Thu, 15 Jan 2026 19:48:32 GMT",
-          "category": "military conflict",
-          "confidence": 0.8300313353538513,
-          "weight": 8.300313353538513,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "83.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Turkey"
-        },
         {
           "title": "Turkey treads carefully as Iran faces unrest - ایران اینترنشنال",
           "translated_title": null,
@@ -1558,7 +1543,7 @@ window.BNTI_DATA = {
           "title": "LIVE: Turkiye, Egypt say Erdogan, el-Sisi invited by Trump to Gaza board - Al Jazeera",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV09sU011aXM1dE5VV0VxZE9aWTRiTnVUV0VaSEp3czlCaFZyd0Q2Q25RVHMyUVBNSlBIRDZJWl91ZTlBTmF5RXZFajNjcTNleE1PUGY1OUtHRDhIUjA1ZDVJSVFVSkJ3bWtGeFlldU1taWVrWkg3cWZjX0R5MjVsX184RmlNdk5JUXJ3VmJoNmNDM29PNjRrZ2FDMVNQMHZ4UHhFNlJQSWppTjRkS0p2WDRzOUc3ZXQ0UkVSRdIBwgFBVV95cUxNdWpzWWM4Q0VBcVBqaWd1UjBSMWZwY29SMU9PU3B5bDdTczd1XzhmWTBhY3lQbHpRcXROLTZXUTdEclIwbGUtQVJ0dURJUloxeFNlbTNET0NmSlFyMXZVLU5QM1Q4MHQzR2Z1RjBoY0hkWV9NaUZJX3BWeHNHbTN2SkNWU3dBRzc4NEpJSzRaX1MzV2RJVE1aOXRQUTdHQ08zdnpxQ2RPZ0Nkd1FSdzRTUGxZNWYxeUxyUi10VlVxcVBmQQ?oc=5",
-          "date": "Sat, 17 Jan 2026 12:41:12 GMT",
+          "date": "Sat, 17 Jan 2026 12:45:00 GMT",
           "category": "political crisis",
           "confidence": 0.5113266110420227,
           "weight": 3.0679596662521362,
@@ -1569,15 +1554,29 @@ window.BNTI_DATA = {
           "country": "Turkey"
         },
         {
-          "title": "Turkey says Syrian government could use force against Kurds - Reuters",
+          "title": "Turkey steps up border security with Iran: defense ministry - Turkish Minute",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmJfLXhVN2hxcDBPcjR2UzRmSE5SN0R4TGl1TFRNc2dQanQ2NllDRldQRWpjOHctM1QwdGxfUlZIdGFaOUFZWlJYeXBDWW9mWkl6MGdjMDhtQVZIOXFxbXNiVXVNZzVzR0Nqdk55WUthT2tuVENRRjVxRXdqSUhxSVFkdU40bFZORTZiSUJJdGlfTk9WcFBLblpTdXFZNDJ0bjczaEl3Q2VmdTdvei05V3ZuNG9Ic2FWdU1GSV9nYw?oc=5",
-          "date": "Thu, 15 Jan 2026 15:20:56 GMT",
-          "category": "political crisis",
-          "confidence": 0.46575719118118286,
-          "weight": 2.794543147087097,
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NZTUtYUNNY1JES1Z1SVJyc0sxXzlLTm9JbFkxQmZ5VGhJQU96V2ZpbmZqRFlnUjN0NDVxcXZTZXRfX2g5dEdNd1RORDNCaGZB0gGnAUFVX3lxTE5pbmVoSTZ0dVZEVEx2LS1uYVlXLWdhN2xEdnJXRllVVHpvYkFBbTFnUzBjb2JWYzhlS040WjlSeXdiZE9fdkF6MDlfVG9KT3I5T3pENTRYR25Sa3I3TFJqUXJDemU2NHppYUtOMnpQRHZQT3c0VkRJMkViUU9QNHJZWXFyWXlqOEhlTUdXN2MxVUh1cVBRMjk1MWhpOHRzMDlqNVdyc2Rn?oc=5",
+          "date": "Thu, 15 Jan 2026 14:58:43 GMT",
+          "category": "military conflict",
+          "confidence": 0.22683578729629517,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "46.6%",
+          "ai_confidence_score": "22.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
+          "title": "Turkey announces plans to open border checkpoint with Armenia later this month - Armenia News",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4REtGQmRjT3dJLWVoeTd0MGpwTk9rcFVBVTdlbzRmdEhvWG05NUpHUUtacTVRdUM5YWg1dXJGSnZzUEl6Rm9tUjdRT2g?oc=5",
+          "date": "Fri, 16 Jan 2026 14:43:57 GMT",
+          "category": "violent protest",
+          "confidence": 0.22938299179077148,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "22.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Turkey"
@@ -1599,7 +1598,7 @@ window.BNTI_DATA = {
         {
           "title": "Exclusive | U.S. Officials Concerned Syria, Backed by Turkey, Will Expand Operation Against Kurds - The Wall Street Journal",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxOREFGc0pmSUJqalVwcFJELWo5Vm5MYWxWclRLZVZzTUM0OVRkX0Z2ejRRelJZeDJva1NGeFpxalBFTmFzVDBxbm80SjFFZThDekkydDdSQXFhWHJGVDZkZ214eUVaQ0Zqb2xhUlhERWJ2Vy1RZ2NHaG9JYnB6ck40U1B4SWw1ckM2N2NYOGhwOFRXYzQtdG1CU0V2Zld1X0JmVFlRUk4wNU9iM2JLR1o3aHo2MUdDZWc0cFY1NDFCWHVOTTN1Q2E0SFpROGRxZ0padXJodWJMOXJ2TTdGWXhhU2g2RWVKaHM4SGpFVGFSVlMwbGR4TVk0VENlU1pZVldHSFprM0cwalRGZm8wcGlhT0JIdTBNbXRnQlQzR1RHU3JQRTZYR1puV0pqbU9fV09hRkd6cGJMSTlSd051OFBoR0pvWUxDSVE5VzVUMlVGLURVVG45TjdGV0s5VkdoeGpmeVhBTVpGaHRHaVcyMWpDbXkyRnM3NkszSjRMVExKUkstQnduc1NUQXpuOURUOXBDQmZ5dVM0dkRUdEJuSnIzbmhLbnR0cnpkQ09FWFFhYVBmV2ZuMFhONEtlUWxEV1Y1M3I2T2lDc3JaMGJhdUVBREpoVQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxNdXFqeWUwSDlZLUhPV05NRHZ5YVZMVTJ0QnEyV3lEa2VobmtZdWFiYm0yWFJjNFJPX3M5QXkyZVRucUhFTW9ONG5JZVV5dUVHVkxRTnluTlFGWHl6QlJuQXBBNE02UE82VzItUDNzNXJ5VEJFVWpvTDBmcmZwNkhFbjJaamF1aDBuN19SVlNpNlhSVHlhdkNyV3ZXZnA5WUFHREstTGdiaHNMNmxyejhBUHpBcFBoTzhYVXZfMXZiSXA5OEZHM2pZZnVacndxekxWaElORm9OV3U5clA1d203LV9wQkNTUGctblVfSWotMWk0WEdjNG1hdXU4bXBmNUJyWnNuN3g2ZndacVRtSWVIVGRReGNJOFdxMFBqeGx4U2NONFV4aGNiSUNlN3Q0bER3eGtzdzNPMF9WZkRoRC1wa1RwYTJseFZfN3BWdXl1MnMwVDdUOFNaMEhsdDlkWTMwZUtGMDRZWDJqVW1VbWxHYmhvdnF2WFVOZlhidzkxTncyc3lEX1FfOHhKS0JvRklZRnVnckxOWU11VUh6STNHbDl0X0JBemU5N1QzdjljMWRmMXFXTkhPQWxySUxQczZOM182VE9GS2hHU056V0Frc191cw?oc=5",
           "date": "Fri, 16 Jan 2026 22:27:00 GMT",
           "category": "military conflict",
           "confidence": 0.479398250579834,
@@ -1681,30 +1680,16 @@ window.BNTI_DATA = {
           "country": "Turkey"
         },
         {
-          "title": "Pakistan, Saudi Arabia and Turkey seek regional defence pact amid fears of Israeli domination - Middle East Monitor",
+          "title": "15 billion dollars in Iraq-Turkey trade emerge as pressure tool in water talks - Iraqi News",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSHN5OW02eVJsMElWOXpCOE8xQUZsaHAzZFVCOTI1Smh6WHVyY0RmVFRod1JKeHdiSk5zZDBkbGRsYXBvbFV4ekJGQWIzNDhVRGRRNDczcnZOelF2aHVjV2VoZldsUkw0VFhVcVlfQ25sQ3pQRjFvTHQwN3lEWTc2aldzT2QyRjZHR2w1Uk5uc3A4NTJMc09WOExWZjU3bktvcENvLVp0dGNXRTByMWpyRm1fUnI1MUNmek5MZWNSdnVBaG9xZTRvbzB1d3R1X255alHSAdcBQVVfeXFMTzZjMlZQekFIOFN4TGxlRGh2TUhkQS1EaEZrZnZCN1UzalJxdVRFaDl5Z3VWSFBrcjI0UTVJM1hDMDJUVXE0Z0JrOFc1SG5ReWM3SVA1Z3YwRTVHNmMxMGV4WDR0andrNnNIY2IxS1hEV2dOQ1pQakhuRlZleTFTTVp4UnVmOWVhZENRSTY1RTB2akhCd3FVa3o2R0JGRGRqdjFaYmUtWUpWRjQxaU5sbVNKeUlJX0hwSGgweWpyNkplZ2ZXYVI0N0Q1TU1aQ2hBUnRtR2t1eHc?oc=5",
-          "date": "Fri, 16 Jan 2026 15:03:00 GMT",
-          "category": "terrorist act",
-          "confidence": 0.387178897857666,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "38.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Turkey"
-        },
-        {
-          "title": "FO° Talks: Israel Recognizing Somaliland Is About Turkey, Iran and the Future of Middle East - Fair Observer",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQ1FXeFBhMWV1TGZKYVlKcm0tTkxONmpxNmZfWTdNblAwVHk0bGVWVjJJTVpjLUhFTGI1QVZVdDFuN0dxUXl4dklXVVNldU9LbTRoWXNpVUR0WTFfV2VETnVGbGxCbWhYRWJqZHN5X0ZsRlJ3SVRPSlBXNWl6NFdXVFhhLXFfMG9fR0tFaU5JMGh5MnZUTkljRDJpZVdldFpIbEVzYnNETlFqYkpCRkFjaHhRU0xsbThQRnRidmxsUEgxenBsNURpQzdsVjFyNXhSTExWMmpnWEVtVFdqNTBVeA?oc=5",
-          "date": "Fri, 16 Jan 2026 14:05:51 GMT",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYUpmRkh4Zk5TRjJ1S3gwOGlkUzV2a01rUjJCTlVPVnpSN2xhMFlFU3BXWEl4N2dhUjRCRmtfSWFVVm43TlBwb3FWSTUtTVd5VU8zT295dFd1N0xRalFYcEl4MXpoR09HdFQzczg4NV9Hc1k3RERkMXdWNmY5S3BwOWZOT0w?oc=5",
+          "date": "Sat, 17 Jan 2026 12:48:52 GMT",
           "category": "neutral news",
-          "confidence": 0.3588075041770935,
+          "confidence": 0.22323743999004364,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.9%",
-          "detected_lang": "local",
+          "ai_confidence_score": "22.3%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Turkey"
         },
@@ -1723,15 +1708,29 @@ window.BNTI_DATA = {
           "country": "Turkey"
         },
         {
-          "title": "Pakistan-Saudi-Turkey defence deal in pipeline, Pakistani minister says - Reuters",
+          "title": "Iranians find refuge from brutal crackdown - and a Wi-Fi signal - in Turkish border city - thenationalnews.com",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbEF2UVkzaWswMGNDUFVyRkhDWXVER0p1dVhSX2hOLTczV19SV0twemRISGNONE0yaDV2VHVKWERpMk84bFgxT09VeWJQbHkxYmkzOWc5MU9UdWFpcVA5ZmhCVFdqLTZrTVpNcllIM0hBV2hSR2IwSndqNllVTC1YT2JnSV9BTnliUm1DVFUwY29URHh4eldLRW5fRWFkV19qTzVVLUpKYUJzbnViOXJwV0FCcjRKTWVqMk9oNU9XZw?oc=5",
-          "date": "Thu, 15 Jan 2026 19:26:54 GMT",
-          "category": "violent protest",
-          "confidence": 0.4391363561153412,
-          "weight": 0.0,
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVUFpZFhMNTl0Rno5TnJmaTJ4a0RUWFBuR0NZYWc3LXN5b3U2NEZBa1lneU1OdW9jQmNvYzZYOWV2S2FzWXNGMVZXOUlwd2VyUktIVjA4YkROamZFenVNN0NYRXJRYjZJMGtSM0ljNUFOdTlxQ2xRYkVCQXF4SU9nUnJLcHFIaUxlRkoxaFVDNFY5WjRhSDZ6bEo0STQ5YzExUjlZZGR2SnIxUEVIdkRSVld0OU5FZFJEN3p4b2VTRnR1SFlpZVNaRHMxTUtLaFBSWXIybw?oc=5",
+          "date": "Fri, 16 Jan 2026 14:53:51 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.7519389390945435,
+          "weight": -1.503877878189087,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "43.9%",
+          "ai_confidence_score": "75.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
+          "title": "Pakistan, Turkey, Saudi Arabia plan defence deal to counter chaos in Middle East - South China Morning Post",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQUVUWlFIOXBiaHowQ2g1Sk5GakwzSFZ2WDY0a001SjhrVkg0bVdzT0NKYU5QZEQ4bGNLSWJScWI5Ny1KTEUyblRMMy1uVm1KSHJDV2Y4UnRDVmJKb1h2OVdfeGN6NTd4VVpaOUYzVG5Tek1fMk1YLU01T2d1cDhUS0dwOERPekJyNHpKdmFHOW5MRDZuUkVvX0JFQjNZNURqOVpiVFE3UFlhMmVuajgxX1ladHZ6X2t0czIyRk5XbGU5M3dFY2RUSDRxRFlpYnM1ZEHSAdIBQVVfeXFMUERUY2pLWC02QXp2Y2loXzBWUVBhcFQzci1BNlV0TGhrbWlRbmZkTm9YdFBjd0hUbTgwd3AtaUE2UjVaWG5VVXJULUhnUmlqVERUc3NpT3pNRExZUU1GM3lXSll2bzBHcGo1dW05UVNzdkY5bXJlQ3FMZ0RyMGlPNGlGa2d5UndGazJvS2pXSFhXR1JrT010YVlldTJsc1pSdU82b2t3N0FsbkMzTHBXdkpYV2NfVlBQekRiOG9MdkVZYkJYcVhvZGwtSG5lV09zX1NB?oc=5",
+          "date": "Fri, 16 Jan 2026 07:27:31 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.8653263449668884,
+          "weight": -1.7306526899337769,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "86.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Turkey"
@@ -1961,48 +1960,54 @@ window.BNTI_DATA = {
       "main_index": 7.92,
       "index": 7.92,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-01-17T13:48:10.320754",
+      "main_index": 7.83,
+      "index": 7.83,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-17T13:49:20.499578",
-      "index": 8.16,
-      "main_index": 8.16,
-      "confidence": 0.37,
+      "timestamp": "2026-01-17T14:48:10.320754",
+      "index": 8.11,
+      "main_index": 8.11,
+      "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-17T14:49:20.499578",
+      "timestamp": "2026-01-17T15:48:10.320754",
+      "index": 8.14,
+      "main_index": 8.14,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-01-17T16:48:10.320754",
+      "index": 8.17,
+      "main_index": 8.17,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-01-17T17:48:10.320754",
       "index": 8.2,
       "main_index": 8.2,
-      "confidence": 0.33,
+      "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-17T15:49:20.499578",
+      "timestamp": "2026-01-17T18:48:10.320754",
       "index": 8.23,
       "main_index": 8.23,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-17T16:49:20.499578",
+      "timestamp": "2026-01-17T19:48:10.320754",
       "index": 8.27,
       "main_index": 8.27,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-01-17T17:49:20.499578",
-      "index": 8.31,
-      "main_index": 8.31,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-01-17T18:49:20.499578",
-      "index": 8.35,
-      "main_index": 8.35,
       "confidence": 0.3,
       "type": "forecast"
     }
