@@ -1,20 +1,20 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-01-26T05:43:47.323790",
-    "main_index": 7.52,
+    "generated_at": "2026-01-26T06:45:36.078037",
+    "main_index": 7.42,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-01-26T06:00:00",
+    "next_update": "2026-01-26T07:00:00",
     "version": "2.0.0"
   },
   "countries": {
     "Armenia": {
-      "index": 4.16,
-      "raw_score": 14.44,
+      "index": 4.36,
+      "raw_score": 16.56,
       "events": [
         {
           "title": "EAFJD president warns of Turkey’s role in Syrian instability, urges dialogue",
-          "translated_title": null,
+          "translated_title": "EAFJD president warns of Turkey’s role in Syrian instability, urges dialogue",
           "link": "https://armenianweekly.com/2026/01/24/eafjd-president-warns-of-turkeys-role-in-syrian-instability-urges-dialogue/",
           "date": "Sat, 24 Jan 2026 19:34:47 +0000",
           "category": "political crisis",
@@ -23,12 +23,13 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "65.8%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
+          "is_translated": true,
+          "country": "Armenia",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Armenian Parliament rushes electoral code amendments as opposition warns of crackdown on independent election observers",
-          "translated_title": null,
+          "translated_title": "Armenian Parliament rushes electoral code amendments as opposition warns of crackdown on independent election observers",
           "link": "https://armenianweekly.com/2026/01/24/armenian-parliament-rushes-electoral-code-amendments-as-opposition-warns-of-crackdown-on-independent-election-observers/",
           "date": "Sat, 24 Jan 2026 19:40:43 +0000",
           "category": "political crisis",
@@ -51,6 +52,34 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "61.6%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Lessons for Armenia from the Collapse of Kurdish Power",
+          "translated_title": null,
+          "link": "https://hetq.am/en/article/179396",
+          "date": "Sat, 24 Jan 2026 10:30:00 +0400",
+          "category": "political crisis",
+          "confidence": 0.5873750448226929,
+          "weight": 3.5242502689361572,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "58.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Analysis: Armenia–Azerbaijan deal worries Iran - Long War Journal",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX2cxZnVTUG4yc0FDLTdhNXVidXI2LVFHR2VrUy1PMUdCdGd4N0JqVHdnRkNxYUk1SFBqZVdMQS1RVzNrVlB2VmtvTHFMZ3lDajgxblJXSk91M0JWV3VvRFI3bFNoc3pTeHptaHQ1OFdGc2s0blVEZTVhM2FiX0xzZDVjRTFnZXBsMzgzTWdLdGdJQkJvbVNKMVRaS0pyZw?oc=5",
+          "date": "Tue, 12 Aug 2025 07:00:00 GMT",
+          "category": "political crisis",
+          "confidence": 0.5777730345726013,
+          "weight": 3.466638207435608,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "57.8%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -125,99 +154,71 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
-          "title": "Armenian Championships: Manuel Petrosyan and Anahit Mkrtchyan collect national titles - Chess News | ChessBase",
+          "title": "In Armenia, rising ceasefire violations bring fears of war with Azerbaijan - Reuters",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LLUxVbndsODAtRnAyUGxKcDJaWEhkRzJWeG1MbVpVcy04bnNXT0RGUUxsUFd0OW9naW1xb0Q0NTl4cVJIQVVkTDVMQXJEbGtUbllrYjk4bi04OGlsZEFNQ2R0Y2M1OXd3THA3NmpfUzg5QQ?oc=5",
-          "date": "Sun, 25 Jan 2026 20:42:45 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTjRjRFMyS3g3TFR2ZURPZTZJT2hLZDIwZ2pDNUVLN3hmREhaNjdtXzN3QjM4eHYwVUlRNFRGdW84U3N4enFVa0FXUlMtU194bDVnd1RndjZwSTE4anNRUXNaUVpGb0hoOGdRX2tTQWs5VlBmREVVbUtieDNtcVB3aXNiMUUyZ1JCM1dLQ29ublRKZWItRWxmQkxxUnZITWJYU3dkeVE3MV9FWkc1dVE?oc=5",
+          "date": "Thu, 12 Jun 2025 07:00:00 GMT",
+          "category": "military conflict",
+          "confidence": 0.5057059526443481,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "50.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "J.D. Vance to Visit Armenia, Azerbaijan in February",
+          "translated_title": null,
+          "link": "https://hetq.am/en/article/179398",
+          "date": "Sat, 24 Jan 2026 11:28:00 +0400",
           "category": "violent protest",
-          "confidence": 0.33820581436157227,
+          "confidence": 0.3461107313632965,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.8%",
+          "ai_confidence_score": "34.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
         {
-          "title": "Armenia sees more citizens entering than leaving for the first time in decades - Armenpress",
+          "title": "Armenia, Azerbaijan and US leaders to meet for peace talks - Al Jazeera",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iaDhQSkhrZFo0am1VQVNjc055WWdkZlRmcG1iX09PYkpiZTMtbElrNGtiQ2dVbDNNS3Z0SWxkc3JQZlpDNF9oLTNUME5MTENTaXfSAVdBVV95cUxOZVB3REY1QzVTMkVRUTZoRWlSMWZ1V3AzTmJBUHM3dGdOejVxVU53WDQxR0laR2ExSWJFbE9Xdjh3dHJZYmgwTEdzWG45bUllZkU0dUkwMGc?oc=5",
-          "date": "Sat, 24 Jan 2026 12:24:00 GMT",
-          "category": "neutral news",
-          "confidence": 0.3347494900226593,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "J.D. Vance to Visit Armenia, Azerbaijan in February - Hetq.am",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tbGhmQU1EaUFmZ2NQdXhSaFU2YW9ublgtaENJNWUza0dlakg2UzdUSzlBOFRCVWNzV0N0V2NjcVJOUWVnbVZIMg?oc=5",
-          "date": "Sat, 24 Jan 2026 11:41:49 GMT",
-          "category": "violent protest",
-          "confidence": 0.41584569215774536,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Trump says VP JD Vance headed to Armenia, Azerbaijan next month - Armenpress",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SUE5HRkcwcUN0QmNpQTRiSnFNVVRMbk8wVzRveUtWbk9HYklhUnpyS1dxeUxXaHR0LWM5NTYwS0ZfNks1MTlYTkVGcVp2dDA0MlHSAVdBVV95cUxPWUl4UVViTEVQaVlDTWl2TzhUSDh2aXQtaEhDUFFqckRyRkFJbkNaLW5NeGdjN29Id2cxN3RNbXRiS3JmMEdiWW9MaGIzTEZJakU4VTgwWmM?oc=5",
-          "date": "Sat, 24 Jan 2026 07:32:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.19650281965732574,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "The holidays in Glendale: The (other) Little Armenia - The Armenian Weekly",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTi11UWNWR21FY255UlhnU1ZmODlVSjdCVmZ6N215dzZqV3cyY3dlTVpuVnJQVk9IN29kUm5uM2wxbjZiN3J3a3dZUHE4ZEVFWFBBTzZWdTZxQ1FiZTFqNTB6TTd0RnFwSE1NQzZQRVVTZUVTWUE0Vmp0ZGVXVE9HMWQxNjB0TTlzNHZ1bDdTSUFxQQ?oc=5",
-          "date": "Sat, 24 Jan 2026 19:51:54 GMT",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM25hLUR5NmRjQ3N0Mm9uNjRpX0p5NVhPVmNwV3RoLUdYNW1lR0N6NW02dnJXcHNuRUNpbE1QYS1jRS14SjBZRjFjdWYxaU5Cb0FhTVVfNVkxa0ZvN0FTX0MtNFdMTjEwdFJuSmFvS2NJSXVpVlJXeEd2NVhqdlcySEFjR0lnYmktWTJDeHZqbGZtN2xLb2NTQ2xCWkpobzhEelZWcnh30gGrAUFVX3lxTE1xRVlmQ3ZtaEo1V00zTXA2dmc3cFVGekVCU1FMUHdoanhVMmVOTGZKekMzNFBRdGpQSUNXRXZQSHp1NU9xMG1lTlB0LWN6MV80LUlwTV92WjloVUxUUml1XzVMUl9XeE9HUDY1Z2xlWW93VHRRX2RnRG1zSlpNREFmOVl6NDM3bmxudVVkTWVzTGJ1UncwTFRDSE1rSllVTVMzU1NfYUJrN1V6bw?oc=5",
+          "date": "Wed, 06 Aug 2025 07:00:00 GMT",
           "category": "peaceful diplomacy",
-          "confidence": 0.22718879580497742,
-          "weight": 0.0,
+          "confidence": 0.4602780342102051,
+          "weight": -0.9205560684204102,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.7%",
+          "ai_confidence_score": "46.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
         {
-          "title": "Trump Says Vance To Visit Armenia, Azerbaijan In February - eurasiareview.com",
+          "title": "Armenia and Azerbaijan: Getting the Peace Agreement across the Finish Line - International Crisis Group",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMWh2dDhVbjNTTGtCbGwwR1JqVEtNd3dlMjBGbXh3N1lMVG1FZWRqQzdLcXAycWdFVGVfOHQ0NzEzdUQtNGVVSFN1cjV2QTZoal9IdUY1V2hOOEtOYTktS2xHVzU1Qk5tWmxfdk83LU4ycy1YOFpKaHZrR0J3QUxKeVJFenZacTRqRlNOTXUzMms5eVJ5ZDZ6YmVFUS0?oc=5",
-          "date": "Mon, 26 Jan 2026 00:04:49 GMT",
-          "category": "violent protest",
-          "confidence": 0.1857452094554901,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Last Remaining Armenians Leave Artsakh - Asbarez",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lLWlfV0VGc0lveWxpSUVYQnlUQ0cyNXd0QnMyVzR4aUl5MjNDbHhmeXpiMzFTLUJ2eloybnZaTGVPaVhMU2dNaTFVMVRoZmczTUQ4M21WSUhZcHladXJPdFhnZGpsNVM3RDVN?oc=5",
-          "date": "Sat, 24 Jan 2026 17:20:49 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWWxlUzJqUHRMaEVXeFppS3hTRmVoTjdBZ2lUT2thcVVXWUVYWjNKa3FkZW4zV2hiZjY1cWtHNVFCQmNyV3VrYm4zN1pROVloMUJZMjRGUGlQa1pkaTJ1bHJVX2FONFpqcWgtYm9nNXBMUHpIY3FJcFVlX0EzN0cxcTRYZUhoQWlZSUFhOTR2MFA5WUNwam81V0laOHNXU1M4bWVUY1VpQTRZc05Vdk5NUnVoWl9EbW9hRWtUc0VrRjhKeDVEQW94QXBaTzFiNVU3VXU4bE5GZjlleXV0MmFaR0hjallFQnM?oc=5",
+          "date": "Thu, 22 May 2025 07:00:00 GMT",
           "category": "peaceful diplomacy",
-          "confidence": 0.17791412770748138,
-          "weight": 0.0,
+          "confidence": 0.986739993095398,
+          "weight": -1.973479986190796,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.8%",
+          "ai_confidence_score": "98.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Azerbaijan-Armenia peace plan hinges on narrow strip of land along Iran border - PBS",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV3ZXbk5VeloxbmQtSUc2NFZpTmFFY280ZTBqSEhrcFNhcGZ4QmNjLVBacmhtSWEyNEUyLVBVVmduU3lrMUxiSjh5OFJDaUYwdE43VFpGRWFLeUZVQjZHVWJucnRoLWxHMDZtdHRsSnZPdldBa3FTZVVTUFcySGxkRXBFUTQtRGU2VmltRXhtMnJhWktYS2t5M1A2TWdZY0M3ZnpTS044aE1qb0EyaTV4bmxR?oc=5",
+          "date": "Wed, 31 Dec 2025 08:00:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.9892255663871765,
+          "weight": -1.978451132774353,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "98.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -225,8 +226,8 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 3.64,
-      "raw_score": 9.96,
+      "index": 3.93,
+      "raw_score": 12.25,
       "events": [
         {
           "title": "IndiGo Cancels Flights To Georgia's Tbilisi, Kazakhstan's Almaty Amid Rising Tensions In Iran - News18",
@@ -256,6 +257,20 @@ window.BNTI_DATA = {
           "is_translated": true,
           "country": "Georgia",
           "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "Georgia National Guard heading out to assist emergency crews - wsbtv.com",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVzVhSXZOZkV0UVVnS0xzd1NsYnZyZDY1SnFyeTJjaXNQaEg2ZFlKam9xZEVYalhfM0hPZ19CSzQ1RW1mdkxLZ0VMRkRvckxweFpsLXd0dmg4akVfS3NKYWRHX3B3SW5HMi1pRENhNW40S2pvVlhjb25KQmUwRkNhZGl2X0RuOWk1MW4zazJvbjd3MTZfRWFFR2QtQmhyN0xJaV9laHMzY3RjcTdYVXhQZTFRdmNtdGRmWHfSAc4BQVVfeXFMTzVtc3FMb2kxMWtwNVA5UU5xNmROTm1IbXN6ZWNRS1hPSGk4WldyNkJTelNDR1BacDZ1WXJtS1dfLWpWVnlmZi1rc3NHRXJxNEw0Tm1FYXNOU25KZ0hheUlzYks3aEJlSnkyMWlKM016ejczTnBhb01iOEo3Vk5mVnBGZkRaZUp2VlI1VlhtT3h5X29jV0NLZnBqOVdjNnNPQTdCbXh4dW9hUndpbWhxVHpzS3dRdzFFUDVacjI0Y3pTb2g1Z083RzNjN1dxdlE?oc=5",
+          "date": "Mon, 26 Jan 2026 06:03:44 GMT",
+          "category": "humanitarian crisis",
+          "confidence": 0.7651164531707764,
+          "weight": 2.295349359512329,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "76.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
         },
         {
           "title": "Georgia National Guard deploys 120 members as ice storm bears down on state - atlantanewsfirst.com",
@@ -384,6 +399,20 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
+          "title": "Latest news in Georgia, Armenia, Azerbaijan, summary. Live",
+          "translated_title": null,
+          "link": "https://jam-news.net/news-from-georgia-azerbaijan-armenia-26-30-january-2026/",
+          "date": "Mon, 26 Jan 2026 05:31:57 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.20268619060516357,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
           "title": "OCCRP: Wanted Drug Criminal From Taiwan Posed as Major Foreign Investor in Georgia",
           "translated_title": null,
           "link": "https://civil.ge/archives/718261",
@@ -410,40 +439,12 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
-        },
-        {
-          "title": "Late touchdown sends Team South Carolina past Team Georgia in Border Bowl - theaugustapress.com",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbjQxUjhWMlc5bDJFckVwM0dRVE1aaFJseEUxT3lKc2dEZG9KRzhXa2lla2gzalhSZDY4RjVVUzdxZEYtRDdYOUhxbTEtMTZDZDNVdkFaZmJPZVpUcjVXakdfS25jQS1rZnFsaUR5THNuM3ROSG9qQmIwMFBST0F5VDVkNGNhT0V5emlCY3JHWGU1OENSSE9mSXktdzN2dGhuaWxJSA?oc=5",
-          "date": "Sun, 11 Jan 2026 01:19:52 GMT",
-          "category": "military conflict",
-          "confidence": 0.23623383045196533,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "‘Unbearable’: Ukrainians deported by Russia, stranded at Georgia border - Al Jazeera",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVFyWndNeE9UWGZTV2RtLUFwZWRJM0JiY1dCZTduS2NEOFVKOFdXY3RfaVkzcWJKLXM3SEF2X19LLUhCajZROG5MY2dQcTVqTHZxdnhKbTJrYzJWVmVhM2tPRWh1QnpzMDdoNzZ3QV84ZTFJd2FWcTlEaW5nSnZLb2tBRm40WkE3d3pacWtxZjdXTGFVQXJDb2ZTUE84b0pVbVNZZWJtcXNRMF9weXlGcDJ30gG3AUFVX3lxTE1CdEdQWUFYSEgtLXZ6Sk5tV1Q1RlpsRzBpSVg5WmtFM3ZNb2hSejVTeDA4U3dlYURRUG56MUxvQUtmanp4SkNrUkc2Q2pWRkMtU0kzbVVNMml5aUdrR3Q0dk9BWHJzVF9iVl9zME1JS2RUUGdXR0dQV2N0Mm1ZXzNZWnFEVEhzRVBNOEVHZGJxU19pMmpVdmpmZHYtamFLOWVqRTg0ZjEtUzc2cnZVNDVWcENBQV9TMA?oc=5",
-          "date": "Wed, 23 Jul 2025 07:00:00 GMT",
-          "category": "humanitarian crisis",
-          "confidence": 0.212489053606987,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
         }
       ]
     },
     "Greece": {
-      "index": 4.23,
-      "raw_score": 15.15,
+      "index": 3.63,
+      "raw_score": 9.88,
       "events": [
         {
           "title": "Ληστές στην Καλιφόρνια μπούκαραν με SUV σε κοσμηματοπωλείο και έφυγαν με λεία 1 εκατ. δολάρια, δείτε βίντεο",
@@ -476,59 +477,141 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Αναβολή στη ρήξη στο συνέδριο της Νέας Αριστεράς: Με δύο γραμμές και μια Πολιτική Απόφαση χαμένη στη μετάφραση λόγω... Τσίπρα",
-          "translated_title": "Postponement in the break at the New Left conference: With two lines and a Political Decision lost in translation due to... Tsipras",
-          "link": "https://www.protothema.gr/politics/article/1763279/anavoli-sti-rixi-sto-sunedrio-tis-neas-aristeras-me-duo-grammes-kai-mia-politiki-apofasi-logo-tsipra/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 07:32:28 +0200",
-          "category": "political crisis",
-          "confidence": 0.9561669826507568,
-          "weight": 5.737001895904541,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.6%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Με νομοσχέδιο για το «βαθύ κράτος» σήμερα το υπουργικό συμβούλιο: Οι υπεύθυνες δηλώσεις και το τέλος στα…φιρμάνια της Τουρκοκρατίας",
-          "translated_title": "With a bill for the \"deep state\" the cabinet today: The responsible statements and the end to the... firmans of the Turkish rule",
-          "link": "https://www.protothema.gr/politics/article/1763277/nomoshedio-gia-to-vathu-kratos-simera-sto-upourgiko-sumvoulio-upeuthunes-diloseis-kai-telos-stafirmania-tourkokratias/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 07:01:10 +0200",
-          "category": "political crisis",
-          "confidence": 0.8451091051101685,
-          "weight": 5.070654630661011,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "84.5%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Μακελειό σε ποδοσφαιρικό αγώνα στο Μεξικό με τουλάχιστον 11 νεκρούς",
+          "title": "Κόμμα Καρυστιανού: Οι αμβλώσεις, η Κβαντική Ιατρική  και οι «παράξενοι συνεργάτες» της προέδρου Μαρίας",
           "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1763280/makeleio-se-podosfairiko-agona-sto-mexiko-me-toulahiston-11-nekrous/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 05:55:00 +0200",
-          "category": "humanitarian crisis",
-          "confidence": 0.6300727128982544,
-          "weight": 1.8902181386947632,
+          "link": "https://www.protothema.gr/politics/article/1763304/komma-karustianou-oi-amvloseis-i-kvadiki-iatriki-kai-oi-paraxenoi-sunergates-tis-proedrou-marias/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:09:00 +0200",
+          "category": "political crisis",
+          "confidence": 0.45696455240249634,
+          "weight": 2.741787314414978,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "63.0%",
+          "ai_confidence_score": "45.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
         },
         {
-          "title": "Μεγάλη φωτιά στο εργοστάσιο της Βιολάντα στα Τρίκαλα: Αγνοούνται πέντε εργαζόμενοι, άλλοι 8 μεταφέρθηκαν στο νοσοκομείο",
+          "title": "Μεγάλη φωτιά στο εργοστάσιο της Βιολάντα στα Τρίκαλα: Αγνοούνται πέντε εργαζόμενοι, άλλοι 6 μεταφέρθηκαν στο νοσοκομείο",
           "translated_title": null,
           "link": "https://www.protothema.gr/greece/article/1763291/megali-fotia-sto-ergostasio-tis-violada-pede-agnooumenoi/?utm_source=rss",
           "date": "Mon, 26 Jan 2026 06:46:00 +0200",
           "category": "humanitarian crisis",
-          "confidence": 0.5063728094100952,
-          "weight": 1.5191184282302856,
+          "confidence": 0.4883584678173065,
+          "weight": 1.4650754034519196,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "50.6%",
+          "ai_confidence_score": "48.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Survivor: Η λιποθυμία, τα δάκρυα της Μαντίσα και ο τραυματίας που έφυγε με φορείο από τον αγώνα",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/life-style/article/1763310/survivor-i-lipothumia-ta-dakrua-tis-madisa-kai-o-traumatias-pou-efuge-me-foreio-apo-ton-agona/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:24:04 +0200",
+          "category": "humanitarian crisis",
+          "confidence": 0.4094175100326538,
+          "weight": 1.2282525300979614,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "40.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Τρίκαλα: Στο κέντρο του εργοστασίου η έκρηξη που προκάλεσε τη φωτιά στη «Βιολάντα», δείτε βίντεο και φωτογραφίες",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1763317/trikala-sto-kedro-tou-ergostasiou-i-ekrixi-pou-prokalese-ti-fotia-sti-violada-deite-video-kai-fotografies/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:39:49 +0200",
+          "category": "military conflict",
+          "confidence": 0.37542930245399475,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "37.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Το παρασκήνιο του πρώτου Eurogroup με την Ελλάδα στο τιμόνι: Το επιτυχημένο crash test διπλωματίας του Κυριάκου Πιερρακάκη",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/economy/article/1763316/to-paraskinio-tou-protou-eurogroup-me-tin-ellada-sto-timoni-to-epituhimeno-crash-test-tou-kuriakou-pierrakaki/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:32:00 +0200",
+          "category": "political crisis",
+          "confidence": 0.9252381324768066,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "92.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Η Τεχνητή Νοημοσύνη μάς έχει «πάρει τα μυαλά» - Tips για να μην ατροφήσει η σκέψη μας",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/ugeia/article/1763314/i-tehniti-noimosuni-mas-ehei-parei-ta-muala-tips-gia-na-min-atrofisei-i-skepsi-mas/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:26:53 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.21785330772399902,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Γιατί φέτος η γρίπη «καλπάζει» στα παιδιά - Ποιες μέρες είναι επικίνδυνες για επιπλοκές",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/ugeia/article/1763312/giati-fetos-i-gripi-kalpazei-sta-paidia-poies-meres-einai-epikindunes-gia-epiplokes/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:23:52 +0200",
+          "category": "violent protest",
+          "confidence": 0.279853880405426,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Κρήτη: Στα δικαστήρια οι γονείς του 39χρονου Φανούρη από τα Βορίζια",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1763309/kriti-sta-dikastiria-oi-goneis-tou-39hronou-fanouri-apo-ta-vorizia/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 08:20:58 +0200",
+          "category": "political crisis",
+          "confidence": 0.1761489063501358,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "«Επανεξετάζουμε τα πάντα» λέει τώρα ο Τραμπ για την εν ψυχρώ εκτέλεση του 37χρονου από ομοσπονδιακούς πράκτορες στη Μινεάπολη",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1763303/epanexetazoume-ta-pada-leei-tora-o-trab-gia-tin-en-psuhro-ektelesi-tou-37hronou-sti-mineapoli/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 07:51:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.24728693068027496,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Μόνο μία AI κάμερα στη Μεσογείων «έκοψε» 28.000 κλήσεις για κόκκινο σε έναν μήνα",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1763301/mono-mia-ai-kamera-sti-mesogeion-ekopse-28000-kliseis-gia-kokkino-se-enan-mina/?utm_source=rss",
+          "date": "Mon, 26 Jan 2026 07:58:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.4019276201725006,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "40.2%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -562,90 +645,6 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Τι θα απογίνει η Κεντροαριστερά χωρίς Καρυστιανού;",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/blogs/mpampis-koytras/article/1763290/ti-tha-apoginei-i-kedroaristera-horis-karustianou/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 06:46:33 +0200",
-          "category": "political crisis",
-          "confidence": 0.25010210275650024,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Είδαμε το «Ρέκβιεμ για το Τέλος του Έρωτα», μία παράσταση-σφραγίδα για τη Λυρική",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/culture/article/1763289/eidame-to-rekviem-gia-to-telos-tou-erota-mia-parastasi-sfragida-gia-ti-luriki/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 07:25:33 +0200",
-          "category": "violent protest",
-          "confidence": 0.40725642442703247,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Από το μπλοκάκι στο cloud: Πώς αλλάζουν τα τιμολόγια στην αγορά, ποιες επιχειρήσεις μπαίνουν πρώτες",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/economy/article/1763288/apo-to-blokaki-sto-cloud-pos-allazoun-ta-timologia-stin-agora/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 07:13:50 +0200",
-          "category": "terrorist act",
-          "confidence": 0.24457697570323944,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "24.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Το βίντεο της Evangelia με τον Νίκο Οικονομόπουλο για το τραγούδι της στον ελληνικό τελικό της Eurovision: «Καλή επιτυχία λουλουδάκι μου»",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1763286/to-video-tis-evangelia-me-ton-niko-oikonomopoulo-gia-to-tragoudi-tis-ston-elliniko-teliko-tis-eurovision/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 06:24:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.2147759646177292,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Κένταλ Τζένερ: Η γυμνή Κυριακή της στο Instagram, δείτε φωτογραφίες",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1763284/kedal-tzener-i-gumni-kuriaki-tis-sto-instagram-deite-fotografies/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 06:14:00 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.2671531140804291,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Συντριβή ιδιωτικού τζετ στο Μέιν των ΗΠΑ κατά την απογείωση με οκτώ επιβαίνοντες",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1763275/sudrivi-idiotikou-tzet-sto-mein-ton-ipa-kata-tin-apogeiosi-me-okto-epivainodes/?utm_source=rss",
-          "date": "Mon, 26 Jan 2026 05:11:27 +0200",
-          "category": "terrorist act",
-          "confidence": 0.28602826595306396,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "Αποκαλυπτική και με καλή διάθεση η Κλέλια Ανδριολάτου, δείτε βίντεο",
           "translated_title": null,
           "link": "https://www.protothema.gr/life-style/article/1763300/me-kali-diathesi-kai-apokaluptiki-i-klelia-andriolatou-deite-video/?utm_source=rss",
@@ -662,8 +661,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 3.78,
-      "raw_score": 10.99,
+      "index": 4.43,
+      "raw_score": 17.45,
       "events": [
         {
           "title": "UN aid convoy reaches Syria’s Ain al-Arab as truce between army, SDF holds",
@@ -679,6 +678,20 @@ window.BNTI_DATA = {
           "is_translated": true,
           "country": "Iran",
           "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "Investigation reveals Israeli campaign to flatten Gaza town of Beit Hanoon",
+          "translated_title": "Investigation reveals Israeli campaign to flatten Gaza town of Beit Hanoon",
+          "link": "https://www.aljazeera.com/news/2026/1/26/investigation-reveals-israeli-campaign-to-flatten-gaza-town-of-beit-hanoon?traffic_source=rss",
+          "date": "Mon, 26 Jan 2026 06:02:12 +0000",
+          "category": "military conflict",
+          "confidence": 0.6457639932632446,
+          "weight": 6.457639932632446,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "64.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
         },
         {
           "title": "Minnesota Gov Walz demands Trump remove border agents after nurse killed",
@@ -859,20 +872,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "24.2%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Why is Trump upending 80 years of US foreign policy?",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/the-bottom-line/2026/1/25/why-is-trump-upending-80-years-of-us-foreign-policy?traffic_source=rss",
-          "date": "Sun, 25 Jan 2026 16:01:59 +0000",
-          "category": "political crisis",
-          "confidence": 0.23947396874427795,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.9%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
         }
@@ -1096,8 +1095,8 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 5.84,
-      "raw_score": 45.6,
+      "index": 5.95,
+      "raw_score": 49.2,
       "events": [
         {
           "title": "Syria resumes oil extraction at fields regained from SDF - Latest news from Azerbaijan",
@@ -1126,6 +1125,21 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "UN aid convoy reaches Syria’s Ain al-Arab as truce between army, SDF holds - Al Jazeera",
+          "translated_title": "UN aid convoy reaches Syria’s Ain al-Arab as truce between army, SDF holds - Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONmxPVkVDWnI4b0hqNGNpTnFCaFgwaXg5cmdhdDNkX0ZLRGh5dlVqTW1TcVFkYkVUOXFOS1dsMDZhWGdDV0FteG16c0hJOTRhYV8zV09KVXNSNGtqZXMtaGlmcTJMSWtTam1NSTdwOFpoRi1ZMWRxTWdJVFFVSGpVRkJfT0RpM1NoM0JzUjNxaWdhbjV3WkZFWG03MHRGRkEwTUdsUTY2NkdZblRJdzF5NGFSb9IBuAFBVV95cUxNYW5qVmNoWjBwU3BuQ2NXUEcyWHpOWDJWbThRR2Vxb2Z1R2FGVEUtU3o1VldBazc5QkRhWUE1clpTWGJJZ1ltSWdGdTNqZVY0czlQeHBpc0pGXzJvX1B0djFkak9rR3JLSnExcTM2UEhBYXVSMEpkNmR3eTVveGIwSE8ta2NTYlFBR29rQldNUy0tbmNEd09GMFA0ZXctMVl1d295OWVRQ3ZUR0tycXRjRkdwQ0JkZ1RB?oc=5",
+          "date": "Mon, 26 Jan 2026 05:08:46 GMT",
+          "category": "military conflict",
+          "confidence": 0.779435932636261,
+          "weight": 7.79435932636261,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "77.9%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "‘Anything can happen’: Saudi-UAE rift risks tearing Middle East apart - South China Morning Post",
@@ -1199,20 +1213,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "HÜDA PAR urges support for emergency aid efforts in Syria - İlke Haber Ajansı",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdjZnaTZQZFMzdVh0dnprMF96cFRRUWJ5T0VTRnJkVGFCSFdXakh1UElmU20yQm54bTF1ZUZmbXhZaVQwQ2kyaXJQaDV6c21RdUE4T1BhVllXS0pOVXdJaWF3c2EwWEtaM2hHeXhIYXhsWjNLM09BeWZPMGpYSnZOVE1PX0VMMU4xa2lGdzJHZjN2RmtzX1Awbmd3aUFMdw?oc=5",
-          "date": "Sun, 25 Jan 2026 13:37:52 GMT",
-          "category": "humanitarian crisis",
-          "confidence": 0.9429401159286499,
-          "weight": 2.8288203477859497,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Senior Kurdish official warns: Kurds face existential threat in Syria - www.israelhayom.com",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3hQUmVMNEZrbUp2d2s3dHROOEY5UW1GZUhETUVBX0ZoSFBhcGxmSjhmNnBfYVF5VmJUU0JLcnhQOE5oZ2ROQk9icWF4ekgwUXU2ZWRKcUJCNWpOTGxlVjc2WlBTYVZ2cFluUVlrRG9FV0lDUHdBbXlhUFJESjRNR19td1JtbXhNX2EtR2xtdFRoRkc0dUVvdjBZR3dSSGlqQ0t2Q2VuZ0d3S2Vn?oc=5",
@@ -1230,7 +1230,7 @@ window.BNTI_DATA = {
           "title": "Syria: Life-saving aid reaches Kurdish city of Kobane - DW.com",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWVlzNEEtLU0tSTYwMWFicVZTNzZpVmlhRXNfU1dwTERaSmpYcEdGVzlncDh4aUhJelRpZ3dtMHdPbmJDemlKLThuSjZWWmdTOHpzSXpYcjNLd05ndzV1Q1A4V29lUHI4b0JDRllERFU0aVYwajJoUTRDTEtJckIzZ3JpUWRmd2NDc2tMT1RURWl0VjTSAZMBQVVfeXFMTU9tb2t6UlFVX0c2ekxaaUx0LVl2VGVyb1VNMFJEaXpHMWwzUEx6bURLTENrVW1XenhHamlCVmpYdmhhU1VNZEg1TGxCYkRzeThMTWtabkllRXJseVJTa3JaanNWcnNIRGZJdHNfcEVrVEIwWlhlS3ZENUFYTE13dGlTTUtWbkhBbEFVZmtheGs5X1pz?oc=5",
-          "date": "Sun, 25 Jan 2026 21:18:44 GMT",
+          "date": "Sun, 25 Jan 2026 19:45:42 GMT",
           "category": "humanitarian crisis",
           "confidence": 0.8140280842781067,
           "weight": 2.44208425283432,
@@ -1283,20 +1283,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "‘Utterly Stateless’: Inside a detention camp for ISIS-linked women and children amid escalating uncertainty in Syria - CNN",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPclZwbmxkeEY4N0dxdVd3NEtFaEh1SzAxNmVQMmNRN2N3ZXNOeTc2WnVBVHJsWnJpWHY5dEpnX0R0dUxBbWVzNkFQM05fQmo0VWtPMkJCLXc2TmRHeVZUV0U4cEg0TzI1UWVDUE5zOUs0bDN1VlVxMlU0ZzhyVE5OMldJU21hbk9ITUZFVw?oc=5",
-          "date": "Mon, 26 Jan 2026 05:00:46 GMT",
-          "category": "military conflict",
-          "confidence": 0.34664326906204224,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Syria Extends Ceasefire With Kurdish Forces By 15 Days - Deccan Chronicle",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMU02M2lhaFJlV0g1Q1huVTg0ZjY5M29MVnZlMFQ0WHBYVldGdlZEZER6X1p1VjVjRlpDa3ZhSTA1TU1NRzIzMFNKbDJxLVVaYU02bUg3NUN0Z0pGd19DV0FKZGY4N0J4cFQwcE44aXU4MDhoSEtYUVVmZ0ZfcUcwaG5ZSTM0T3lDa2t6Y3daa2s0bmRLWVhZSjBTc9IBoAFBVV95cUxPWFpCaG81ODdfc184RUFxUkVyMHp0d3lBY3lQdDl1bDVGRzBoYUlpQ1ZUX0V4a0E0U3V0V2Z3TnN4TG9RR21RaUxPdWs2cHY0QUJib1NjbGpKRjNVUnBETm1MNjBnNk9rNm5oUi1vZWNIZDduSThyTGF6SUJXOEhNY0xmSUdEQUlUUHdlSlFsN3NRVGxDNXUwYlhESEJieHp1?oc=5",
@@ -1309,12 +1295,26 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "Syria opens humanitarian corridor to Kurdish town of Kobane after ceasefire extended - France 24",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ1FlRkJmeDZibzdxUnZQcnM1akx2elNtRFl2SkRtTkd0UU44a1NCaGNtMmZia1lHSnVHMWk0aE5oTnVCeEY1M1FKd3djQWp1NzE3aWtQbWQ5YWZKaFZfeXBGbDlsaVlhUE5UalRMMXoya051d1Bqb1NDZzZWUWZpdDZHNHpNemFibzEtUHJjQ253SkVSZFNNUUoyeGQ5b2Q1LWFuaUI4eDRjOWdBNzA3eVZtQXB0WVpBNXZPS1FianlSUXg0N0NMR3hn?oc=5",
+          "date": "Sun, 25 Jan 2026 15:44:29 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.6791262626647949,
+          "weight": -1.3582525253295898,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "67.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 2.09,
-      "raw_score": 2.95,
+      "index": 1.53,
+      "raw_score": 1.74,
       "events": [
         {
           "title": "Eight artists still in the running to represent Bulgaria at Eurovision 2026 - Eurovisionworld",
@@ -1326,34 +1326,6 @@ window.BNTI_DATA = {
           "weight": 3.217646449804306,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "46.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Moscow’s Embassy in Bulgaria Launches Fundraiser for Russian Troops",
-          "translated_title": null,
-          "link": "https://balkaninsight.com/techresponses/moscows-embassy-in-bulgaria-launches-fundraiser-for-russian-troops/",
-          "date": "Mon, 27 Jun 2022 16:19:43 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.40350043773651123,
-          "weight": 1.2105013132095337,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Facebook Page Uploaded Misleading Picture of Bulgarian Battalion Fighting In Ukraine",
-          "translated_title": null,
-          "link": "https://balkaninsight.com/techresponses/facebook-page-uploaded-misleading-picture-of-bulgarian-battalion-fighting-in-ukraine/",
-          "date": "Thu, 24 Mar 2022 09:39:36 +0000",
-          "category": "military conflict",
-          "confidence": 0.6184797286987305,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "61.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1415,6 +1387,20 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
+          "title": "Bulgarian Tech Talent Ditches Berlin for Sofia: Remote Work’s Net Pay Revolution - WebProNews",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS0ZVMEJYREoxVjJHMzFPWFAxR25tRVZSaGt2RWRsT1d3eWJDSWxKQXRmNDNFaGJ5bjdjSEp1NU9EUC1FMUxWQ3dya0wxbWVNZ2ZWWUFzMjE1WVUwMjhpa05yczdMc1VlUVB1bk9XeENCOWNlaWd0V2tCYTR5Q0ZwaXM2YWRLNTNHdU5xbDhHMXVCbWlScC12NTVJSDVRcTVGR1cwUmM5bEtPQQ?oc=5",
+          "date": "Sun, 25 Jan 2026 17:57:33 GMT",
+          "category": "violent protest",
+          "confidence": 0.17809483408927917,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
           "title": "Bulgaria holds first artist selection semifinal for Eurovision 2026 - ESCXTRA.com -",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHNhUmRYYjJablRkR09NaVViQUREeHdLRnctZWVURzJNQUUyN1JTbGVYS0pvbUtTT0ZDVGhVYkRCcTVucnNaNWZQcFl6YmlDUkdqWkZtWXc1TUptbWpIbGdoX2VUUzJtUWdZbnFqMUJxRlNlVTUtZy1nREs2anZmXy1UalFnUWlyS2RCX2tCMFQxaDY5QUlYdGVBZ3N0dG1O?oc=5",
@@ -1443,20 +1429,6 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Bulgarian Tech Talent Ditches Berlin for Sofia: Remote Work’s Net Pay Revolution - WebProNews",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS0ZVMEJYREoxVjJHMzFPWFAxR25tRVZSaGt2RWRsT1d3eWJDSWxKQXRmNDNFaGJ5bjdjSEp1NU9EUC1FMUxWQ3dya0wxbWVNZ2ZWWUFzMjE1WVUwMjhpa05yczdMc1VlUVB1bk9XeENCOWNlaWd0V2tCYTR5Q0ZwaXM2YWRLNTNHdU5xbDhHMXVCbWlScC12NTVJSDVRcTVGR1cwUmM5bEtPQQ?oc=5",
-          "date": "Sun, 25 Jan 2026 17:57:33 GMT",
-          "category": "violent protest",
-          "confidence": 0.17809483408927917,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "Bulgaria: Artist selection semi-final results - Aussievision",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSHJlbmJYYmt4bVRuaEh5ZDBIMzQwekZpVWd6TE8tT3M4RldRVi1NMHVKR0lVWTl4eDdfRlFjQVg5c3VFcG9wczRsNUdhSmV6STFoZHdqRWRuLXh6elpDdW02RWtaWnZnWGExR2RnSGtFUTZCempJLVFtcnd0ekdSMjVhd2s?oc=5",
@@ -1466,6 +1438,20 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "22.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Call for Applications: Empowering Roma Communities and Promoting EU Values in Bulgaria - fundsforNGOs",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQXk4OUhGLXp4amRvX1NHaEpfY3BoeUdaWHlTMy1RTlVGWjBvYndJZGhoSTFfM2NjTGlXUnVCRUhHcjRnMnZDOTJhLWVUT1l5TDFxQnZEanE4R25wZ1JHVlo5T0xtS1FkY2p4dEJsSUlkWml5XzJ0ZXBQRk02d2I5ZTdWNXpWcXJCT3JwT0tkSjJ6TjVsSjllZXRTSGZ0dU5vWWxKV3VpSUFSWEFLT3BOQ3o2bDc5RllHeXlaaUFsd3ZuQl9oSjByRFozYWJEaFBtRFd0TtIB2gFBVV95cUxOSGFRUE5Ub1kzMTQ4Z2VoY3VFOTN3S3A5X3ZfcFJjZDZVcmwxeW1VODQ1WHJQaWpSZ0lscDFXY1pOVy1KZ0FZWFJvLXRaZklrZWI4VGJyX0E3Wk1ZdG1HWUZBeGF6RTFBVE51dnFUQWlBRkdyWjFaVFBFekZ6RDZrREZKX2FPZDJFUzR2TUxNLVcwME5PdEt2N09ETndnZDFud2FBeVhuOFQzYm9Cb1hpM2FHall0c2Q5elJiREhDbU5zM2o2WEhuZU5DUGdQSmhzZ3Y5MHNodjhwdw?oc=5",
+          "date": "Mon, 26 Jan 2026 06:29:40 GMT",
+          "category": "terrorist act",
+          "confidence": 0.1884520947933197,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1485,29 +1471,43 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "🇧🇬 Bulgaria: First selection show in over a decade has concluded - escYOUnited",
+          "title": "Bulgarian government allocates €1.9m for Vasil Levski National Stadium renovation - Inside World Football",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdEk0eXhGWjlOR3hLOHpQZlNmOXYxOTR4dFV0a0NvNGNWZ0JxYVBzTEFRdkQ5NlVFaWpfZGpXQVFZb1NjbWYteU9VT05pT3kwYnYtcmVUZlBETkZaUDhfeEUtYTk5S2JIN1N0QlpObkhIZ1FjY2E2d0hKeU83R1pWYWVqZEtMWjREWllMX0xGMTRsZ3RCZDV4SXc4cVJNUzRpNmNCMUdOQ0tkN1BOd2djTG93?oc=5",
-          "date": "Sun, 25 Jan 2026 00:34:04 GMT",
-          "category": "neutral news",
-          "confidence": 0.23926427960395813,
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVZGaWFMNUl2RGhRYWRKdUlmbElZLWtxT09qcV9xOGR5YnV4YndOQ0l0ZkNuMnVlRlc1cUJ4Z0d3aXRORTN1bENEZXJGZDZoUDd4WGtOcHFwbXJ3dEIyNFE1SmNPNDdtOXpmRElRV0ZCQUd2Sl8wc2dqNnJaa2k0LWhVTTFkVHplY011QzFWUlNzdTlyR1BYQ3J1dXZrU3RUUVF2c3F3R1Nza19Lb3llbkZ6U3dZTndzTnkzbUE4UVZzVkE?oc=5",
+          "date": "Mon, 26 Jan 2026 00:55:37 GMT",
+          "category": "violent protest",
+          "confidence": 0.2737146019935608,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.9%",
+          "ai_confidence_score": "27.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         },
         {
-          "title": "Bulgaria’s Tourism Sector Eyes 14 Million Visitors in 2026 as Euro Transition Stays Smooth - Novinite.com - Sofia News Agency",
+          "title": "Ekspertika Laboratory Maps Value of Bulgaria’s Cultural Heritage in New ULSIT Projects - БТА",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHJTa1ZsX1Q3ZXF5MUNUUG5yNmlsMnhScHpuVGJFWkpib0E1aGp5cDhJNzlpNHZtb0lrcjV5ZndKZnRKZnRuZUNTYzYxRGpwYV9wWG5NMzZsTXBSTzNwV3JOamFZUW5ZOHo1NHVHM2NWVGpPT3FwUV9OX2FaXzBuV2ZGSUg3ZFFLTEJON2JnTHNZb2xaZllwdzZhSDBWX3AxbGZfUkp2QmU4TFJIV3VDa2VCb1FrY1llbUJJYVZuZjhXZFNDNDZ2dnJ3TWhId1BOVTNyY2Vn?oc=5",
-          "date": "Sun, 25 Jan 2026 09:00:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeU10RVh1MHJXdjZ1THhuSnhxSVp3LVlhbWJKdFd6S2lqeW1WMFp2TWFUVU9ocGZXaGFZUkVEX3I4TVAzUGsxWThSZmFqRjdTNHVlT19HNkVLWjlDb2RsSzZpbjdoaGM5OGRUNWFLUFRyVl9STjFoSWNXVHlXOGxRbVY2ekNZQnZVcmZNUk41Zmxia1I5cHJBNEVsX3VGdUQzNlg3NENoektyMVV3YVhLaDBWUFRVbFFPU19VTDhpaEo?oc=5",
+          "date": "Sun, 25 Jan 2026 17:00:42 GMT",
           "category": "violent protest",
-          "confidence": 0.2663942277431488,
+          "confidence": 0.19573183357715607,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.6%",
+          "ai_confidence_score": "19.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Yes, Bulgaria Co-Chair Bozhanov: Former President Radev Must Answer Key Questions - БТА",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQekdBVlk2OG02cmwyTS1KYW1BSHdULWx6TjAwRFJwVGJMOXVvSlJwR3RGamlJTFZfZ25OMEstanBxOFMtNmdDX1hZSDVBX1lncVMyanVJTnM2TXhmSE5PNGNMTjJHdjJhTnlOM2ZpSEFjWDBaM19QV1ZJd3o0LW9TNzh3cUdsQU5oOVpPSDN3aVh1SjVCU0wzdFNvTHhOZjBkOUpFV18wTjhNNGxnZTE5TzlnZV80SklzZEdFbV9BYw?oc=5",
+          "date": "Sun, 25 Jan 2026 17:26:00 GMT",
+          "category": "violent protest",
+          "confidence": 0.3480156362056732,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.8%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1529,39 +1529,9 @@ window.BNTI_DATA = {
       ]
     },
     "Turkey": {
-      "index": 4.65,
-      "raw_score": 20.31,
+      "index": 2.31,
+      "raw_score": 3.57,
       "events": [
-        {
-          "title": "The Syria–SDF Deal Hands Turkey a Strategic Victory - meforum.org",
-          "translated_title": "The Syria–SDF Deal Hands Turkey a Strategic Victory - meforum.org",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRHRYLU1zakd5VXFQVEluaUs4R2JvaHlWdmtLa3dDeHJqbWxJNWt3V0lSeFFIaFpSRkpTcXU0Zk0yY2d5cXFwa2hlUjhVTW9nQ1JEX2FJWnRaOTRoQm1pMTlyaXZXbTJXZzlmUTlMeW1nbklicGdGc21mX1BHbkwwcElfaFZsWU9pSlRpZmtfNA?oc=5",
-          "date": "Sat, 24 Jan 2026 19:42:21 GMT",
-          "category": "military conflict",
-          "confidence": 0.8738783001899719,
-          "weight": 8.73878300189972,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "87.4%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Turkey",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Turkey Expands Military Reach Amid Greece–India Alliance - Greek City Times",
-          "translated_title": "Turkey Expands Military Reach Amid Greece–India Alliance - Greek City Times",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOVFzalZFeUcxT2tOT29vdGs2RnZhX29hVy0tUmt2cDY3TERDQUJldlRPbTV0ZzFTZWxTRFNiSUVnYzJURGs2clphSFpIYnNRVlB5SGxKYTU0Wkp5aWt3bTUtNmZvclVuTnBBdzhTUTlHbVZtZHVwdWJpQVBOeDNpbkdUamNMX0ktV0o3VFlkZ09laE1hWnc3NnVhOA?oc=5",
-          "date": "Sun, 25 Jan 2026 21:26:10 GMT",
-          "category": "military conflict",
-          "confidence": 0.8009307980537415,
-          "weight": 8.009307980537415,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "80.1%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Turkey",
-          "translation_engine": "Google Neural MT"
-        },
         {
           "title": "Coup to crackdown: Erdogan’s unfinished war on Turkey’s Kurds - opinion - jpost.com",
           "translated_title": null,
@@ -1573,6 +1543,62 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "59.4%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
+          "title": "Temu suspends all cross-border sales in Türkiye following regulatory inspection - Türkiye Today",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOW56dDdYNXNzR1pFeC01NUVkMm9TNmtKb1g5T2FLQ05IbGJhYkp4cE5pNjBxT29Hdi1lc0UxSHFGR09XN3JieTJydlZlYV81VkJwVnhxQXlmLWx5bGFXWGN0Rmhtd1hTQkVQVHZ5NVlfeWR0TGNHYlRONDJfeDBKZGpfOXMzc2N0UXdvQ1hPVURFanUyTXhTLXdwdVlyNUxnTm1GTHBCazc3NnpKZUQtUTVkSnpDZW1oR2E0QnhPYThKQWc?oc=5",
+          "date": "Sat, 24 Jan 2026 20:58:11 GMT",
+          "category": "neutral news",
+          "confidence": 0.2361687868833542,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
+          "title": "Türkiye preparing buffer zone against potential Iran migration: Report - Türkiye Today",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUHlnczlFTUlGc1FlVlJuVUtmdG5WYjZMdmt1UEl2bmJ1ZWRzQkN1ZmZreWZEalFLazZJaUdobThuWEdGYTB0OEJGdDJWQkk4MGxhejc2eFk0WWpNQ3NaUDBzY0dpVW4tNHRzZUVfZFE4NDh3TjlEYlBVMFhKbjk2REpfS0pnZ2ZWOGNnS01uOTFNc0dUYVplWXJrckZ0cW8wZ2JIdDhpVndQZ3QwQWR3VW1Ldw?oc=5",
+          "date": "Sat, 24 Jan 2026 08:57:58 GMT",
+          "category": "terrorist act",
+          "confidence": 0.23975124955177307,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
+          "title": "Netanyahu hosts US envoys to discuss Rafah border opening, Iran - Türkiye Today",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeldJZU5lN1oxby1fd3pJWlpvUDVxWE1jelZJNm9UaTM5cjFOYWViXzRCWWFXYkRjczRrNjM4RndpRm9zaWJzS3JDZFpGRjl3MENkMVlrU3ozejR5MmswVU0xb2NwU29xWkR4ZHJzRHhtNndoMUVRNFR4OW1ac0x6eDFUcVBDLTdBWk5DdlpsU2xOdEZBZUh1X1c1MGRJLWdyczVmcFZidDJOQQ?oc=5",
+          "date": "Sun, 25 Jan 2026 06:16:39 GMT",
+          "category": "military conflict",
+          "confidence": 0.27164217829704285,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
+          "title": "Foreign Office list of popular holiday hotspots including Turkey and Egypt most dangerous right now - walesonline.co.uk",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2R6Q1I3UmQ4dHhxQkUzNGRUTlhtREs1TU53MXgyYzlFRGdaS2VlNlVZU3RMRXhodDdqVHNhTHVZVHBhSVVycWxsUUM2TExkRnFaYWRNZkxqQXVCUFFfZGxmSXFiX0w0MTdFb3ZPTmp0WGZ6SmtmOWI1NF9vd3pwdHBKVXFjNGxOU2w3SmxHYi1Mekti0gGaAUFVX3lxTFA4Tmx1M0gySGg1eXBQVFBtV3BjWnFiS3lyaXREaUhCdjJ1ajZucjJWSlhrN2I1MFFYOXBqOUFfNGVwcjV6Zk1QSGtpQnZwMjc1ZFRST0ZRUGJBWDRBVVRBRHlJZDZNT3ZRaVo5eHFGRExQTlZDT0pXTElYb1M2ellzWUJ0YmN5YmRpNThibWNxLVZCSzUwZVhYcVE?oc=5",
+          "date": "Sat, 24 Jan 2026 15:09:00 GMT",
+          "category": "violent protest",
+          "confidence": 0.19356068968772888,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.4%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Turkey"
         },
@@ -1675,20 +1701,6 @@ window.BNTI_DATA = {
           "country": "Turkey"
         },
         {
-          "title": "Famous NYC Turkey Named Astoria Trudges Through Snow - Yahoo",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHN0ZGdIdjFUcWxJYjMwTWJQUHJDRFJTbVFxaEFzSEtZckV0N2ZhVlFVWFIwRVF5QVlUbkpmb1VjRi1fUXN1T195S1hlcGJtVFhCampHWTgxemp0bG0tTlZSSHU3cjUwMk9zN0l5c2l0S0lxR1JSM19tZGZCWFg0Wnh6czhMZzQ?oc=5",
-          "date": "Mon, 26 Jan 2026 02:16:00 GMT",
-          "category": "violent protest",
-          "confidence": 0.39328721165657043,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Turkey"
-        },
-        {
           "title": "Driftwood Outdoors: Ocellated turkey hunt on Yucatán Peninsula an all-time favorite - newstribune.com",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSjdrRWNJQlVSLWpJclNueEVtV2dLWnc0NXNNeUlxY1RLNDduMTFPeEl5S1ktSGlkMHlxcTBrWk5rN0RHdzNHTC10R2s0TkVqaEltNXJIYVFEdWg1XzNHNnJNTVpieHBUeGdzUWotaUFDRlBoN21OWjZnM0haWGFadko5UmZQczJoMzQ0eXZlOTZIdHlyT0Q5MGF0NU0yLUY1ekFWWG4wbjRwTXBleUtHalRHZHlRMFR2enF2a0hqVEVBS282WUxF?oc=5",
@@ -1703,6 +1715,20 @@ window.BNTI_DATA = {
           "country": "Turkey"
         },
         {
+          "title": "Famous NYC Turkey Named Astoria Trudges Through Snow - Yahoo",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHN0ZGdIdjFUcWxJYjMwTWJQUHJDRFJTbVFxaEFzSEtZckV0N2ZhVlFVWFIwRVF5QVlUbkpmb1VjRi1fUXN1T195S1hlcGJtVFhCampHWTgxemp0bG0tTlZSSHU3cjUwMk9zN0l5c2l0S0lxR1JSM19tZGZCWFg0Wnh6czhMZzQ?oc=5",
+          "date": "Mon, 26 Jan 2026 02:16:00 GMT",
+          "category": "violent protest",
+          "confidence": 0.39328721165657043,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "39.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Turkey"
+        },
+        {
           "title": "Turkey - Factors to Watch on Jan 26 - marketscreener.com",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZHNmdlNpTFlBMjM4akw1NXF4bUdyWnZlcG9zaE41S1pSM3pQOWtuM1hzYWtMOVA2MlhGZi1BemcxaTJOUDFlOWRlRk5BVnFRYnhqUFBsWkNTbVRTOVpEODVlTm9HSHQxdm0wQ0wwdlluakR2dFp0VkRXR0dUQWQxRzA1eFlpd2lqN2IzMjRmSQ?oc=5",
@@ -1712,34 +1738,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "24.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Turkey"
-        },
-        {
-          "title": "Israel Has Caused the Collapse of Turkey’s Indian Ocean Monopoly - meforum.org",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJ6dW44QzJMaEtmOTVhVjFsRk5VT1RyZV80Wi1hM1Z1Q1h2OFJpZWlyT3VEd201djd6RDVQTmFyUmhXZWtZcUJOOUptV2hubERQOVNwQThaYWozVVFGTGl2TzEzTHFoY250cGpUdFFfaU4wbGl6M0dwemJUTl9jRGcxYTJoZDNTT1RSRldTWmhRLUJGcWRIaGZLS0RramM?oc=5",
-          "date": "Sat, 24 Jan 2026 21:01:52 GMT",
-          "category": "military conflict",
-          "confidence": 0.43138766288757324,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "43.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Turkey"
-        },
-        {
-          "title": "MLBB Esports 2026 Roadmap Revealed: M8 World Championship in Turkey & Thailand, MPL Malaysia Goes Franchise - Esports Charts",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRjNxdF9waFMtT3l5Ui1mLTJSRHdpNnBGTVpucFUySks0bnNCVHNmZ200RlVqdHFCRDl0Vk5McGphOVdaV181amhLM2I0c192aWd5VU5jWFpZMDZXN0dIak1hZVA0emhXOXdqLWRlc2sxS1lUb3VDUkR4ZTF3NVRrRHRDcFdfQWt0cnNvdTNzTFJOaldLMEpoMmJwcUs?oc=5",
-          "date": "Sun, 25 Jan 2026 12:27:35 GMT",
-          "category": "violent protest",
-          "confidence": 0.29503315687179565,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Turkey"
@@ -2011,48 +2009,54 @@ window.BNTI_DATA = {
       "main_index": 7.52,
       "index": 7.52,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-01-26T06:45:40.754403",
+      "main_index": 7.42,
+      "index": 7.42,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-26T06:43:55.888237",
-      "index": 7.45,
-      "main_index": 7.45,
-      "confidence": 0.32,
+      "timestamp": "2026-01-26T07:45:40.754403",
+      "index": 7.44,
+      "main_index": 7.44,
+      "confidence": 0.31,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-26T07:43:55.888237",
-      "index": 7.43,
-      "main_index": 7.43,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-01-26T08:43:55.888237",
+      "timestamp": "2026-01-26T08:45:40.754403",
       "index": 7.42,
       "main_index": 7.42,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-26T09:43:55.888237",
+      "timestamp": "2026-01-26T09:45:40.754403",
       "index": 7.4,
       "main_index": 7.4,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-26T10:43:55.888237",
+      "timestamp": "2026-01-26T10:45:40.754403",
       "index": 7.38,
       "main_index": 7.38,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-01-26T11:43:55.888237",
-      "index": 7.36,
-      "main_index": 7.36,
+      "timestamp": "2026-01-26T11:45:40.754403",
+      "index": 7.37,
+      "main_index": 7.37,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-01-26T12:45:40.754403",
+      "index": 7.35,
+      "main_index": 7.35,
       "confidence": 0.3,
       "type": "forecast"
     }
